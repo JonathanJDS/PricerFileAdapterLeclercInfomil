@@ -1,0 +1,1784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by noriguzzi BRUNO (INFOMIL) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="MDA">
+		<xs:annotation>
+			<xs:documentation>Mise à jour données articles, table TVA, structure marchandise
+ - MONNAIE
+ - CR (Oui/Non)
+ - VERSION</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence maxOccurs="unbounded">
+				<xs:element name="COMMENTAIRE" type="xs:string" minOccurs="0" maxOccurs="unbounded">
+					<xs:annotation>
+						<xs:documentation>Commentaire libre sur fichier</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="ARTS" minOccurs="0" maxOccurs="unbounded">
+					<xs:annotation>
+						<xs:documentation>Groupe mises à jour articles</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence maxOccurs="unbounded">
+							<xs:element name="MART" minOccurs="0" maxOccurs="unbounded">
+								<xs:annotation>
+									<xs:documentation>Mise à jour ou création article
+ - ART   (Code article)
+ - LIB     (Libellé)
+ - VCR  (0, 1 ou 2)</xs:documentation>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="TAX">
+											<xs:annotation>
+												<xs:documentation> - TVA  (Code TVA)</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="DEEE" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>Taxe DEEE
+ - D3EM (Montant)
+ - D3ET (Code TVA)</xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:attribute name="D3EM" use="required">
+																<xs:annotation>
+																	<xs:documentation>Montant DEEE</xs:documentation>
+																</xs:annotation>
+																<xs:simpleType>
+																	<xs:restriction base="xs:decimal">
+																		<xs:fractionDigits value="2"/>
+																		<xs:totalDigits value="7"/>
+																		<xs:maxInclusive value="99999.99"/>
+																		<xs:minInclusive value="0.00"/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+															<xs:attribute name="D3ET" use="required">
+																<xs:annotation>
+																	<xs:documentation>Code TVA DEEE</xs:documentation>
+																</xs:annotation>
+																<xs:simpleType>
+																	<xs:restriction base="xs:string">
+																		<xs:length value="1"/>
+																		<xs:pattern value="[0-9]|[A-Z]"/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="TAXE" minOccurs="0" maxOccurs="unbounded">
+														<xs:annotation>
+															<xs:documentation>Taxe diverse
+- CT (Code de la taxe)
+- VAL (Montant de la taxe)</xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:attribute name="CT" type="xs:string" use="required"/>
+															<xs:attribute name="VAL" type="xs:decimal" use="required"/>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="TVA" use="required">
+													<xs:annotation>
+														<xs:documentation>Code TVA</xs:documentation>
+													</xs:annotation>
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:length value="1"/>
+															<xs:pattern value="[0-9]|[A-Z]"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="PXQT">
+											<xs:annotation>
+												<xs:documentation>Prix/quantité
+ - PXZ (Prix à 0 (Oui/Non))</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:choice>
+													<xs:element name="PRXU" maxOccurs="unbounded">
+														<xs:annotation>
+															<xs:documentation>Prix unitaire
+ - PUTTC
+ - SEUIL (Quantité)</xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:choice>
+																<xs:element name="QTEU">
+																	<xs:annotation>
+																		<xs:documentation>Article vendu à l'unité</xs:documentation>
+																	</xs:annotation>
+																	<xs:complexType/>
+																</xs:element>
+																<xs:element name="QTES">
+																	<xs:annotation>
+																		<xs:documentation>Saisie obligatoire du nombre d'unité (quantite  = 1)</xs:documentation>
+																	</xs:annotation>
+																	<xs:complexType/>
+																</xs:element>
+																<xs:element name="QTEQ">
+																	<xs:annotation>
+																		<xs:documentation>Article vendu au poids (demandé en caisse)
+ - PESEE (Oui/Non)
+ - UNITE</xs:documentation>
+																	</xs:annotation>
+																	<xs:complexType>
+																		<xs:attribute name="PESEE" use="optional">
+																			<xs:simpleType>
+																				<xs:restriction base="xs:string">
+																					<xs:length value="1"/>
+																					<xs:enumeration value="O"/>
+																					<xs:enumeration value="N"/>
+																				</xs:restriction>
+																			</xs:simpleType>
+																		</xs:attribute>
+																		<xs:attribute name="UNITE" use="optional">
+																			<xs:simpleType>
+																				<xs:restriction base="xs:string">
+																					<xs:minLength value="1"/>
+																					<xs:maxLength value="3"/>
+																					<xs:enumeration value="KG"/>
+																					<xs:enumeration value="L"/>
+																					<xs:enumeration value="M"/>
+																				</xs:restriction>
+																			</xs:simpleType>
+																		</xs:attribute>
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="QTEC">
+																	<xs:annotation>
+																		<xs:documentation>Quantité dans le code
+ - UNITE</xs:documentation>
+																	</xs:annotation>
+																	<xs:complexType>
+																		<xs:attribute name="UNITE" use="optional">
+																			<xs:simpleType>
+																				<xs:restriction base="xs:string">
+																					<xs:minLength value="1"/>
+																					<xs:maxLength value="3"/>
+																					<xs:enumeration value="KG"/>
+																					<xs:enumeration value="L"/>
+																					<xs:enumeration value="M"/>
+																				</xs:restriction>
+																			</xs:simpleType>
+																		</xs:attribute>
+																	</xs:complexType>
+																</xs:element>
+															</xs:choice>
+															<xs:attribute name="PUTTC" use="required">
+																<xs:simpleType>
+																	<xs:restriction base="xs:decimal">
+																		<xs:minInclusive value="0.00"/>
+																		<xs:maxInclusive value="999999"/>
+																		<xs:fractionDigits value="2"/>
+																		<xs:totalDigits value="7"/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+															<xs:attribute name="SEUIL" use="optional">
+																<xs:simpleType>
+																	<xs:restriction base="xs:decimal">
+																		<xs:minInclusive value="0.000"/>
+																		<xs:totalDigits value="8"/>
+																		<xs:fractionDigits value="3"/>
+																		<xs:maxInclusive value="99999.999"/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="PRXS">
+														<xs:annotation>
+															<xs:documentation>Prix saisi en caisse</xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:choice>
+																<xs:element name="QTEU">
+																	<xs:annotation>
+																		<xs:documentation>Article vendu à l'unité</xs:documentation>
+																	</xs:annotation>
+																	<xs:complexType/>
+																</xs:element>
+																<xs:element name="QTES">
+																	<xs:annotation>
+																		<xs:documentation>Saisie obligatoire du nombre d'unité (quantite = 1)</xs:documentation>
+																	</xs:annotation>
+																	<xs:complexType/>
+																</xs:element>
+																<xs:element name="QTEQ">
+																	<xs:annotation>
+																		<xs:documentation>Article vendu au poids (demandé en caisse)
+ - PESEE (Oui/Non)
+ - UNITE</xs:documentation>
+																	</xs:annotation>
+																	<xs:complexType>
+																		<xs:attribute name="PESEE" use="optional">
+																			<xs:simpleType>
+																				<xs:restriction base="xs:string">
+																					<xs:length value="1"/>
+																					<xs:enumeration value="O"/>
+																					<xs:enumeration value="N"/>
+																				</xs:restriction>
+																			</xs:simpleType>
+																		</xs:attribute>
+																		<xs:attribute name="UNITE" use="optional">
+																			<xs:simpleType>
+																				<xs:restriction base="xs:string">
+																					<xs:minLength value="1"/>
+																					<xs:maxLength value="3"/>
+																					<xs:enumeration value="KG"/>
+																					<xs:enumeration value="L"/>
+																					<xs:enumeration value="M"/>
+																				</xs:restriction>
+																			</xs:simpleType>
+																		</xs:attribute>
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="QTEC">
+																	<xs:annotation>
+																		<xs:documentation>Quantité dans le code
+ - UNITE</xs:documentation>
+																	</xs:annotation>
+																	<xs:complexType>
+																		<xs:attribute name="UNITE" use="optional">
+																			<xs:simpleType>
+																				<xs:restriction base="xs:string">
+																					<xs:minLength value="1"/>
+																					<xs:maxLength value="3"/>
+																					<xs:enumeration value="KG"/>
+																					<xs:enumeration value="L"/>
+																					<xs:enumeration value="M"/>
+																				</xs:restriction>
+																			</xs:simpleType>
+																		</xs:attribute>
+																	</xs:complexType>
+																</xs:element>
+															</xs:choice>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="PRXC">
+														<xs:annotation>
+															<xs:documentation>Prix dans le code</xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:choice>
+																<xs:element name="QTES">
+																	<xs:annotation>
+																		<xs:documentation>Saisie obligatoire du nombre d'unité (quantite = 1)</xs:documentation>
+																	</xs:annotation>
+																	<xs:complexType/>
+																</xs:element>
+																<xs:element name="QTEU">
+																	<xs:annotation>
+																		<xs:documentation>Article vendu à l'unité</xs:documentation>
+																	</xs:annotation>
+																	<xs:complexType/>
+																</xs:element>
+															</xs:choice>
+														</xs:complexType>
+													</xs:element>
+												</xs:choice>
+												<xs:attribute name="PXZ" use="optional">
+													<xs:annotation>
+														<xs:documentation>Vente de l'article à 0.00 autorisé en caisse</xs:documentation>
+													</xs:annotation>
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:length value="1"/>
+															<xs:enumeration value="O"/>
+															<xs:enumeration value="N"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="CHA" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>Article ou consigne chainé</xs:documentation>
+											</xs:annotation>
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:length value="13"/>
+													<xs:pattern value="\d{13}"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="STM" maxOccurs="unbounded">
+											<xs:annotation>
+												<xs:documentation>Structure marchandise de l'article
+ - CN (Code Niveau)
+ - CE (Code Elément)</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:attribute name="CN" use="required">
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:minLength value="1"/>
+															<xs:maxLength value="2"/>
+															<xs:pattern value="[A-Z]|[0-9]|[0-9][0-9]|[0-9][A-Z]|[A-Z][0-9]|[A-Z][A-Z]"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+												<xs:attribute name="CE" use="required">
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:minLength value="1"/>
+															<xs:maxLength value="15"/>
+															<xs:pattern value="\d{1,15}"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="DCOG" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>Données complémentaires optionnelles de gestion
+ - CIA     (Code interne)
+ - NAC    (Accord GALEC)
+ - CLEC   (CODELEC)
+ - LIBS    (Libellé secondaire)
+ - MARQ (Marque)
+ - NF       (Fournisseur)
+ - DISP   (Oui/Non)
+ - PROM  (Oui/Non)
+ - PDRF (Prix de reference)
+ - TXPRC(pourcentage réduction)
+ - TXPRC(Texte court dérivant réduction)
+ - TXPRL(Texte long dérivant réduction)
+ - RFPR (Reference opération commerciale)
+ - APAR(Adresse produit)</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="IUM" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>Prix à l'Unité de Mesure
+ - PUM (Prix à l'Unité de Mesure)
+ - LIBU (Libellé Unité)</xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:attribute name="PUM" use="required">
+																<xs:annotation>
+																	<xs:documentation>Prix à l'Unité de Mesure</xs:documentation>
+																</xs:annotation>
+																<xs:simpleType>
+																	<xs:restriction base="xs:decimal">
+																		<xs:minInclusive value="0.00"/>
+																		<xs:maxInclusive value="99999.99"/>
+																		<xs:totalDigits value="7"/>
+																		<xs:fractionDigits value="2"/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+															<xs:attribute name="LIBU" use="optional">
+																<xs:annotation>
+																	<xs:documentation>Libellé Unité</xs:documentation>
+																</xs:annotation>
+																<xs:simpleType>
+																	<xs:restriction base="xs:string">
+																		<xs:maxLength value="20"/>
+																		<xs:minLength value="1"/>
+																		<xs:pattern value=".{1,20}"/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="CONT" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>Contenance
+ - CONTV (Valeur de Contenance)
+ - LIBU     (Libellé Unité)
+ - CONTT (Contenance sous forme texte)</xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:attribute name="CONTV" use="required">
+																<xs:annotation>
+																	<xs:documentation>Valeur de Contenance</xs:documentation>
+																</xs:annotation>
+																<xs:simpleType>
+																	<xs:restriction base="xs:decimal">
+																		<xs:minInclusive value="000.000"/>
+																		<xs:maxInclusive value="999.999"/>
+																		<xs:totalDigits value="6"/>
+																		<xs:fractionDigits value="3"/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+															<xs:attribute name="LIBU" use="optional">
+																<xs:annotation>
+																	<xs:documentation>Libellé Unité Autre</xs:documentation>
+																</xs:annotation>
+																<xs:simpleType>
+																	<xs:restriction base="xs:string">
+																		<xs:maxLength value="20"/>
+																		<xs:minLength value="1"/>
+																		<xs:pattern value=".{1,20}"/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+															<xs:attribute name="CONTT" use="optional">
+																<xs:annotation>
+																	<xs:documentation>Texte Contenance à Imprimer</xs:documentation>
+																</xs:annotation>
+																<xs:simpleType>
+																	<xs:restriction base="xs:string">
+																		<xs:maxLength value="20"/>
+																		<xs:minLength value="1"/>
+																		<xs:pattern value=".{1,20}"/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="CIA" use="optional">
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:minLength value="1"/>
+															<xs:maxLength value="15"/>
+															<xs:pattern value="\d{1,15}"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+												<xs:attribute name="NAC" use="optional">
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:length value="12"/>
+															<xs:pattern value="\d{4}\d{5}\d{2}[A-Z0-9]"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+												<xs:attribute name="CLEC" use="optional">
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:length value="9"/>
+															<xs:pattern value="\d{9}"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+												<xs:attribute name="LIBS" use="optional">
+													<xs:annotation>
+														<xs:documentation>Libellé pour étiquettes électroniques</xs:documentation>
+													</xs:annotation>
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:maxLength value="80"/>
+															<xs:minLength value="1"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+												<xs:attribute name="MARQ" use="optional">
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:maxLength value="31"/>
+															<xs:minLength value="1"/>
+															<xs:pattern value=".{1,31}"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+												<xs:attribute name="NF" use="optional">
+													<xs:annotation>
+														<xs:documentation>Nom fournisseur</xs:documentation>
+													</xs:annotation>
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:maxLength value="31"/>
+															<xs:minLength value="1"/>
+															<xs:pattern value=".{1,31}"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+												<xs:attribute name="DISP" use="optional">
+													<xs:annotation>
+														<xs:documentation>Article en stock</xs:documentation>
+													</xs:annotation>
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:length value="1"/>
+															<xs:enumeration value="O">
+																<xs:annotation>
+																	<xs:documentation>Oui</xs:documentation>
+																</xs:annotation>
+															</xs:enumeration>
+															<xs:enumeration value="N">
+																<xs:annotation>
+																	<xs:documentation>Non</xs:documentation>
+																</xs:annotation>
+															</xs:enumeration>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+												<xs:attribute name="PROM" use="optional">
+													<xs:annotation>
+														<xs:documentation>Indicateur de promotion</xs:documentation>
+													</xs:annotation>
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:length value="1"/>
+															<xs:enumeration value="N">
+																<xs:annotation>
+																	<xs:documentation>Non</xs:documentation>
+																</xs:annotation>
+															</xs:enumeration>
+															<xs:enumeration value="O">
+																<xs:annotation>
+																	<xs:documentation>Oui</xs:documentation>
+																</xs:annotation>
+															</xs:enumeration>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+												<xs:attribute name="PDRF" use="optional">
+													<xs:annotation>
+														<xs:documentation>Prix de reference</xs:documentation>
+													</xs:annotation>
+													<xs:simpleType>
+														<xs:restriction base="xs:decimal">
+															<xs:minInclusive value="0.00"/>
+															<xs:maxInclusive value="99999.99"/>
+															<xs:totalDigits value="7"/>
+															<xs:fractionDigits value="2"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+												<xs:attribute name="TRPR" use="optional">
+													<xs:simpleType>
+														<xs:restriction base="xs:int">
+															<xs:minInclusive value="1"/>
+															<xs:maxInclusive value="100"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+												<xs:attribute name="TXPRC" use="optional">
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:minLength value="1"/>
+															<xs:maxLength value="15"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+												<xs:attribute name="TXPRL" use="optional">
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:minLength value="1"/>
+															<xs:maxLength value="50"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+												<xs:attribute name="RFPR" use="optional">
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:minLength value="1"/>
+															<xs:maxLength value="50"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+												<xs:attribute name="APAR" use="optional">
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:minLength value="1"/>
+															<xs:maxLength value="10"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="DCOT" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>Données complémentaires optionnelles tiers
+- LMRG (lettre de marge) </xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="TAS" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>TAS</xs:documentation>
+														</xs:annotation>
+														<xs:simpleType>
+															<xs:restriction base="xs:string"/>
+														</xs:simpleType>
+													</xs:element>
+													<xs:element name="DFL" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>
+                                Données fruits et légumes pour EEG
+                                - ORIG (origine)
+                                - CAL (calibre)
+                                - CAT (catégorie)
+                                - VART (variété)
+                                - PLUB (PLU balance)
+                                - BIO (indicateur produit bio)
+                                - MESP1 (1ère mention spécifique)
+                                - MESP2 (2ième mention spécifique)
+                                - CBAL (Code balance)
+                              </xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:attribute name="ORIG" use="optional">
+																<xs:simpleType>
+																	<xs:restriction base="xs:string">
+																		<xs:minLength value="1"/>
+																		<xs:maxLength value="30"/>
+																		<xs:pattern value=".{1,30}"/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+															<xs:attribute name="CAL" use="optional">
+																<xs:simpleType>
+																	<xs:restriction base="xs:string">
+																		<xs:minLength value="1"/>
+																		<xs:maxLength value="10"/>
+																		<xs:pattern value=".{1,10}"/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+															<xs:attribute name="CAT" use="optional">
+																<xs:simpleType>
+																	<xs:restriction base="xs:string">
+																		<xs:minLength value="1"/>
+																		<xs:maxLength value="5"/>
+																		<xs:pattern value=".{1,5}"/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+															<xs:attribute name="VART" use="optional">
+																<xs:simpleType>
+																	<xs:restriction base="xs:string">
+																		<xs:minLength value="1"/>
+																		<xs:maxLength value="30"/>
+																		<xs:pattern value=".{1,30}"/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+															<xs:attribute name="PLUB" use="optional">
+																<xs:simpleType>
+																	<xs:restriction base="xs:string">
+																		<xs:minLength value="1"/>
+																		<xs:maxLength value="6"/>
+																		<xs:pattern value="\d{1,6}"/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+															<xs:attribute name="BIO" use="optional">
+																<xs:simpleType>
+																	<xs:restriction base="xs:string">
+																		<xs:minLength value="0"/>
+																		<xs:maxLength value="3"/>
+																		<xs:enumeration value="BIO"/>
+																		<xs:enumeration value=""/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+															<xs:attribute name="MESP1" use="optional">
+																<xs:simpleType>
+																	<xs:restriction base="xs:string">
+																		<xs:minLength value="1"/>
+																		<xs:maxLength value="30"/>
+																		<xs:pattern value=".{1,30}"/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+															<xs:attribute name="MESP2" use="optional">
+																<xs:simpleType>
+																	<xs:restriction base="xs:string">
+																		<xs:minLength value="1"/>
+																		<xs:maxLength value="30"/>
+																		<xs:pattern value=".{1,30}"/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+															<xs:attribute name="CBAL" use="optional">
+																<xs:simpleType>
+																	<xs:restriction base="xs:string">
+																		<xs:minLength value="1"/>
+																		<xs:maxLength value="4"/>
+																		<xs:pattern value=".{1,5}"/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="TRTFL" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>Traitement appliqué sur le produit (pour les EEG fruits et légumes)</xs:documentation>
+														</xs:annotation>
+														<xs:simpleType>
+															<xs:restriction base="xs:string">
+																<xs:minLength value="0"/>
+																<xs:maxLength value="300"/>
+															</xs:restriction>
+														</xs:simpleType>
+													</xs:element>
+													<xs:element name="BCO2" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>Bilan carbone
+- VCUV (valeur carbone par UV)
+- VCUM (valeur carbone par unité de mesure)
+- LIBU (unité de mesure)</xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:attribute name="VCUV" use="optional">
+																<xs:simpleType>
+																	<xs:restriction base="xs:decimal">
+																		<xs:totalDigits value="6"/>
+																		<xs:fractionDigits value="2"/>
+																		<xs:minInclusive value="0"/>
+																		<xs:maxInclusive value="9999.99"/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+															<xs:attribute name="VCUM" use="optional">
+																<xs:simpleType>
+																	<xs:restriction base="xs:decimal">
+																		<xs:minInclusive value="0"/>
+																		<xs:maxInclusive value="9999.99"/>
+																		<xs:totalDigits value="6"/>
+																		<xs:fractionDigits value="2"/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+															<xs:attribute name="LIBU" use="optional">
+																<xs:simpleType>
+																	<xs:restriction base="xs:string">
+																		<xs:minLength value="1"/>
+																		<xs:maxLength value="20"/>
+																		<xs:pattern value=".{1,20}"/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="LYT" use="optional">
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:minLength value="1"/>
+															<xs:maxLength value="40"/>
+															<xs:pattern value=".{1,40}"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+												<xs:attribute name="LMRG" use="optional">
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:length value="1"/>
+															<xs:pattern value="[A-Z]"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="DCOC" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>Données complémentaires optionnelles pour vente en caisse
+ - TXT  (sur ticket)
+ - MSG  (caissière)
+ - AVOL (Oui/Non)
+ - SSC   (Self Scanning
+             Oui/Non)</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="ITCS" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>Impression ticket complémentaire 
+ - NOTG (Ticket Générateur)</xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="LGN" maxOccurs="unbounded">
+																	<xs:annotation>
+																		<xs:documentation> - TXT (Texte ligne)
+ - SIZ  (Taille Font)</xs:documentation>
+																	</xs:annotation>
+																	<xs:complexType>
+																		<xs:attribute name="TXT" use="required">
+																			<xs:simpleType>
+																				<xs:restriction base="xs:string">
+																					<xs:maxLength value="40"/>
+																					<xs:minLength value="1"/>
+																					<xs:pattern value=".{1,40}"/>
+																				</xs:restriction>
+																			</xs:simpleType>
+																		</xs:attribute>
+																		<xs:attribute name="SIZ" use="required">
+																			<xs:simpleType>
+																				<xs:restriction base="xs:string">
+																					<xs:length value="2"/>
+																					<xs:enumeration value="DH">
+																						<xs:annotation>
+																							<xs:documentation>Double hauteur</xs:documentation>
+																						</xs:annotation>
+																					</xs:enumeration>
+																					<xs:enumeration value="DL">
+																						<xs:annotation>
+																							<xs:documentation>Double largeur</xs:documentation>
+																						</xs:annotation>
+																					</xs:enumeration>
+																					<xs:enumeration value="DD">
+																						<xs:annotation>
+																							<xs:documentation>Double hauteur Double largeur</xs:documentation>
+																						</xs:annotation>
+																					</xs:enumeration>
+																				</xs:restriction>
+																			</xs:simpleType>
+																		</xs:attribute>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+															<xs:attribute name="NOTG" use="required">
+																<xs:simpleType>
+																	<xs:restriction base="xs:string">
+																		<xs:length value="1"/>
+																		<xs:enumeration value="O"/>
+																		<xs:enumeration value="N"/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="ITCC" minOccurs="0" maxOccurs="unbounded">
+														<xs:annotation>
+															<xs:documentation>Impression ticket complémentaire au choix
+ - NOTG
+ - LIBT (Intitulé)</xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="LGN" maxOccurs="unbounded">
+																	<xs:annotation>
+																		<xs:documentation> - TXT (Texte ligne)
+ - SIZ  (Taille Font)</xs:documentation>
+																	</xs:annotation>
+																	<xs:complexType>
+																		<xs:attribute name="TXT" use="required">
+																			<xs:simpleType>
+																				<xs:restriction base="xs:string">
+																					<xs:maxLength value="40"/>
+																					<xs:minLength value="1"/>
+																					<xs:pattern value=".{1,40}"/>
+																				</xs:restriction>
+																			</xs:simpleType>
+																		</xs:attribute>
+																		<xs:attribute name="SIZ" use="required">
+																			<xs:simpleType>
+																				<xs:restriction base="xs:string">
+																					<xs:length value="2"/>
+																					<xs:enumeration value="DH">
+																						<xs:annotation>
+																							<xs:documentation>Double hauteur</xs:documentation>
+																						</xs:annotation>
+																					</xs:enumeration>
+																					<xs:enumeration value="DL">
+																						<xs:annotation>
+																							<xs:documentation>Double largeur</xs:documentation>
+																						</xs:annotation>
+																					</xs:enumeration>
+																					<xs:enumeration value="DD">
+																						<xs:annotation>
+																							<xs:documentation>Double hauteur Double largeur</xs:documentation>
+																						</xs:annotation>
+																					</xs:enumeration>
+																				</xs:restriction>
+																			</xs:simpleType>
+																		</xs:attribute>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+															<xs:attribute name="NOTG" use="required">
+																<xs:simpleType>
+																	<xs:restriction base="xs:string">
+																		<xs:length value="1"/>
+																		<xs:enumeration value="O"/>
+																		<xs:enumeration value="N"/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+															<xs:attribute name="LIBT" use="required">
+																<xs:simpleType>
+																	<xs:restriction base="xs:string">
+																		<xs:maxLength value="30"/>
+																		<xs:minLength value="1"/>
+																		<xs:pattern value=".{1,30}"/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="TXT" use="optional">
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:maxLength value="160"/>
+															<xs:minLength value="1"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+												<xs:attribute name="MSG" use="optional">
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:maxLength value="160"/>
+															<xs:minLength value="1"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+												<xs:attribute name="AVOL" use="optional">
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:length value="1"/>
+															<xs:enumeration value="O"/>
+															<xs:enumeration value="N"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+												<xs:attribute name="SSC" use="optional">
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:length value="1"/>
+															<xs:enumeration value="O"/>
+															<xs:enumeration value="N"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="DTECH" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>Données articles techniques
+-LDNC (Libellé infos non communiquées)</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="GTIE" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>Durée de garantie
+-LGAR (Libellé ticket de la garantie)
+-DGAR (durée garantie sans unité)
+-UGAR (unité de la durée)</xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:attribute name="LGAR" use="required">
+																<xs:simpleType>
+																	<xs:restriction base="xs:string">
+																		<xs:maxLength value="100"/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+															<xs:attribute name="DGAR" use="optional">
+																<xs:simpleType>
+																	<xs:restriction base="xs:decimal">
+																		<xs:fractionDigits value="2"/>
+																		<xs:totalDigits value="7"/>
+																		<xs:minExclusive value="0"/>
+																		<xs:maxExclusive value="100000"/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+															<xs:attribute name="UGAR" use="optional">
+																<xs:simpleType>
+																	<xs:restriction base="xs:string">
+																		<xs:maxLength value="20"/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="PIEC" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>Durée de fourniture des pièces détachées
+-LPIE (Libellé ticket de la fourniture pièces)
+-DPIE (durée fourniture pièces sans unité)
+-UGAR (unité de la durée)</xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:attribute name="LPIE" use="required">
+																<xs:simpleType>
+																	<xs:restriction base="xs:string">
+																		<xs:maxLength value="100"/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+															<xs:attribute name="DPIE" use="optional">
+																<xs:simpleType>
+																	<xs:restriction base="xs:decimal">
+																		<xs:totalDigits value="7"/>
+																		<xs:fractionDigits value="2"/>
+																		<xs:minExclusive value="0"/>
+																		<xs:maxExclusive value="100000"/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+															<xs:attribute name="UPIE" use="optional">
+																<xs:simpleType>
+																	<xs:restriction base="xs:string">
+																		<xs:maxLength value="20"/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="LDNC" use="optional">
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:maxLength value="100"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="ART" use="required">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:length value="13"/>
+												<xs:pattern value="\d{13}"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="LIB" use="required">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:maxLength value="31"/>
+												<xs:minLength value="1"/>
+												<xs:pattern value=".{1,31}"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="VCR" use="optional">
+										<xs:annotation>
+											<xs:documentation>Valeur CR:
+"0" (MAJ correcte) ou
+"1" (Rejet partiel, les fichiers peuvent ne pas être cohérents) ou
+"2" (Rejet partiel, les fichiers sont cohérents)
+suivi de 30x de commentaire libre sur le CR</xs:documentation>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:minLength value="1"/>
+												<xs:maxLength value="31"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="SART" minOccurs="0" maxOccurs="unbounded">
+								<xs:annotation>
+									<xs:documentation>Suppression article
+ - ART   (Code article)
+ - VCR  (0, 1 ou 2)</xs:documentation>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:attribute name="ART" use="required">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:length value="13"/>
+												<xs:pattern value="\d{13}"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="VCR" use="optional">
+										<xs:annotation>
+											<xs:documentation>Valeur CR:
+"0" (MAJ correcte) ou
+"1" (Rejet partiel, les fichiers peuvent ne pas être cohérents) ou
+"2" (Rejet partiel, les fichiers sont cohérents)
+suivi de 30x de commentaire libre sur le CR</xs:documentation>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:minLength value="1"/>
+												<xs:maxLength value="31"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="MCON" minOccurs="0" maxOccurs="unbounded">
+								<xs:annotation>
+									<xs:documentation>Mise à jour ou création consigne
+ - ART (Code consigne)
+ - LIB     (Libellé)
+ - VCR  (0, 1 ou 2)</xs:documentation>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="PXQT">
+											<xs:annotation>
+												<xs:documentation>Prix/quantité
+ - PXZ (Prix à 0 (Oui/Non))</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:choice>
+													<xs:element name="PRXU" maxOccurs="unbounded">
+														<xs:annotation>
+															<xs:documentation>Prix unitaire
+ - PUTTC
+ - SEUIL (Quantité)</xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:choice>
+																<xs:element name="QTEU">
+																	<xs:annotation>
+																		<xs:documentation>Consigne vendue à l'unité</xs:documentation>
+																	</xs:annotation>
+																	<xs:complexType/>
+																</xs:element>
+																<xs:element name="QTES">
+																	<xs:annotation>
+																		<xs:documentation>Saisie obligatoire du nombre d'unité (quantite = 1)</xs:documentation>
+																	</xs:annotation>
+																	<xs:complexType/>
+																</xs:element>
+															</xs:choice>
+															<xs:attribute name="PUTTC" use="required">
+																<xs:simpleType>
+																	<xs:restriction base="xs:decimal">
+																		<xs:minInclusive value="0.00"/>
+																		<xs:maxInclusive value="999999"/>
+																		<xs:fractionDigits value="2"/>
+																		<xs:totalDigits value="7"/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+															<xs:attribute name="SEUIL" use="optional">
+																<xs:simpleType>
+																	<xs:restriction base="xs:decimal">
+																		<xs:minInclusive value="0.000"/>
+																		<xs:totalDigits value="8"/>
+																		<xs:fractionDigits value="3"/>
+																		<xs:maxInclusive value="99999.999"/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="PRXS">
+														<xs:annotation>
+															<xs:documentation>Prix saisi en caisse</xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:choice>
+																<xs:element name="QTEU">
+																	<xs:annotation>
+																		<xs:documentation>Consigne vendue à l'unité</xs:documentation>
+																	</xs:annotation>
+																	<xs:complexType/>
+																</xs:element>
+																<xs:element name="QTES">
+																	<xs:annotation>
+																		<xs:documentation>Saisie obligatoire du nombre d'unité (quantite = 1)</xs:documentation>
+																	</xs:annotation>
+																	<xs:complexType/>
+																</xs:element>
+															</xs:choice>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="PRXC">
+														<xs:annotation>
+															<xs:documentation>Prix dans le code</xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="QTEU">
+																	<xs:annotation>
+																		<xs:documentation>Consigne vendue à l'unité</xs:documentation>
+																	</xs:annotation>
+																	<xs:complexType/>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:choice>
+												<xs:attribute name="PXZ" use="optional">
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:length value="1"/>
+															<xs:enumeration value="O"/>
+															<xs:enumeration value="N"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="CHA" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>Article ou consigne chainé</xs:documentation>
+											</xs:annotation>
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:length value="13"/>
+													<xs:pattern value="\d{13}"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DCOG" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>Données complémentaires optionnelles de gestion
+ - CIA     (Code interne)
+ - CLEC   (CODELEC)
+ - LIBS    (Libellé secondaire)
+ - MARQ (Marque)
+ - NF      (Fournisseur)</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:attribute name="CIA" use="optional">
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:minLength value="1"/>
+															<xs:maxLength value="15"/>
+															<xs:pattern value="\d{1,15}"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+												<xs:attribute name="CLEC" use="optional">
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:length value="9"/>
+															<xs:pattern value="\d{9}"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+												<xs:attribute name="LIBS" use="optional">
+													<xs:annotation>
+														<xs:documentation>Libellé pour étiquettes électroniques</xs:documentation>
+													</xs:annotation>
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:maxLength value="80"/>
+															<xs:minLength value="1"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+												<xs:attribute name="MARQ" use="optional">
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:maxLength value="31"/>
+															<xs:minLength value="1"/>
+															<xs:pattern value=".{1,31}"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+												<xs:attribute name="NF" use="optional">
+													<xs:annotation>
+														<xs:documentation>Nom fournisseur</xs:documentation>
+													</xs:annotation>
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:maxLength value="31"/>
+															<xs:minLength value="1"/>
+															<xs:pattern value=".{1,31}"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="DCOT" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>Données complémentaires optionnelles tiers</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="TAS" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>TAS</xs:documentation>
+														</xs:annotation>
+														<xs:simpleType>
+															<xs:restriction base="xs:string"/>
+														</xs:simpleType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="DCOC" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>Données complémentaires optionnelles pour vente en caisse
+ - TXT  (sur ticket)
+ - MSG  (caissière)</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="ITCS" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>Impression ticket complémentaire systématique
+ - NOTG (Ticket Générateur)</xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="LGN" maxOccurs="unbounded">
+																	<xs:annotation>
+																		<xs:documentation> - TXT (Texte ligne)
+ - SIZ  </xs:documentation>
+																	</xs:annotation>
+																	<xs:complexType>
+																		<xs:attribute name="TXT" use="required">
+																			<xs:simpleType>
+																				<xs:restriction base="xs:string">
+																					<xs:maxLength value="40"/>
+																					<xs:minLength value="1"/>
+																					<xs:pattern value=".{1,40}"/>
+																				</xs:restriction>
+																			</xs:simpleType>
+																		</xs:attribute>
+																		<xs:attribute name="SIZ" use="required">
+																			<xs:simpleType>
+																				<xs:restriction base="xs:string">
+																					<xs:length value="2"/>
+																					<xs:enumeration value="DH">
+																						<xs:annotation>
+																							<xs:documentation>Double hauteur</xs:documentation>
+																						</xs:annotation>
+																					</xs:enumeration>
+																					<xs:enumeration value="DL">
+																						<xs:annotation>
+																							<xs:documentation>Double largeur</xs:documentation>
+																						</xs:annotation>
+																					</xs:enumeration>
+																					<xs:enumeration value="DD">
+																						<xs:annotation>
+																							<xs:documentation>Double hauteur Double largeur</xs:documentation>
+																						</xs:annotation>
+																					</xs:enumeration>
+																				</xs:restriction>
+																			</xs:simpleType>
+																		</xs:attribute>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+															<xs:attribute name="NOTG" use="required">
+																<xs:simpleType>
+																	<xs:restriction base="xs:string">
+																		<xs:length value="1"/>
+																		<xs:enumeration value="O"/>
+																		<xs:enumeration value="N"/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="ITCC" minOccurs="0" maxOccurs="unbounded">
+														<xs:annotation>
+															<xs:documentation>Impression ticket complémentaire au choix
+ - NOTG
+ - LIBT (Intitulé)</xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="LGN" maxOccurs="unbounded">
+																	<xs:annotation>
+																		<xs:documentation> - TXT (Texte ligne)
+ - SIZ  </xs:documentation>
+																	</xs:annotation>
+																	<xs:complexType>
+																		<xs:attribute name="TXT" use="required">
+																			<xs:simpleType>
+																				<xs:restriction base="xs:string">
+																					<xs:maxLength value="40"/>
+																					<xs:minLength value="1"/>
+																					<xs:pattern value=".{1,40}"/>
+																				</xs:restriction>
+																			</xs:simpleType>
+																		</xs:attribute>
+																		<xs:attribute name="SIZ" use="required">
+																			<xs:simpleType>
+																				<xs:restriction base="xs:string">
+																					<xs:length value="2"/>
+																					<xs:enumeration value="DH">
+																						<xs:annotation>
+																							<xs:documentation>Double hauteur</xs:documentation>
+																						</xs:annotation>
+																					</xs:enumeration>
+																					<xs:enumeration value="DL">
+																						<xs:annotation>
+																							<xs:documentation>Double largeur</xs:documentation>
+																						</xs:annotation>
+																					</xs:enumeration>
+																					<xs:enumeration value="DD">
+																						<xs:annotation>
+																							<xs:documentation>Double hauteur Double largeur</xs:documentation>
+																						</xs:annotation>
+																					</xs:enumeration>
+																				</xs:restriction>
+																			</xs:simpleType>
+																		</xs:attribute>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+															<xs:attribute name="NOTG" use="required">
+																<xs:simpleType>
+																	<xs:restriction base="xs:string">
+																		<xs:length value="1"/>
+																		<xs:enumeration value="O"/>
+																		<xs:enumeration value="N"/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+															<xs:attribute name="LIBT" use="required">
+																<xs:simpleType>
+																	<xs:restriction base="xs:string">
+																		<xs:maxLength value="30"/>
+																		<xs:minLength value="1"/>
+																		<xs:pattern value=".{1,30}"/>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="TXT" use="optional">
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:maxLength value="160"/>
+															<xs:minLength value="1"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+												<xs:attribute name="MSG" use="optional">
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:maxLength value="160"/>
+															<xs:minLength value="1"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="ART" use="required">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:length value="13"/>
+												<xs:pattern value="\d{13}"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="LIB" use="required">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:maxLength value="31"/>
+												<xs:minLength value="1"/>
+												<xs:pattern value=".{1,31}"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="VCR" use="optional">
+										<xs:annotation>
+											<xs:documentation>Valeur CR:
+"0" (MAJ correcte) ou
+"1" (Rejet partiel, les fichiers peuvent ne pas être cohérents) ou
+"2" (Rejet partiel, les fichiers sont cohérents)
+suivi de 30x de commentaire libre sur le CR</xs:documentation>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:minLength value="1"/>
+												<xs:maxLength value="31"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="SCON" minOccurs="0" maxOccurs="unbounded">
+								<xs:annotation>
+									<xs:documentation>Suppression consigne
+ - ART (Code consigne)
+ - VCR  (0, 1 ou 2)</xs:documentation>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:attribute name="ART" use="required">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:length value="13"/>
+												<xs:pattern value="\d{13}"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="VCR" use="optional">
+										<xs:annotation>
+											<xs:documentation>Valeur CR:
+"0" (MAJ correcte) ou
+"1" (Rejet partiel, les fichiers peuvent ne pas être cohérents) ou
+"2" (Rejet partiel, les fichiers sont cohérents)
+suivi de 30x de commentaire libre sur le CR</xs:documentation>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:minLength value="1"/>
+												<xs:maxLength value="31"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="TTVA" minOccurs="0" maxOccurs="unbounded">
+					<xs:annotation>
+						<xs:documentation>Groupe mises à jour TVA</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence maxOccurs="unbounded">
+							<xs:element name="MTVA" minOccurs="0" maxOccurs="unbounded">
+								<xs:annotation>
+									<xs:documentation>Mise à jour ou création code TVA
+ - CTVA
+ - TAUX
+ - VCR  (0, 1 ou 2)</xs:documentation>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:attribute name="CTVA" use="required">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:length value="1"/>
+												<xs:pattern value="[0-9]|[A-Z]"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="TAUX" use="required">
+										<xs:simpleType>
+											<xs:restriction base="xs:decimal">
+												<xs:minInclusive value="0.00"/>
+												<xs:maxInclusive value="99.99"/>
+												<xs:totalDigits value="4"/>
+												<xs:fractionDigits value="2"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="VCR" use="optional">
+										<xs:annotation>
+											<xs:documentation>Valeur CR:
+"0" (MAJ correcte) ou
+"1" (Rejet partiel, les fichiers peuvent ne pas être cohérents) ou
+"2" (Rejet partiel, les fichiers sont cohérents)
+suivi de 30x de commentaire libre sur le CR</xs:documentation>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:minLength value="1"/>
+												<xs:maxLength value="31"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="STVA" minOccurs="0" maxOccurs="unbounded">
+								<xs:annotation>
+									<xs:documentation>Suppression code TVA
+ - CTVA
+ - VCR  (0, 1 ou 2)</xs:documentation>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:attribute name="CTVA" use="required">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:length value="1"/>
+												<xs:pattern value="[0-9]|[A-Z]"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="VCR" use="optional">
+										<xs:annotation>
+											<xs:documentation>Valeur CR:
+"0" (MAJ correcte) ou
+"1" (Rejet partiel, les fichiers peuvent ne pas être cohérents) ou
+"2" (Rejet partiel, les fichiers sont cohérents)
+suivi de 30x de commentaire libre sur le CR</xs:documentation>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:minLength value="1"/>
+												<xs:maxLength value="31"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="STRM" minOccurs="0" maxOccurs="unbounded">
+					<xs:annotation>
+						<xs:documentation>Groupe mises à jour structure marchandise</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence maxOccurs="unbounded">
+							<xs:element name="MSTM" minOccurs="0" maxOccurs="unbounded">
+								<xs:annotation>
+									<xs:documentation>Mise à jour ou création élément structure marchandise
+ - CN (Code Niveau)
+ - CE (Code Elément)
+ - LE (Libellé Elément)
+ - VCR  (0, 1 ou 2)</xs:documentation>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="STMR" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>Elément père dans structure marchandise
+ - CNR (Niveau Rattachement)
+ - CER (Elément Rattachement)</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:attribute name="CNR" use="required">
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:minLength value="1"/>
+															<xs:maxLength value="2"/>
+															<xs:pattern value="[A-Z]|[0-9]|[0-9][0-9]|[0-9][A-Z]|[A-Z][0-9]|[A-Z][A-Z]"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+												<xs:attribute name="CER" use="required">
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:minLength value="1"/>
+															<xs:maxLength value="15"/>
+															<xs:pattern value="\d{1,15}"/>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="CN" use="required">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:minLength value="1"/>
+												<xs:maxLength value="2"/>
+												<xs:pattern value="[A-Z]|[0-9]|[0-9][0-9]|[0-9][A-Z]|[A-Z][0-9]|[A-Z][A-Z]"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="CE" use="required">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:minLength value="1"/>
+												<xs:maxLength value="15"/>
+												<xs:pattern value="\d{1,15}"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="LE" use="required">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:minLength value="1"/>
+												<xs:maxLength value="30"/>
+												<xs:pattern value=".{1,30}"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="VCR" use="optional">
+										<xs:annotation>
+											<xs:documentation>Valeur CR:
+"0" (MAJ correcte) ou
+"1" (Rejet partiel, les fichiers peuvent ne pas être cohérents) ou
+"2" (Rejet partiel, les fichiers sont cohérents)
+suivi de 30x de commentaire libre sur le CR</xs:documentation>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:minLength value="1"/>
+												<xs:maxLength value="31"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="SSTM" minOccurs="0" maxOccurs="unbounded">
+								<xs:annotation>
+									<xs:documentation>Suppression élément structure marchandise
+ - CN (Code Niveau)
+ - CE (Code Elément)
+ - VCR  (0, 1 ou 2)</xs:documentation>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:attribute name="CN" use="required">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:minLength value="1"/>
+												<xs:maxLength value="2"/>
+												<xs:pattern value="[A-Z]|[0-9]|[0-9][0-9]|[0-9][A-Z]|[A-Z][0-9]|[A-Z][A-Z]"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="CE" use="required">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:minLength value="1"/>
+												<xs:maxLength value="15"/>
+												<xs:pattern value="\d{1,15}"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="VCR" use="optional">
+										<xs:annotation>
+											<xs:documentation>Valeur CR:
+"0" (MAJ correcte) ou
+"1" (Rejet partiel, les fichiers peuvent ne pas être cohérents) ou
+"2" (Rejet partiel, les fichiers sont cohérents)
+suivi de 30x de commentaire libre sur le CR</xs:documentation>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:minLength value="1"/>
+												<xs:maxLength value="31"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="MONNAIE" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:length value="3"/>
+						<xs:pattern value="\d{3}"/>
+						<xs:enumeration value="978">
+							<xs:annotation>
+								<xs:documentation>Euro</xs:documentation>
+							</xs:annotation>
+						</xs:enumeration>
+						<xs:enumeration value="705">
+							<xs:annotation>
+								<xs:documentation>Tolar</xs:documentation>
+							</xs:annotation>
+						</xs:enumeration>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="CR" use="optional">
+				<xs:annotation>
+					<xs:documentation>Inidique si le système back-office attend un compte-rendu de mise à jour
+Si Absent="N"</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:length value="1"/>
+						<xs:enumeration value="O"/>
+						<xs:enumeration value="N"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="VERSION" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:length value="3"/>
+						<xs:pattern value="\d{1}\.\d{1}"/>
+						<xs:enumeration value="1.0"/>
+						<xs:enumeration value="1.1"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,101 @@
+﻿<MDA MONNAIE="978" VERSION="1.1" CR="O">
+  <COMMENTAIRE>Envoi immediat 000137611 prepare le 14/06/17 17:37</COMMENTAIRE>
+  <ARTS>
+    <MART ART="0204816000000" LIB="POMME ROYAL GALA               " VCR="0">
+      <TAX TVA="1" />
+      <PXQT>
+        <PRXC>
+          <QTEU />
+        </PRXC>
+      </PXQT>
+      <STM CN="R" CE="14" />
+      <STM CN="F" CE="044" />
+      <STM CN="SF" CE="0441" />
+      <DCOG CIA="626291" LIBS="POMME 23" NF="FRUITS ET LEGUMES" PROM="N">
+        <IUM PUM="00001.99" LIBU="kg" />
+        <CONT CONTV="001.000" LIBU="kg" CONTT="Le kg" />
+      </DCOG>
+      <DCOT LMRG="H">
+        <TAS>00001.99100000.00000000.00011kg         00000.00FRUITS ET LEGUMES       H       </TAS>
+        <DFL ORIG="FRANCE" CAL="190/2" CAT="I" VART="PINOVA" />
+      </DCOT>
+    </MART>
+    <MART ART="0204835000000" LIB="BANANE VRAC                    " VCR="0">
+      <TAX TVA="1" />
+      <PXQT>
+        <PRXC>
+          <QTEU />
+        </PRXC>
+      </PXQT>
+      <STM CN="R" CE="14" />
+      <STM CN="F" CE="044" />
+      <STM CN="SF" CE="0449" />
+      <DCOG CIA="628388" CLEC="443701040" LIBS="BANANE   34" NF="FRUITS ET LEGUMES" PROM="N">
+        <IUM PUM="00001.99" LIBU="kg" />
+        <CONT CONTV="001.000" LIBU="kg" CONTT="Le kg" />
+      </DCOG>
+      <DCOT LMRG="H">
+        <TAS>00001.99100000.00000000.00011kg         00000.00FRUITS ET LEGUMES       H       </TAS>
+        <DFL ORIG="Cote d'ivoire" CAL="P/20" CAT="I" PLUB="004835" CBAL="4835" />
+      </DCOT>
+    </MART>
+    <MART ART="3121040056486" LIB="CENT VAP PRO EXPRESS GV8962    " VCR="0">
+      <TAX TVA="3">
+        <DEEE D3EM="00000.50" D3ET="3" />
+      </TAX>
+      <PXQT>
+        <PRXU PUTTC="00124.45">
+          <QTEU />
+        </PRXU>
+      </PXQT>
+      <STM CN="R" CE="25" />
+      <STM CN="F" CE="056" />
+      <STM CN="SF" CE="0563" />
+      <DCOG PDRF="248.90" TRPR="50" TXPRC="PROMOTION" TXPRL="PROMOTION" RFPR="17G212GSOLDES T MULTIMEDIA&amp;ELEC" CIA="4972659" CLEC="563201020" LIBS="CENT VAP PRO EXPRESS GV8962" MARQ="CALOR" NF="GROUPE SEB FRANCE" PROM="O">
+        <CONT CONTV="001.000" LIBU="P" CONTT="Prix unitaire" />
+      </DCOG>
+      <DCOT>
+        <TAS>00000.00000000.00000000.00111P          00000.50GROUPE SEB FRANCE               </TAS>
+      </DCOT>
+    </MART>
+    <MART ART="3347760069852" LIB="BANANE VRAC                    " VCR="0">
+      <TAX TVA="1" />
+      <PXQT>
+        <PRXU PUTTC="00001.99">
+          <QTEU />
+        </PRXU>
+      </PXQT>
+      <STM CN="R" CE="14" />
+      <STM CN="F" CE="044" />
+      <STM CN="SF" CE="0449" />
+      <DCOG CIA="628388" CLEC="443701040" LIBS="BANANE   34" NF="FRUITS ET LEGUMES" PROM="N">
+        <IUM PUM="00001.99" LIBU="kg" />
+        <CONT CONTV="001.000" LIBU="kg" CONTT="Le kg" />
+      </DCOG>
+      <DCOT LMRG="H">
+        <TAS>00001.99100000.00000000.00011kg         00000.00FRUITS ET LEGUMES       H       </TAS>
+        <DFL ORIG="Cote d'ivoire" CAL="P/20" CAT="I" PLUB="004835" CBAL="4835" />
+      </DCOT>
+    </MART>
+    <MART ART="3661030000124" LIB="POMME ROYAL GALA               " VCR="0">
+      <TAX TVA="1" />
+      <PXQT>
+        <PRXU PUTTC="00001.99">
+          <QTEU />
+        </PRXU>
+      </PXQT>
+      <STM CN="R" CE="14" />
+      <STM CN="F" CE="044" />
+      <STM CN="SF" CE="0441" />
+      <DCOG CIA="626291" LIBS="POMME 23" NF="FRUITS ET LEGUMES" PROM="N">
+        <IUM PUM="00001.99" LIBU="kg" />
+        <CONT CONTV="001.000" LIBU="kg" CONTT="Le kg" />
+      </DCOG>
+      <DCOT LMRG="H">
+        <TAS>00001.99100000.00000000.00011kg         00000.00FRUITS ET LEGUMES       H       </TAS>
+        <DFL ORIG="FRANCE" CAL="190/2" CAT="I" VART="PINOVA" />
+      </DCOT>
+    </MART>
+  </ARTS>
+  <COMMENTAIRE>Fin envoi immediat 000137611 prepare le 14/06/17 17:37</COMMENTAIRE>
+</MDA>

@@ -1,0 +1,494 @@
+﻿<MDA MONNAIE="978" VERSION="1.1" CR="O">
+  <COMMENTAIRE>Envoi journalier 000137607 prepare le 14/06/17 09:33</COMMENTAIRE>
+  <ARTS>
+    <MART ART="2000000883281" LIB="PULPE TOMATE EN DES NJ  3X400GR" VCR="0">
+      <TAX TVA="1" />
+      <PXQT>
+        <PRXU PUTTC="00001.76">
+          <QTEU />
+        </PRXU>
+      </PXQT>
+      <STM CN="R" CE="01" />
+      <STM CN="F" CE="221" />
+      <STM CN="SF" CE="0213" />
+      <DCOG CIA="1618511" CLEC="142102010" LIBS="PULPE TOMATE EN DES NJ  3X400GR" MARQ="NOTRE JARDIN" NF="SCAMARK GT1" PROM="N" APAR="LEG1 - 132">
+        <IUM PUM="00001.47" LIBU="kg" />
+        <CONT CONTV="001.200" LIBU="kg" CONTT="3 x 400g" />
+      </DCOG>
+      <DCOT LMRG="I">
+        <TAS>00001.47100000.00000000.00013x400g      00000.00SCAMARK GT1             I       </TAS>
+      </DCOT>
+    </MART>
+    <MART ART="3033210003858" LIB="6 EXTREMES RHUM/RAISIN  720ML *" VCR="0">
+      <TAX TVA="1" />
+      <PXQT>
+        <PRXU PUTTC="00002.89">
+          <QTEU />
+        </PRXU>
+      </PXQT>
+      <STM CN="R" CE="13" />
+      <STM CN="F" CE="041" />
+      <STM CN="SF" CE="0412" />
+      <DCOG CIA="1159292" CLEC="413306010" LIBS="CONES EXTREME RHUM RAISINS.6P" NF="NESTLE GRAND FROID" PROM="N">
+        <IUM PUM="00004.01" LIBU="L" />
+        <CONT CONTV="000.720" LIBU="L" CONTT="72cL" />
+      </DCOG>
+      <DCOT LMRG="D">
+        <TAS>00004.01200000.00000000.000172cL        00000.00NESTLE GRAND FROID      D       </TAS>
+      </DCOT>
+    </MART>
+    <MART ART="3083681066838" LIB="PUREE 4 SAVEURS BONDUELLE 780G " VCR="0">
+      <TAX TVA="1" />
+      <PXQT>
+        <PRXU PUTTC="00002.94">
+          <QTEU />
+        </PRXU>
+      </PXQT>
+      <STM CN="R" CE="13" />
+      <STM CN="F" CE="039" />
+      <STM CN="SF" CE="0392" />
+      <DCOG CIA="5618731" LIBS="PUREE 4 SAVEURS BONDUELLE 780G" NF="BONDUELLE EUROPE LONG LIFE" PROM="N">
+        <IUM PUM="00003.77" LIBU="kg" />
+        <CONT CONTV="000.780" LIBU="kg" CONTT="0.78kg" />
+      </DCOG>
+      <DCOT LMRG="G">
+        <TAS>00003.77100000.00000000.00010.78kg      00000.00BONDUELLE EUROPE LONG LIG       </TAS>
+      </DCOT>
+    </MART>
+    <MART ART="3178047200008" LIB="LE CHAT SAVON AMBRE  2X300G    " VCR="0">
+      <TAX TVA="3" />
+      <PXQT>
+        <PRXU PUTTC="00002.29">
+          <QTEU />
+        </PRXU>
+      </PXQT>
+      <STM CN="R" CE="03" />
+      <STM CN="F" CE="050" />
+      <STM CN="SF" CE="0501" />
+      <DCOG CIA="149633" CLEC="529951010" LIBS="LE CHAT SAVON AMBRE  2X300G" NF="HENKEL FRANCE *" PROM="O">
+        <IUM PUM="00003.82" LIBU="kg" />
+        <CONT CONTV="000.600" LIBU="kg" CONTT="600g" />
+      </DCOG>
+      <DCOT LMRG="D">
+        <TAS>00003.82100000.00000000.0011600g        00000.00HENKEL FRANCE *         D       </TAS>
+      </DCOT>
+    </MART>
+    <MART ART="3178047210007" LIB="LE CHAT SAVON GLYCERINE  4X200G" VCR="0">
+      <TAX TVA="3" />
+      <PXQT>
+        <PRXU PUTTC="00002.99">
+          <QTEU />
+        </PRXU>
+      </PXQT>
+      <STM CN="R" CE="03" />
+      <STM CN="F" CE="050" />
+      <STM CN="SF" CE="0501" />
+      <DCOG CIA="149641" CLEC="529951010" LIBS="LE CHAT SAVON GLYCERINE  4X200G" NF="HENKEL FRANCE *" PROM="O">
+        <IUM PUM="00003.74" LIBU="kg" />
+        <CONT CONTV="000.800" LIBU="kg" CONTT="800g" />
+      </DCOG>
+      <DCOT LMRG="E">
+        <TAS>00003.74100000.00000000.0011800g        00000.00HENKEL FRANCE *         E       </TAS>
+      </DCOT>
+    </MART>
+    <MART ART="3291810789651" LIB="PAIN CHOCOLAT BEURRE AOP L3M   " VCR="0">
+      <TAX TVA="1" />
+      <PXQT>
+        <PRXU PUTTC="00000.29">
+          <QTEU />
+        </PRXU>
+      </PXQT>
+      <STM CN="R" CE="18" />
+      <STM CN="F" CE="040" />
+      <STM CN="SF" CE="0403" />
+      <DCOG CIA="5618822" LIBS="PAIN CHOCOLAT BEURRE AOP L3M" NF="DELIFRANCE" PROM="N">
+        <IUM PUM="00003.87" LIBU="kg" />
+        <CONT CONTV="000.075" LIBU="kg" CONTT="0.075kg" />
+      </DCOG>
+      <DCOT LMRG="G">
+        <TAS>00003.87100000.00000000.00010.075kg     00000.00DELIFRANCE              G       </TAS>
+      </DCOT>
+    </MART>
+    <MART ART="3298761730053" LIB="HUILE OLIVE RUSTICA  50CL      " VCR="0">
+      <TAX TVA="1" />
+      <PXQT>
+        <PRXU PUTTC="00002.59">
+          <QTEU />
+        </PRXU>
+      </PXQT>
+      <STM CN="R" CE="01" />
+      <STM CN="F" CE="217" />
+      <STM CN="SF" CE="0172" />
+      <DCOG CIA="129957" CLEC="170351010" LIBS="HUILE OLIVE RUSTICA  50CL" MARQ="RUSTICA" NF="SCAMARK GT1" PROM="O" APAR="HUIL - 328">
+        <IUM PUM="00051.80" LIBU="kg" />
+        <CONT CONTV="000.050" LIBU="kg" CONTT="50g" />
+      </DCOG>
+      <DCOT LMRG="E">
+        <TAS>00051.80100000.00000000.001150g         00000.00SCAMARK GT1             E       </TAS>
+      </DCOT>
+    </MART>
+    <MART ART="3298761730107" LIB="HUILE OLIVE RUSTICA  1L        " VCR="0">
+      <TAX TVA="1" />
+      <PXQT>
+        <PRXU PUTTC="00003.89">
+          <QTEU />
+        </PRXU>
+      </PXQT>
+      <STM CN="R" CE="01" />
+      <STM CN="F" CE="217" />
+      <STM CN="SF" CE="0172" />
+      <DCOG CIA="1297" CLEC="170351010" LIBS="HUILE OLIVE RUSTICA  1L" MARQ="RUSTICA" NF="SCAMARK GT1" PROM="O" APAR="HUIL - 165">
+        <IUM PUM="00003.89" LIBU="L" />
+        <CONT CONTV="001.000" LIBU="L" CONTT="1L" />
+      </DCOG>
+      <DCOT LMRG="B">
+        <TAS>00003.89200000.00000000.00111L          00000.00SCAMARK GT1             B       </TAS>
+      </DCOT>
+    </MART>
+    <MART ART="3415581514001" LIB="MINICUP FROZ. YAOURT STRAW 365G" VCR="0">
+      <TAX TVA="1" />
+      <PXQT>
+        <PRXU PUTTC="00005.39">
+          <QTEU />
+        </PRXU>
+      </PXQT>
+      <STM CN="R" CE="13" />
+      <STM CN="F" CE="041" />
+      <STM CN="SF" CE="0413" />
+      <DCOG CIA="5618764" LIBS="MINICUP FROZ. YAOURT STRAW 365G" NF="GENERAL MILLS FRANCE" PROM="N">
+        <IUM PUM="00014.77" LIBU="kg" />
+        <CONT CONTV="000.365" LIBU="kg" CONTT="0.365kg" />
+      </DCOG>
+      <DCOT LMRG="H">
+        <TAS>00014.77100000.00000000.00010.365kg     00000.00GENERAL MILLS FRANCE    H       </TAS>
+      </DCOT>
+    </MART>
+    <MART ART="3564700001042" LIB="HUILE OLIVE RUSTICA  1L        " VCR="0">
+      <TAX TVA="1" />
+      <PXQT>
+        <PRXU PUTTC="00003.89">
+          <QTEU />
+        </PRXU>
+      </PXQT>
+      <STM CN="R" CE="01" />
+      <STM CN="F" CE="217" />
+      <STM CN="SF" CE="0172" />
+      <DCOG CIA="1297" CLEC="170351010" LIBS="HUILE OLIVE RUSTICA  1L" MARQ="RUSTICA" NF="SCAMARK GT1" PROM="O" APAR="HUIL - 165">
+        <IUM PUM="00003.89" LIBU="L" />
+        <CONT CONTV="001.000" LIBU="L" CONTT="1L" />
+      </DCOG>
+      <DCOT LMRG="B">
+        <TAS>00003.89200000.00000000.00111L          00000.00SCAMARK GT1             B       </TAS>
+      </DCOT>
+    </MART>
+    <MART ART="3564700001059" LIB="HUILE OLIVE RUSTICA  50CL      " VCR="0">
+      <TAX TVA="1" />
+      <PXQT>
+        <PRXU PUTTC="00002.59">
+          <QTEU />
+        </PRXU>
+      </PXQT>
+      <STM CN="R" CE="01" />
+      <STM CN="F" CE="217" />
+      <STM CN="SF" CE="0172" />
+      <DCOG CIA="129957" CLEC="170351010" LIBS="HUILE OLIVE RUSTICA  50CL" MARQ="RUSTICA" NF="SCAMARK GT1" PROM="O" APAR="HUIL - 328">
+        <IUM PUM="00051.80" LIBU="kg" />
+        <CONT CONTV="000.050" LIBU="kg" CONTT="50g" />
+      </DCOG>
+      <DCOT LMRG="E">
+        <TAS>00051.80100000.00000000.001150g         00000.00SCAMARK GT1             E       </TAS>
+      </DCOT>
+    </MART>
+    <MART ART="3564700487716" LIB="BATONNET TRODI'DUO X10 TROFIC  " VCR="0">
+      <TAX TVA="1" />
+      <PXQT>
+        <PRXU PUTTC="00003.19">
+          <QTEU />
+        </PRXU>
+      </PXQT>
+      <STM CN="R" CE="13" />
+      <STM CN="F" CE="041" />
+      <STM CN="SF" CE="0412" />
+      <DCOG CIA="2658565" CLEC="413304020" LIBS="BATONNET TRODI'DUO X10 TROFIC" MARQ="SMICY" NF="SCAMARK MR GT53" PROM="N">
+        <IUM PUM="00007.78" LIBU="kg" />
+        <CONT CONTV="000.410" LIBU="kg" CONTT="410g" />
+      </DCOG>
+      <DCOT LMRG="I">
+        <TAS>00007.78100000.00000000.0001410g        00000.00SCAMARK MR GT53         I       </TAS>
+      </DCOT>
+    </MART>
+    <MART ART="3564700691465" LIB="PERSIL SURGELE 250G            " VCR="0">
+      <TAX TVA="1" />
+      <PXQT>
+        <PRXU PUTTC="00001.09">
+          <QTEU />
+        </PRXU>
+      </PXQT>
+      <STM CN="R" CE="13" />
+      <STM CN="F" CE="039" />
+      <STM CN="SF" CE="0395" />
+      <DCOG CIA="5618707" CLEC="410912010" LIBS="PERSIL SURGELE 250G" NF="SCAMARK MR GT53" PROM="N">
+        <IUM PUM="00004.36" LIBU="kg" />
+        <CONT CONTV="000.250" LIBU="kg" CONTT="250g" />
+      </DCOG>
+      <DCOT LMRG="H">
+        <TAS>00004.36100000.00000000.0001250g        00000.00SCAMARK MR GT53         H       </TAS>
+      </DCOT>
+    </MART>
+    <MART ART="3564700782637" LIB="PIZZA BORD FOURREE SAUCISSES 4 " VCR="0">
+      <TAX TVA="1" />
+      <PXQT>
+        <PRXU PUTTC="00003.22">
+          <QTEU />
+        </PRXU>
+      </PXQT>
+      <STM CN="R" CE="13" />
+      <STM CN="F" CE="039" />
+      <STM CN="SF" CE="0391" />
+      <DCOG CIA="5618715" CLEC="410402010" LIBS="PIZZA BORD FOURREE SAUCISSES 4" NF="SCAMARK MR GT53" PROM="N">
+        <IUM PUM="00006.78" LIBU="kg" />
+        <CONT CONTV="000.475" LIBU="kg" CONTT="475g" />
+      </DCOG>
+      <DCOT LMRG="H">
+        <TAS>00006.78100000.00000000.0001475g        00000.00SCAMARK MR GT53         H       </TAS>
+      </DCOT>
+    </MART>
+    <MART ART="3564700786390" LIB="SMICY STAR FUSEES X8 480 ML    " VCR="0">
+      <TAX TVA="1" />
+      <PXQT>
+        <PRXU PUTTC="00001.76">
+          <QTEU />
+        </PRXU>
+      </PXQT>
+      <STM CN="R" CE="13" />
+      <STM CN="F" CE="041" />
+      <STM CN="SF" CE="0412" />
+      <DCOG CIA="5185939" CLEC="413304040" LIBS="SMICY STAR FUSEES X8 480 ML" MARQ="SMICY" NF="SCAMARK MR GT53" PROM="N">
+        <IUM PUM="00003.67" LIBU="kg" />
+        <CONT CONTV="000.480" LIBU="kg" CONTT="480g" />
+      </DCOG>
+      <DCOT LMRG="I">
+        <TAS>00003.67100000.00000000.0001480g        00000.00SCAMARK MR GT53         I       </TAS>
+      </DCOT>
+    </MART>
+    <MART ART="3564700824184" LIB="ENTREMET MACARON FRAMBOISE 390 " VCR="0">
+      <TAX TVA="1" />
+      <PXQT>
+        <PRXU PUTTC="00005.39">
+          <QTEU />
+        </PRXU>
+      </PXQT>
+      <STM CN="R" CE="13" />
+      <STM CN="F" CE="041" />
+      <STM CN="SF" CE="0411" />
+      <DCOG CIA="5618780" CLEC="413505010" LIBS="ENTREMET MACARON FRAMBOISE 390" NF="SCAMARK MR GT53" PROM="N">
+        <IUM PUM="00013.82" LIBU="kg" />
+        <CONT CONTV="000.390" LIBU="kg" CONTT="390g" />
+      </DCOG>
+      <DCOT LMRG="G">
+        <TAS>00013.82100000.00000000.0001390g        00000.00SCAMARK MR GT53         G       </TAS>
+      </DCOT>
+    </MART>
+    <MART ART="3564700882306" LIB="CONES MEDIUM VANILLE/CHOCO X8  " VCR="0">
+      <TAX TVA="1" />
+      <PXQT>
+        <PRXU PUTTC="00002.13">
+          <QTEU />
+        </PRXU>
+      </PXQT>
+      <STM CN="R" CE="13" />
+      <STM CN="F" CE="041" />
+      <STM CN="SF" CE="0412" />
+      <DCOG CIA="5618772" LIBS="CONES MEDIUM VANILLE/CHOCO X8" NF="SCAMARK MR GT53" PROM="N">
+        <IUM PUM="00006.19" LIBU="kg" />
+        <CONT CONTV="000.344" LIBU="kg" CONTT="0.344kg" />
+      </DCOG>
+      <DCOT LMRG="G">
+        <TAS>00006.19100000.00000000.00010.344kg     00000.00SCAMARK MR GT53         G       </TAS>
+      </DCOT>
+    </MART>
+    <MART ART="3700410308839" LIB="LV 12C/SILVER/A--TV47ASI       " VCR="0">
+      <TAX TVA="3">
+        <DEEE D3EM="00006.02" D3ET="3" />
+      </TAX>
+      <PXQT>
+        <PRXU PUTTC="00359.00">
+          <QTEU />
+        </PRXU>
+      </PXQT>
+      <STM CN="R" CE="25" />
+      <STM CN="F" CE="055" />
+      <STM CN="SF" CE="0556" />
+      <DCOG CIA="2955797" CLEC="551402010" LIBS="LV 12C/SILVER/A--TV47ASI" MARQ="TUCSON" NF="VESTEL FRANCE" PROM="O">
+        <CONT CONTV="001.000" LIBU="P" CONTT="Prix unitaire" />
+      </DCOG>
+      <DCOT LMRG="F">
+        <TAS>00000.00000000.00000000.00111P          00006.02VESTEL FRANCE           F       </TAS>
+      </DCOT>
+    </MART>
+    <MART ART="5000159498951" LIB="MALTESERS BATONNET X4 240G     " VCR="0">
+      <TAX TVA="1" />
+      <PXQT>
+        <PRXU PUTTC="00003.48">
+          <QTEU />
+        </PRXU>
+      </PXQT>
+      <STM CN="R" CE="13" />
+      <STM CN="F" CE="041" />
+      <STM CN="SF" CE="0412" />
+      <DCOG CIA="5618806" CLEC="413307010" LIBS="MALTESERS BATONNET X4 240G" NF="MARS CHOCOLAT FRANCE *" PROM="N">
+        <IUM PUM="00014.50" LIBU="kg" />
+        <CONT CONTV="000.240" LIBU="kg" CONTT="240g" />
+      </DCOG>
+      <DCOT LMRG="G">
+        <TAS>00014.50100000.00000000.0001240g        00000.00MARS CHOCOLAT FRANCE *  G       </TAS>
+      </DCOT>
+    </MART>
+    <MART ART="6925777853397" LIB="LV 12C/50DB/BLAN--DW12-EFET    " VCR="0">
+      <TAX TVA="3">
+        <DEEE D3EM="00006.02" D3ET="3" />
+      </TAX>
+      <PXQT>
+        <PRXU PUTTC="00199.00">
+          <QTEU />
+        </PRXU>
+      </PXQT>
+      <STM CN="R" CE="25" />
+      <STM CN="F" CE="055" />
+      <STM CN="SF" CE="0556" />
+      <DCOG CIA="2955128" CLEC="551402010" LIBS="LV 12C/50DB/BLAN--DW12-EFET" MARQ="HAIER" NF="HAIER EUROPE TRADING" PROM="O">
+        <CONT CONTV="001.000" LIBU="P" CONTT="Prix unitaire" />
+      </DCOG>
+      <DCOT LMRG="A">
+        <TAS>00000.00000000.00000000.00111P          00006.02HAIER EUROPE TRADING    A       </TAS>
+      </DCOT>
+    </MART>
+    <MART ART="7613034077943" LIB="EXTREME VANILLE PRALINE 6X120ML" VCR="0">
+      <TAX TVA="1" />
+      <PXQT>
+        <PRXU PUTTC="00003.39">
+          <QTEU />
+        </PRXU>
+      </PXQT>
+      <STM CN="R" CE="13" />
+      <STM CN="F" CE="041" />
+      <STM CN="SF" CE="0412" />
+      <DCOG CIA="3922812" CLEC="413306010" LIBS="EXTREME VANILLE PRALINE 6X120ML" NF="NESTLE GRAND FROID" PROM="N">
+        <IUM PUM="00004.71" LIBU="L" />
+        <CONT CONTV="000.720" LIBU="L" CONTT="72cL" />
+      </DCOG>
+      <DCOT LMRG="F">
+        <TAS>00004.71200000.00000000.000172cL        00000.00NESTLE GRAND FROID      F       </TAS>
+      </DCOT>
+    </MART>
+    <MART ART="7613035870420" LIB="EXTREME FRAI+PISTACHE X8.312G  " VCR="0">
+      <TAX TVA="1" />
+      <PXQT>
+        <PRXU PUTTC="00004.77">
+          <QTEU />
+        </PRXU>
+      </PXQT>
+      <STM CN="R" CE="13" />
+      <STM CN="F" CE="041" />
+      <STM CN="SF" CE="0412" />
+      <DCOG CIA="5618723" CLEC="413306020" LIBS="EXTREME FRAI+PISTACHE X8.312G" NF="NESTLE GRAND FROID" PROM="N">
+        <IUM PUM="00015.29" LIBU="kg" />
+        <CONT CONTV="000.312" LIBU="kg" CONTT="312g" />
+      </DCOG>
+      <DCOT LMRG="G">
+        <TAS>00015.29100000.00000000.0001312g        00000.00NESTLE GRAND FROID      G       </TAS>
+      </DCOT>
+    </MART>
+    <MART ART="7613035892811" LIB="EXTREME MENTHE CHOCOLAT 6X71G  " VCR="0">
+      <TAX TVA="1" />
+      <PXQT>
+        <PRXU PUTTC="00003.85">
+          <QTEU />
+        </PRXU>
+      </PXQT>
+      <STM CN="R" CE="13" />
+      <STM CN="F" CE="041" />
+      <STM CN="SF" CE="0412" />
+      <DCOG CIA="5618699" CLEC="413306010" LIBS="EXTREME MENTHE CHOCOLAT 6X71G" NF="NESTLE GRAND FROID" PROM="N">
+        <IUM PUM="00009.04" LIBU="kg" />
+        <CONT CONTV="000.426" LIBU="kg" CONTT="426g" />
+      </DCOG>
+      <DCOT LMRG="H">
+        <TAS>00009.04100000.00000000.0001426g        00000.00NESTLE GRAND FROID      H       </TAS>
+      </DCOT>
+    </MART>
+    <MART ART="7613036006606" LIB="FAP PIZZA 4 FROMAGGI 390G      " VCR="0">
+      <TAX TVA="1" />
+      <PXQT>
+        <PRXU PUTTC="00002.81">
+          <QTEU />
+        </PRXU>
+      </PXQT>
+      <STM CN="R" CE="13" />
+      <STM CN="F" CE="039" />
+      <STM CN="SF" CE="0391" />
+      <DCOG CIA="5618756" LIBS="FAP PIZZA 4 FROMAGGI 390G" NF="STE DES PDTS ALIMENTAIRES" PROM="N">
+        <IUM PUM="00007.21" LIBU="kg" />
+        <CONT CONTV="000.390" LIBU="kg" CONTT="0.39kg" />
+      </DCOG>
+      <DCOT LMRG="H">
+        <TAS>00007.21100000.00000000.00010.39kg      00000.00STE DES PDTS ALIMENTAIREH       </TAS>
+      </DCOT>
+    </MART>
+    <MART ART="8710438105612" LIB="ORIG.BUN'S JAMBON KETCHUP 400G " VCR="0">
+      <TAX TVA="1" />
+      <PXQT>
+        <PRXU PUTTC="00003.01">
+          <QTEU />
+        </PRXU>
+      </PXQT>
+      <STM CN="R" CE="13" />
+      <STM CN="F" CE="039" />
+      <STM CN="SF" CE="0391" />
+      <DCOG CIA="5618798" CLEC="410608020" LIBS="ORIG.BUN'S JAMBON KETCHUP 400G" NF="MC CAIN FOODS EUROPE BV" PROM="N">
+        <IUM PUM="00007.53" LIBU="kg" />
+        <CONT CONTV="000.400" LIBU="kg" CONTT="400g" />
+      </DCOG>
+      <DCOT LMRG="G">
+        <TAS>00007.53100000.00000000.0001400g        00000.00MC CAIN FOODS EUROPE BV G       </TAS>
+      </DCOT>
+    </MART>
+    <MART ART="8710438108187" LIB="FRIT'UP MCCAIN 2X90G           " VCR="0">
+      <TAX TVA="1" />
+      <PXQT>
+        <PRXU PUTTC="00001.52">
+          <QTEU />
+        </PRXU>
+      </PXQT>
+      <STM CN="R" CE="13" />
+      <STM CN="F" CE="039" />
+      <STM CN="SF" CE="0392" />
+      <DCOG CIA="5618814" LIBS="FRIT'UP MCCAIN 2X90G" NF="MC CAIN FOODS EUROPE BV" PROM="N">
+        <IUM PUM="00008.44" LIBU="kg" />
+        <CONT CONTV="000.180" LIBU="kg" CONTT="0.18kg" />
+      </DCOG>
+      <DCOT LMRG="H">
+        <TAS>00008.44100000.00000000.00010.18kg      00000.00MC CAIN FOODS EUROPE BV H       </TAS>
+      </DCOT>
+    </MART>
+    <MART ART="8714100965207" LIB="MAX MINIONS BELLO 180G         " VCR="0">
+      <TAX TVA="1" />
+      <PXQT>
+        <PRXU PUTTC="00003.75">
+          <QTEU />
+        </PRXU>
+      </PXQT>
+      <STM CN="R" CE="13" />
+      <STM CN="F" CE="041" />
+      <STM CN="SF" CE="0412" />
+      <DCOG CIA="5618749" LIBS="MAX MINIONS BELLO 180G" NF="UNILEVER FRANCE" PROM="N">
+        <IUM PUM="00020.83" LIBU="kg" />
+        <CONT CONTV="000.180" LIBU="kg" CONTT="0.18kg" />
+      </DCOG>
+      <DCOT LMRG="G">
+        <TAS>00020.83100000.00000000.00010.18kg      00000.00UNILEVER FRANCE         G       </TAS>
+      </DCOT>
+    </MART>
+  </ARTS>
+  <COMMENTAIRE>Fin envoi journalier 000137607 prepare le 14/06/17 09:33</COMMENTAIRE>
+</MDA>
