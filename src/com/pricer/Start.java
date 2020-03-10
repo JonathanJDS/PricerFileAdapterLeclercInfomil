@@ -1,82 +1,80 @@
 package com.pricer;
 
 import java.io.File;
-import java.util.List;
+import java.io.IOException;
 
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.JAXBException;
-import javax.xml.bind.Unmarshaller;
-
-import generated.MDA;
-import generated.MDA.ARTS;
-import generated.MDA.ARTS.MART;
-
-
+import it.sauronsoftware.cron4j.Predictor;
+import it.sauronsoftware.cron4j.Scheduler;
+import org.ini4j.InvalidFileFormatException;
+import org.ini4j.Wini;
+import org.apache.logging.log4j.*;
 
 public class Start {
+
+
+	static Logger logger =  LogManager.getLogger(Start.class);
+	static Wini ini;
+
+
+	public static void InitializeIni() {
+		try {
+			ini = new Wini(new File("preference.ini"));
+		} catch (InvalidFileFormatException e1) {
+
+			logger.fatal("Unable to Read Preference.ini File, check your configuration cause : " + e1.getCause() + "/"
+					+ e1.getMessage());
+			logger.fatal("Exit Application");
+			System.exit(1);
+
+		} catch (IOException e1) {
+			logger.fatal("Unable to Read Preference.ini File, check your configuration cause : " + e1.getCause() + "/"
+					+ e1.getMessage());
+			logger.fatal("Exit Application");
+			System.exit(1);
+
+		}
+
+	}
+
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		
-				  
-			
-			  JAXBContext jaxbContext = null;  
-			  Unmarshaller jaxbUnmarshaller = null;
-			  
-			  try 						{	jaxbContext = JAXBContext.newInstance(generated.MDA.class);		}
-			  	catch (JAXBException e) {	e.printStackTrace();										}
-			  	
-			  
-			  
-			  try 					{	jaxbUnmarshaller = jaxbContext.createUnmarshaller();	}
-			    catch (JAXBException e) {
-			    	
-			    	//e.printStackTrace();
-			    	 System.out.println("message=" + e.getMessage());
-			   	  System.out.println("cause=" + e.getCause());
-			    
-			    }
-	
-			  
-			  
-			  
-			  MDA  mda= null;
-			  try {
-				mda = (MDA) jaxbUnmarshaller.unmarshal(new File("ressources/ficWLST006_170614_2_00890.xml"));
-			} catch (JAXBException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}	
-			  
-			  
-		System.out.println("monnaie = " + mda.getMONNAIE());	  
-	List<Object> lstObjects =  mda.getCOMMENTAIREAndARTSAndTTVA();
+		InitializeIni();
+		/* Using Cron Value for checking archives files to delete according to nbre of fdays to keep from preference.ini*/
+		String cronValue = ini.get("Folders", "CheckArchiveCronValue");
+		Scheduler scheduler = new Scheduler();
+		it.sauronsoftware.cron4j.Predictor predictor = new Predictor(cronValue);
+		logger.info("Next execution date for Checking old files in Archives Folder : " + predictor.nextMatchingDate());
 
-	for (Object object : lstObjects) {
-		
-		if (object instanceof ARTS) {
-			
-		ARTS arts = (ARTS) object;
-				
-		for (Object object2 : arts.getMARTAndSARTAndMCON()) {
-			
-			if (object2 instanceof ARTS.MART) {
-				
-			MART mart = (MART) object2;
-			System.out.println("libllé = " + mart.getLIB());
-				
-			}
-			
-			
+
+		try {
+
+			scheduler.schedule(cronValue, new Runnable() {
+
+				public void run() {
+
+					ThreadCheckHistoryFolder threadCheckHistoryFolder = new ThreadCheckHistoryFolder();
+					threadCheckHistoryFolder.setPriority(1);
+					threadCheckHistoryFolder.start();
+
+				}
+			});
 		}
-		
-		
-				
-			}
-			
+
+		catch (IndexOutOfBoundsException iofbe) {
+			// iofbe.printStackTrace();
+			logger.error("Unable to execute scheduler with value " + cronValue + " Please check your parameters...");
+
 		}
-		
+
+		scheduler.start();
+
+		ThreadCheckPriceFiles getPriceFiles = new ThreadCheckPriceFiles();
+		getPriceFiles.setPriority(1);
+		getPriceFiles.start();
+
+
 		
 	}
 	
