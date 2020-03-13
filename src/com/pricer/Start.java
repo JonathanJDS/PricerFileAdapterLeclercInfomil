@@ -45,6 +45,7 @@ public class Start {
 		String cronValue = ini.get("Folders", "CheckArchiveCronValue");
 		Scheduler scheduler = new Scheduler();
 		it.sauronsoftware.cron4j.Predictor predictor = new Predictor(cronValue);
+		logger.info("Starting adapter leclerc Infomil xml format V1.0 By MDZ on 2020-03 ");
 		logger.info("Next execution date for Checking old files in Archives Folder : " + predictor.nextMatchingDate());
 
 

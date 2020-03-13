@@ -1,0 +1,1254 @@
+WARNING|wrapper|yajsw|18-10-18 16:46:07|YAJSW: yajsw-stable-11.06
+WARNING|wrapper|yajsw|18-10-18 16:46:07|OS   : Windows 10/10.0/amd64
+WARNING|wrapper|yajsw|18-10-18 16:46:07|JVM  : Oracle Corporation/1.8.0_162/C:\Pricer\Java/64
+INFO|wrapper|yajsw|18-10-18 16:46:08|working dir C:\Users\mohamed.derraz\Desktop\FlashSchedulerV6\Jetty\V3.6\PricerFlashSchedulerService\service\..
+INFO|wrapper|yajsw|18-10-18 16:46:08|could not start process 2
+INFO|wrapper|yajsw|18-10-18 16:46:08|Le fichier spécifié est introuvable.
+INFO|wrapper|yajsw|18-10-18 16:46:08|null/null/null
+SEVERE|wrapper|yajsw|18-10-18 16:46:08|failed to spawn wrapped process
+INFO|wrapper|yajsw|18-10-18 16:46:08|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|18-10-18 16:46:08|restart process due to default exit code rule
+INFO|wrapper|yajsw|18-10-18 16:46:08|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|18-10-18 16:46:08|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|18-10-18 16:46:08|restart internal STARTING
+INFO|wrapper|yajsw|18-10-18 16:46:08|stopping process with pid/timeout -1 45000
+INFO|wrapper|yajsw|18-10-18 16:46:08|cannot kill process with pid -1
+INFO|wrapper|yajsw|18-10-18 16:46:09|process exit code: -3
+INFO|wrapper|yajsw|18-10-18 16:46:14|working dir C:\Users\mohamed.derraz\Desktop\FlashSchedulerV6\Jetty\V3.6\PricerFlashSchedulerService\service\..
+INFO|wrapper|yajsw|18-10-18 16:46:14|could not start process 2
+INFO|wrapper|yajsw|18-10-18 16:46:14|Le fichier spécifié est introuvable.
+INFO|wrapper|yajsw|18-10-18 16:46:14|null/null/null
+SEVERE|wrapper|yajsw|18-10-18 16:46:14|failed to spawn wrapped process
+INFO|wrapper|yajsw|18-10-18 16:46:14|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|18-10-18 16:46:14|restart process due to default exit code rule
+INFO|wrapper|yajsw|18-10-18 16:46:14|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|18-10-18 16:46:14|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|18-10-18 16:46:15|restart internal RESTART_START
+INFO|wrapper|yajsw|18-10-18 16:46:15|stopping process with pid/timeout -1 45000
+INFO|wrapper|yajsw|18-10-18 16:46:15|cannot kill process with pid -1
+INFO|wrapper|yajsw|18-10-18 16:46:15|process exit code: -3
+INFO|wrapper|yajsw|18-10-18 16:46:20|working dir C:\Users\mohamed.derraz\Desktop\FlashSchedulerV6\Jetty\V3.6\PricerFlashSchedulerService\service\..
+INFO|wrapper|yajsw|18-10-18 16:46:20|could not start process 2
+INFO|wrapper|yajsw|18-10-18 16:46:20|Le fichier spécifié est introuvable.
+INFO|wrapper|yajsw|18-10-18 16:46:20|null/null/null
+SEVERE|wrapper|yajsw|18-10-18 16:46:20|failed to spawn wrapped process
+INFO|wrapper|yajsw|18-10-18 16:46:20|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|18-10-18 16:46:20|restart process due to default exit code rule
+INFO|wrapper|yajsw|18-10-18 16:46:20|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|18-10-18 16:46:21|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|18-10-18 16:46:21|restart internal RESTART_START
+INFO|wrapper|yajsw|18-10-18 16:46:21|stopping process with pid/timeout -1 45000
+INFO|wrapper|yajsw|18-10-18 16:46:21|cannot kill process with pid -1
+INFO|wrapper|yajsw|18-10-18 16:46:21|process exit code: -3
+INFO|wrapper|yajsw|18-10-18 16:46:26|working dir C:\Users\mohamed.derraz\Desktop\FlashSchedulerV6\Jetty\V3.6\PricerFlashSchedulerService\service\..
+INFO|wrapper|yajsw|18-10-18 16:46:26|could not start process 2
+INFO|wrapper|yajsw|18-10-18 16:46:26|Le fichier spécifié est introuvable.
+INFO|wrapper|yajsw|18-10-18 16:46:26|null/null/null
+SEVERE|wrapper|yajsw|18-10-18 16:46:26|failed to spawn wrapped process
+INFO|wrapper|yajsw|18-10-18 16:46:26|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|18-10-18 16:46:26|restart process due to default exit code rule
+INFO|wrapper|yajsw|18-10-18 16:46:26|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|18-10-18 16:46:27|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|18-10-18 16:46:27|restart internal RESTART_START
+INFO|wrapper|yajsw|18-10-18 16:46:27|stopping process with pid/timeout -1 45000
+INFO|wrapper|yajsw|18-10-18 16:46:27|cannot kill process with pid -1
+INFO|wrapper|yajsw|18-10-18 16:46:27|process exit code: -3
+INFO|wrapper|yajsw|18-10-18 16:46:32|working dir C:\Users\mohamed.derraz\Desktop\FlashSchedulerV6\Jetty\V3.6\PricerFlashSchedulerService\service\..
+INFO|wrapper|yajsw|18-10-18 16:46:32|could not start process 2
+INFO|wrapper|yajsw|18-10-18 16:46:32|Le fichier spécifié est introuvable.
+INFO|wrapper|yajsw|18-10-18 16:46:32|null/null/null
+SEVERE|wrapper|yajsw|18-10-18 16:46:32|failed to spawn wrapped process
+INFO|wrapper|yajsw|18-10-18 16:46:32|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|18-10-18 16:46:32|restart process due to default exit code rule
+INFO|wrapper|yajsw|18-10-18 16:46:32|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|18-10-18 16:46:33|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|18-10-18 16:46:33|restart internal RESTART_START
+INFO|wrapper|yajsw|18-10-18 16:46:33|stopping process with pid/timeout -1 45000
+INFO|wrapper|yajsw|18-10-18 16:46:33|cannot kill process with pid -1
+INFO|wrapper|yajsw|18-10-18 16:46:33|process exit code: -3
+INFO|wrapper|yajsw|18-10-18 16:46:38|working dir C:\Users\mohamed.derraz\Desktop\FlashSchedulerV6\Jetty\V3.6\PricerFlashSchedulerService\service\..
+INFO|wrapper|yajsw|18-10-18 16:46:38|could not start process 2
+INFO|wrapper|yajsw|18-10-18 16:46:38|Le fichier spécifié est introuvable.
+INFO|wrapper|yajsw|18-10-18 16:46:38|null/null/null
+SEVERE|wrapper|yajsw|18-10-18 16:46:38|failed to spawn wrapped process
+INFO|wrapper|yajsw|18-10-18 16:46:38|too many restarts 
+INFO|wrapper|yajsw|18-10-18 16:46:38|process not in state RUNNING -> Delaying stop
+INFO|wrapper|yajsw|18-10-18 16:46:38|Shutting down Wrapper
+INFO|wrapper|yajsw|18-10-18 16:46:38|Error in GetExitCodeProcess OS Error #6
+WARNING|wrapper|yajsw|18-10-18 16:48:50|YAJSW: yajsw-stable-11.06
+WARNING|wrapper|yajsw|18-10-18 16:48:50|OS   : Windows 10/10.0/amd64
+WARNING|wrapper|yajsw|18-10-18 16:48:50|JVM  : Oracle Corporation/1.8.0_162/C:\Pricer\Java/64
+INFO|wrapper|yajsw|18-10-18 16:48:50|working dir C:\Pricer\PricerFlashSchedulerService\service\..
+INFO|wrapper|yajsw|18-10-18 16:48:50|started process with pid 11428
+INFO|11428/0|yajsw|18-10-18 16:48:50|no java main method found -> aborting
+INFO|11428/0|yajsw|18-10-18 16:48:50|[INFO] StandardFileSystemManager - Using "C:\Users\MOHAME~1.DER\AppData\Local\Temp\vfs_cache" as temporary files store.
+INFO|11428/0|yajsw|18-10-18 16:48:50|java.lang.ClassNotFoundException: Start
+INFO|wrapper|yajsw|18-10-18 16:48:50|Trigger found: Exception in line: 
+INFO|wrapper|yajsw|18-10-18 16:48:50|java.lang.ClassNotFoundException: Start
+INFO|11428/0|yajsw|18-10-18 16:48:50|	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+INFO|wrapper|yajsw|18-10-18 16:48:50|start script scripts/trayMessage.gv
+INFO|11428/0|yajsw|18-10-18 16:48:50|	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+INFO|11428/0|yajsw|18-10-18 16:48:50|	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+INFO|11428/0|yajsw|18-10-18 16:48:50|	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+INFO|11428/0|yajsw|18-10-18 16:48:50|	at org.rzo.yajsw.app.WrapperManagerImpl.loadJar(WrapperManagerImpl.java:786)
+INFO|11428/0|yajsw|18-10-18 16:48:50|	at org.rzo.yajsw.app.WrapperManagerImpl.init(WrapperManagerImpl.java:289)
+INFO|11428/0|yajsw|18-10-18 16:48:50|	at org.rzo.yajsw.app.WrapperManagerProxy.getWrapperManager(WrapperManagerProxy.java:46)
+INFO|11428/0|yajsw|18-10-18 16:48:50|	at org.rzo.yajsw.app.AbstractWrapperJVMMain$1.run(AbstractWrapperJVMMain.java:44)
+INFO|wrapper|yajsw|18-10-18 16:48:50|end script scripts/trayMessage.gv
+INFO|11428/0|yajsw|18-10-18 16:48:50|	at java.security.AccessController.doPrivileged(Native Method)
+INFO|11428/0|yajsw|18-10-18 16:48:50|	at org.rzo.yajsw.app.AbstractWrapperJVMMain.preExecute(AbstractWrapperJVMMain.java:38)
+INFO|11428/0|yajsw|18-10-18 16:48:50|	at org.rzo.yajsw.app.WrapperJVMMain.main(WrapperJVMMain.java:34)
+INFO|11428/0|yajsw|18-10-18 16:48:50|ERROR: could not load main method from class/jar: Start/PricerFlashSchedulerService.jar
+INFO|wrapper|yajsw|18-10-18 16:48:51|restart process due to default exit code rule
+INFO|wrapper|yajsw|18-10-18 16:48:51|restart internal RUNNING
+INFO|wrapper|yajsw|18-10-18 16:48:51|stopping process with pid/timeout 11428 45000
+INFO|wrapper|yajsw|18-10-18 16:48:52|process exit code: 999
+INFO|wrapper|yajsw|18-10-18 16:48:57|working dir C:\Pricer\PricerFlashSchedulerService\service\..
+INFO|wrapper|yajsw|18-10-18 16:48:57|started process with pid 16108
+INFO|16108/1|yajsw|18-10-18 16:48:58|no java main method found -> aborting
+INFO|16108/1|yajsw|18-10-18 16:48:58|[INFO] StandardFileSystemManager - Using "C:\Users\MOHAME~1.DER\AppData\Local\Temp\vfs_cache" as temporary files store.
+INFO|16108/1|yajsw|18-10-18 16:48:58|java.lang.ClassNotFoundException: Start
+INFO|wrapper|yajsw|18-10-18 16:48:58|Trigger found: Exception in line: 
+INFO|wrapper|yajsw|18-10-18 16:48:58|java.lang.ClassNotFoundException: Start
+INFO|16108/1|yajsw|18-10-18 16:48:58|	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+INFO|wrapper|yajsw|18-10-18 16:48:58|start script scripts/trayMessage.gv
+INFO|16108/1|yajsw|18-10-18 16:48:58|	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+INFO|wrapper|yajsw|18-10-18 16:48:58|end script scripts/trayMessage.gv
+INFO|16108/1|yajsw|18-10-18 16:48:58|	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+INFO|16108/1|yajsw|18-10-18 16:48:58|	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+INFO|16108/1|yajsw|18-10-18 16:48:58|	at org.rzo.yajsw.app.WrapperManagerImpl.loadJar(WrapperManagerImpl.java:786)
+INFO|16108/1|yajsw|18-10-18 16:48:58|	at org.rzo.yajsw.app.WrapperManagerImpl.init(WrapperManagerImpl.java:289)
+INFO|16108/1|yajsw|18-10-18 16:48:58|	at org.rzo.yajsw.app.WrapperManagerProxy.getWrapperManager(WrapperManagerProxy.java:46)
+INFO|16108/1|yajsw|18-10-18 16:48:58|	at org.rzo.yajsw.app.AbstractWrapperJVMMain$1.run(AbstractWrapperJVMMain.java:44)
+INFO|16108/1|yajsw|18-10-18 16:48:58|	at java.security.AccessController.doPrivileged(Native Method)
+INFO|16108/1|yajsw|18-10-18 16:48:58|	at org.rzo.yajsw.app.AbstractWrapperJVMMain.preExecute(AbstractWrapperJVMMain.java:38)
+INFO|16108/1|yajsw|18-10-18 16:48:58|	at org.rzo.yajsw.app.WrapperJVMMain.main(WrapperJVMMain.java:34)
+INFO|16108/1|yajsw|18-10-18 16:48:58|ERROR: could not load main method from class/jar: Start/PricerFlashSchedulerService.jar
+INFO|wrapper|yajsw|18-10-18 16:48:58|restart process due to default exit code rule
+INFO|wrapper|yajsw|18-10-18 16:48:58|restart internal RUNNING
+INFO|wrapper|yajsw|18-10-18 16:48:58|stopping process with pid/timeout 16108 45000
+INFO|wrapper|yajsw|18-10-18 16:48:59|process exit code: 999
+INFO|wrapper|yajsw|18-10-18 16:49:04|working dir C:\Pricer\PricerFlashSchedulerService\service\..
+INFO|wrapper|yajsw|18-10-18 16:49:04|started process with pid 12332
+INFO|12332/2|yajsw|18-10-18 16:49:04|[INFO] StandardFileSystemManager - Using "C:\Users\MOHAME~1.DER\AppData\Local\Temp\vfs_cache" as temporary files store.
+INFO|12332/2|yajsw|18-10-18 16:49:04|no java main method found -> aborting
+INFO|12332/2|yajsw|18-10-18 16:49:04|java.lang.ClassNotFoundException: Start
+INFO|wrapper|yajsw|18-10-18 16:49:04|Trigger found: Exception in line: 
+INFO|wrapper|yajsw|18-10-18 16:49:04|java.lang.ClassNotFoundException: Start
+INFO|12332/2|yajsw|18-10-18 16:49:04|	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+INFO|wrapper|yajsw|18-10-18 16:49:04|start script scripts/trayMessage.gv
+INFO|12332/2|yajsw|18-10-18 16:49:04|	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+INFO|wrapper|yajsw|18-10-18 16:49:04|end script scripts/trayMessage.gv
+INFO|12332/2|yajsw|18-10-18 16:49:04|	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+INFO|12332/2|yajsw|18-10-18 16:49:04|	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+INFO|12332/2|yajsw|18-10-18 16:49:04|	at org.rzo.yajsw.app.WrapperManagerImpl.loadJar(WrapperManagerImpl.java:786)
+INFO|12332/2|yajsw|18-10-18 16:49:04|	at org.rzo.yajsw.app.WrapperManagerImpl.init(WrapperManagerImpl.java:289)
+INFO|12332/2|yajsw|18-10-18 16:49:04|	at org.rzo.yajsw.app.WrapperManagerProxy.getWrapperManager(WrapperManagerProxy.java:46)
+INFO|12332/2|yajsw|18-10-18 16:49:04|	at org.rzo.yajsw.app.AbstractWrapperJVMMain$1.run(AbstractWrapperJVMMain.java:44)
+INFO|12332/2|yajsw|18-10-18 16:49:04|	at java.security.AccessController.doPrivileged(Native Method)
+INFO|12332/2|yajsw|18-10-18 16:49:04|	at org.rzo.yajsw.app.AbstractWrapperJVMMain.preExecute(AbstractWrapperJVMMain.java:38)
+INFO|12332/2|yajsw|18-10-18 16:49:04|	at org.rzo.yajsw.app.WrapperJVMMain.main(WrapperJVMMain.java:34)
+INFO|12332/2|yajsw|18-10-18 16:49:04|ERROR: could not load main method from class/jar: Start/PricerFlashSchedulerService.jar
+INFO|wrapper|yajsw|18-10-18 16:49:05|restart process due to default exit code rule
+INFO|wrapper|yajsw|18-10-18 16:49:05|restart internal RUNNING
+INFO|wrapper|yajsw|18-10-18 16:49:05|stopping process with pid/timeout 12332 45000
+INFO|wrapper|yajsw|18-10-18 16:49:06|process exit code: 999
+INFO|wrapper|yajsw|18-10-18 16:49:11|working dir C:\Pricer\PricerFlashSchedulerService\service\..
+INFO|wrapper|yajsw|18-10-18 16:49:11|started process with pid 18500
+INFO|18500/3|yajsw|18-10-18 16:49:11|[INFO] StandardFileSystemManager - Using "C:\Users\MOHAME~1.DER\AppData\Local\Temp\vfs_cache" as temporary files store.
+INFO|18500/3|yajsw|18-10-18 16:49:11|no java main method found -> aborting
+INFO|18500/3|yajsw|18-10-18 16:49:11|java.lang.ClassNotFoundException: Start
+INFO|wrapper|yajsw|18-10-18 16:49:11|Trigger found: Exception in line: 
+INFO|wrapper|yajsw|18-10-18 16:49:11|java.lang.ClassNotFoundException: Start
+INFO|18500/3|yajsw|18-10-18 16:49:11|	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+INFO|wrapper|yajsw|18-10-18 16:49:11|start script scripts/trayMessage.gv
+INFO|18500/3|yajsw|18-10-18 16:49:11|	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+INFO|wrapper|yajsw|18-10-18 16:49:11|end script scripts/trayMessage.gv
+INFO|18500/3|yajsw|18-10-18 16:49:11|	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+INFO|18500/3|yajsw|18-10-18 16:49:11|	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+INFO|18500/3|yajsw|18-10-18 16:49:11|	at org.rzo.yajsw.app.WrapperManagerImpl.loadJar(WrapperManagerImpl.java:786)
+INFO|18500/3|yajsw|18-10-18 16:49:11|	at org.rzo.yajsw.app.WrapperManagerImpl.init(WrapperManagerImpl.java:289)
+INFO|18500/3|yajsw|18-10-18 16:49:11|	at org.rzo.yajsw.app.WrapperManagerProxy.getWrapperManager(WrapperManagerProxy.java:46)
+INFO|18500/3|yajsw|18-10-18 16:49:11|	at org.rzo.yajsw.app.AbstractWrapperJVMMain$1.run(AbstractWrapperJVMMain.java:44)
+INFO|18500/3|yajsw|18-10-18 16:49:11|	at java.security.AccessController.doPrivileged(Native Method)
+INFO|18500/3|yajsw|18-10-18 16:49:11|	at org.rzo.yajsw.app.AbstractWrapperJVMMain.preExecute(AbstractWrapperJVMMain.java:38)
+INFO|18500/3|yajsw|18-10-18 16:49:11|	at org.rzo.yajsw.app.WrapperJVMMain.main(WrapperJVMMain.java:34)
+INFO|18500/3|yajsw|18-10-18 16:49:11|ERROR: could not load main method from class/jar: Start/PricerFlashSchedulerService.jar
+INFO|wrapper|yajsw|18-10-18 16:49:12|restart process due to default exit code rule
+INFO|wrapper|yajsw|18-10-18 16:49:12|restart internal RUNNING
+INFO|wrapper|yajsw|18-10-18 16:49:12|stopping process with pid/timeout 18500 45000
+INFO|wrapper|yajsw|18-10-18 16:49:13|process exit code: 999
+INFO|wrapper|yajsw|18-10-18 16:49:18|working dir C:\Pricer\PricerFlashSchedulerService\service\..
+INFO|wrapper|yajsw|18-10-18 16:49:18|started process with pid 15700
+INFO|15700/4|yajsw|18-10-18 16:49:18|[INFO] StandardFileSystemManager - Using "C:\Users\MOHAME~1.DER\AppData\Local\Temp\vfs_cache" as temporary files store.
+INFO|15700/4|yajsw|18-10-18 16:49:18|no java main method found -> aborting
+INFO|15700/4|yajsw|18-10-18 16:49:18|java.lang.ClassNotFoundException: Start
+INFO|wrapper|yajsw|18-10-18 16:49:18|Trigger found: Exception in line: 
+INFO|wrapper|yajsw|18-10-18 16:49:18|java.lang.ClassNotFoundException: Start
+INFO|15700/4|yajsw|18-10-18 16:49:18|	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+INFO|wrapper|yajsw|18-10-18 16:49:18|start script scripts/trayMessage.gv
+INFO|15700/4|yajsw|18-10-18 16:49:18|	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+INFO|wrapper|yajsw|18-10-18 16:49:18|end script scripts/trayMessage.gv
+INFO|15700/4|yajsw|18-10-18 16:49:18|	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+INFO|15700/4|yajsw|18-10-18 16:49:18|	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+INFO|15700/4|yajsw|18-10-18 16:49:18|	at org.rzo.yajsw.app.WrapperManagerImpl.loadJar(WrapperManagerImpl.java:786)
+INFO|15700/4|yajsw|18-10-18 16:49:18|	at org.rzo.yajsw.app.WrapperManagerImpl.init(WrapperManagerImpl.java:289)
+INFO|15700/4|yajsw|18-10-18 16:49:18|	at org.rzo.yajsw.app.WrapperManagerProxy.getWrapperManager(WrapperManagerProxy.java:46)
+INFO|15700/4|yajsw|18-10-18 16:49:18|	at org.rzo.yajsw.app.AbstractWrapperJVMMain$1.run(AbstractWrapperJVMMain.java:44)
+INFO|15700/4|yajsw|18-10-18 16:49:18|	at java.security.AccessController.doPrivileged(Native Method)
+INFO|15700/4|yajsw|18-10-18 16:49:18|	at org.rzo.yajsw.app.AbstractWrapperJVMMain.preExecute(AbstractWrapperJVMMain.java:38)
+INFO|15700/4|yajsw|18-10-18 16:49:18|	at org.rzo.yajsw.app.WrapperJVMMain.main(WrapperJVMMain.java:34)
+INFO|15700/4|yajsw|18-10-18 16:49:18|ERROR: could not load main method from class/jar: Start/PricerFlashSchedulerService.jar
+INFO|wrapper|yajsw|18-10-18 16:49:19|restart process due to default exit code rule
+INFO|wrapper|yajsw|18-10-18 16:49:19|restart internal RUNNING
+INFO|wrapper|yajsw|18-10-18 16:49:19|stopping process with pid/timeout 15700 45000
+INFO|wrapper|yajsw|18-10-18 16:49:20|process exit code: 999
+WARNING|wrapper|yajsw|18-10-18 16:50:07|YAJSW: yajsw-stable-11.06
+WARNING|wrapper|yajsw|18-10-18 16:50:07|OS   : Windows 10/10.0/amd64
+WARNING|wrapper|yajsw|18-10-18 16:50:07|JVM  : Oracle Corporation/1.8.0_162/C:\Pricer\Java/64
+INFO|wrapper|yajsw|18-10-18 16:50:07|working dir C:\Pricer\PricerFlashSchedulerService\service\..
+INFO|wrapper|yajsw|18-10-18 16:50:08|started process with pid 13796
+INFO|13796/0|yajsw|18-10-18 16:50:08|no java main method found -> aborting
+INFO|13796/0|yajsw|18-10-18 16:50:08|[INFO] StandardFileSystemManager - Using "C:\Users\MOHAME~1.DER\AppData\Local\Temp\vfs_cache" as temporary files store.
+INFO|13796/0|yajsw|18-10-18 16:50:08|java.lang.ClassNotFoundException: Start
+INFO|wrapper|yajsw|18-10-18 16:50:08|Trigger found: Exception in line: 
+INFO|wrapper|yajsw|18-10-18 16:50:08|java.lang.ClassNotFoundException: Start
+INFO|13796/0|yajsw|18-10-18 16:50:08|	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+INFO|13796/0|yajsw|18-10-18 16:50:08|	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+INFO|wrapper|yajsw|18-10-18 16:50:08|start script scripts/trayMessage.gv
+INFO|13796/0|yajsw|18-10-18 16:50:08|	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+INFO|13796/0|yajsw|18-10-18 16:50:08|	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+INFO|13796/0|yajsw|18-10-18 16:50:08|	at org.rzo.yajsw.app.WrapperManagerImpl.loadJar(WrapperManagerImpl.java:786)
+INFO|13796/0|yajsw|18-10-18 16:50:08|	at org.rzo.yajsw.app.WrapperManagerImpl.init(WrapperManagerImpl.java:289)
+INFO|13796/0|yajsw|18-10-18 16:50:08|	at org.rzo.yajsw.app.WrapperManagerProxy.getWrapperManager(WrapperManagerProxy.java:46)
+INFO|13796/0|yajsw|18-10-18 16:50:08|	at org.rzo.yajsw.app.AbstractWrapperJVMMain$1.run(AbstractWrapperJVMMain.java:44)
+INFO|wrapper|yajsw|18-10-18 16:50:08|end script scripts/trayMessage.gv
+INFO|13796/0|yajsw|18-10-18 16:50:08|	at java.security.AccessController.doPrivileged(Native Method)
+INFO|13796/0|yajsw|18-10-18 16:50:08|	at org.rzo.yajsw.app.AbstractWrapperJVMMain.preExecute(AbstractWrapperJVMMain.java:38)
+INFO|13796/0|yajsw|18-10-18 16:50:08|	at org.rzo.yajsw.app.WrapperJVMMain.main(WrapperJVMMain.java:34)
+INFO|13796/0|yajsw|18-10-18 16:50:08|ERROR: could not load main method from class/jar: Start/PricerFlashSchedulerService.jar
+INFO|wrapper|yajsw|18-10-18 16:50:09|restart process due to default exit code rule
+INFO|wrapper|yajsw|18-10-18 16:50:09|restart internal RUNNING
+INFO|wrapper|yajsw|18-10-18 16:50:09|stopping process with pid/timeout 13796 45000
+INFO|wrapper|yajsw|18-10-18 16:50:10|process exit code: 999
+WARNING|wrapper|yajsw|18-10-18 16:56:51|YAJSW: yajsw-stable-11.06
+WARNING|wrapper|yajsw|18-10-18 16:56:51|OS   : Windows 10/10.0/amd64
+WARNING|wrapper|yajsw|18-10-18 16:56:51|JVM  : Oracle Corporation/1.8.0_162/C:\Pricer\Java/64
+INFO|wrapper|yajsw|18-10-18 16:56:52|working dir C:\Pricer\PricerFlashSchedulerService\service\..
+INFO|wrapper|yajsw|18-10-18 16:56:52|started process with pid 4340
+INFO|4340/0|yajsw|18-10-18 16:56:53|[INFO] StandardFileSystemManager - Using "C:\Users\MOHAME~1.DER\AppData\Local\Temp\vfs_cache" as temporary files store.
+INFO|4340/0|yajsw|18-10-18 16:56:53|2018-10-18 16:56:53.473:INFO::Thread-1: Logging initialized @1043ms
+INFO|4340/0|yajsw|18-10-18 16:56:53|2018-10-18 16:56:53.526:WARN:oejsh.ContextHandler:Thread-1: o.e.j.w.WebAppContext@3f1affdb{/,file:/C:/Pricer/PricerFlashSchedulerService/src/main/webapp/,null} contextPath ends with /
+INFO|4340/0|yajsw|18-10-18 16:56:53|2018-10-18 16:56:53.526:INFO:oejs.Server:Thread-1: jetty-9.2.11.v20150529
+INFO|4340/0|yajsw|18-10-18 16:56:53|log4j:WARN No appenders could be found for logger (Start).
+INFO|4340/0|yajsw|18-10-18 16:56:53|log4j:WARN Please initialize the log4j system properly.
+INFO|4340/0|yajsw|18-10-18 16:56:54|here is the request : SELECT COUNT(*) as total FROM pricerlabel, eclink WHERE LINPLIDREF=PLID AND PLTYPEIDREF IN (1551, 1552, 1553, 1554)
+INFO|4340/0|yajsw|18-10-18 16:56:54|nbre of forbidden pltypes = 0
+INFO|4340/0|yajsw|18-10-18 16:56:54|from main class isApplicationMustBeLocked = 0
+INFO|4340/0|yajsw|18-10-18 16:56:54|statement closed...
+INFO|4340/0|yajsw|18-10-18 16:56:54|connection closed...
+INFO|4340/0|yajsw|18-10-18 16:56:54|2018-10-18 16:56:54.330:WARN:oeja.AnnotationConfiguration:Thread-1: ServletContainerInitializers: detected. Class hierarchy: empty
+INFO|4340/0|yajsw|18-10-18 16:56:54|2018-10-18 16:56:54.530:INFO:oejsh.ContextHandler:Thread-1: Started o.e.j.w.WebAppContext@3f1affdb{/FlashScheduler,file:/C:/Pricer/PricerFlashSchedulerService/src/main/webapp/,AVAILABLE}
+INFO|4340/0|yajsw|18-10-18 16:56:54|2018-10-18 16:56:54.591:INFO:oejs.ServerConnector:Thread-1: Started ServerConnector@719250fe{HTTP/1.1}{0.0.0.0:3334}
+INFO|4340/0|yajsw|18-10-18 16:56:54|2018-10-18 16:56:54.591:INFO:oejs.Server:Thread-1: Started @2150ms
+INFO|4340/0|yajsw|18-10-18 16:57:08|---------- Start Controller  GetHistory ----------
+INFO|4340/0|yajsw|18-10-18 16:57:08|connection database opened successfully
+INFO|4340/0|yajsw|18-10-18 16:57:08|statement closed...
+INFO|4340/0|yajsw|18-10-18 16:57:08|connection closed...
+INFO|4340/0|yajsw|18-10-18 16:57:21|connection database opened successfully
+INFO|4340/0|yajsw|18-10-18 16:57:21|statement closed...
+INFO|4340/0|yajsw|18-10-18 16:57:21|connection closed...
+INFO|4340/0|yajsw|18-10-18 16:57:21|connection database opened successfully
+INFO|4340/0|yajsw|18-10-18 16:57:21|statement closed...
+INFO|4340/0|yajsw|18-10-18 16:57:21|statement closed...
+INFO|4340/0|yajsw|18-10-18 16:57:21|connection closed...
+INFO|4340/0|yajsw|18-10-18 16:57:21|connection database opened successfully
+INFO|4340/0|yajsw|18-10-18 16:57:21|statement closed...
+INFO|4340/0|yajsw|18-10-18 16:57:21|connection closed...
+INFO|4340/0|yajsw|18-10-18 16:57:21|---------- Start Controller  GetScenarioDetails ----------
+INFO|4340/0|yajsw|18-10-18 16:57:21|connection database opened successfully
+INFO|4340/0|yajsw|18-10-18 16:57:21|request = select * from Scenario where Scenario.ID = 1
+INFO|4340/0|yajsw|18-10-18 16:57:21|statement closed...
+INFO|4340/0|yajsw|18-10-18 16:57:21|connection closed...
+INFO|4340/0|yajsw|18-10-18 16:57:25|---------- Start Controller  GetScenarioDetails ----------
+INFO|4340/0|yajsw|18-10-18 16:57:25|connection database opened successfully
+INFO|4340/0|yajsw|18-10-18 16:57:25|request = select * from Scenario where Scenario.ID = 3
+INFO|4340/0|yajsw|18-10-18 16:57:25|statement closed...
+INFO|4340/0|yajsw|18-10-18 16:57:25|connection closed...
+INFO|4340/0|yajsw|18-10-18 16:57:26|---------- Start Controller  GetScenarioDetails ----------
+INFO|4340/0|yajsw|18-10-18 16:57:26|connection database opened successfully
+INFO|4340/0|yajsw|18-10-18 16:57:26|request = select * from Scenario where Scenario.ID = 2
+INFO|4340/0|yajsw|18-10-18 16:57:26|statement closed...
+INFO|4340/0|yajsw|18-10-18 16:57:26|connection closed...
+INFO|4340/0|yajsw|18-10-18 16:57:30|---------- Start Controller UpdateScenarioDetails ----------
+INFO|4340/0|yajsw|18-10-18 16:57:30|database = C:\Pricer/PricerFlashSchedulerService/Database/FlashControl.db
+INFO|4340/0|yajsw|18-10-18 16:57:30|connection database opened successfully
+INFO|4340/0|yajsw|18-10-18 16:57:30|triggerID = 2
+INFO|4340/0|yajsw|18-10-18 16:57:30|cronCodeBegin = 11 14 * * *
+INFO|4340/0|yajsw|18-10-18 16:57:30|cronCodeEnd = 12 14 * * *
+INFO|4340/0|yajsw|18-10-18 16:57:30|statement closed...
+FINEST|4340/0|yajsw|18-10-18 16:57:30|connection closed...
+FINEST|4340/0|yajsw|18-10-18 16:57:30|connection database opened successfully
+FINEST|4340/0|yajsw|18-10-18 16:57:30|scenarioName = null
+FINEST|4340/0|yajsw|18-10-18 16:57:30|connection database opened successfully
+FINEST|4340/0|yajsw|18-10-18 16:57:30|statement closed...
+FINEST|4340/0|yajsw|18-10-18 16:57:30|statement closed...
+FINEST|4340/0|yajsw|18-10-18 16:57:30|connection closed...
+FINEST|4340/0|yajsw|18-10-18 16:57:30|connection database opened successfully
+FINEST|4340/0|yajsw|18-10-18 16:57:30|statement closed...
+FINEST|4340/0|yajsw|18-10-18 16:57:30|connection closed...
+FINEST|4340/0|yajsw|18-10-18 16:57:51|connection database opened successfully
+FINEST|4340/0|yajsw|18-10-18 16:57:51|statement closed...
+FINEST|4340/0|yajsw|18-10-18 16:57:51|connection closed...
+INFO|wrapper|yajsw|18-10-18 16:58:16|Shutting down Wrapper
+INFO|wrapper|yajsw|18-10-18 16:58:16|stopping process with pid/timeout 4340 45000
+FINEST|4340/0|yajsw|18-10-18 16:58:16|wrapper manager received stop command
+INFO|wrapper|yajsw|18-10-18 16:58:17|shutdown wrapper due to exit code rule
+INFO|wrapper|yajsw|18-10-18 16:58:17|process exit code: 0
+WARNING|wrapper|yajsw|20-03-05 10:27:35|YAJSW: yajsw-stable-11.06
+WARNING|wrapper|yajsw|20-03-05 10:27:35|OS   : Windows 10/10.0/amd64
+WARNING|wrapper|yajsw|20-03-05 10:27:35|JVM  : Oracle Corporation/11.0.1/C:\Pricer\Java/64
+INFO|wrapper|yajsw|20-03-05 10:27:36|working dir C:\Pricer\PricerFlashSchedulerService\service\bat\..
+[null - INFO] 20-03-05 10:27:36 Error in createScript scripts/trayMessage.gv 
+Exception in org.rzo.yajsw.log.MyLogger: Could not determine the last modified timestamp of "file:///C:/Pricer/PricerFlashSchedulerService/service/bat/scripts/trayMessage.gv" because it does not exist. 
+  org.apache.commons.vfs2.provider.DefaultFileContent.getLastModifiedTime(DefaultFileContent.java:165)
+  org.rzo.yajsw.script.GroovyScript.getScriptInstance(GroovyScript.java:103)
+  org.rzo.yajsw.script.GroovyScript.<init>(GroovyScript.java:77)
+  org.rzo.yajsw.script.ScriptFactory.createScript(ScriptFactory.java:45)
+  org.rzo.yajsw.wrapper.AbstractWrappedProcess.getTriggerScript(AbstractWrappedProcess.java:1800)
+  org.rzo.yajsw.wrapper.AbstractWrappedProcess.getTriggerActions(AbstractWrappedProcess.java:1687)
+  org.rzo.yajsw.wrapper.AbstractWrappedProcess.startInternal(AbstractWrappedProcess.java:1010)
+  org.rzo.yajsw.wrapper.AbstractWrappedProcess.start(AbstractWrappedProcess.java:891)
+  org.rzo.yajsw.wrapper.WrappedProcessList.startAll(WrappedProcessList.java:11)
+  org.rzo.yajsw.WrapperExe.doConsole(WrapperExe.java:605)
+  org.rzo.yajsw.WrapperExe.executeCommand(WrapperExe.java:206)
+  org.rzo.yajsw.WrapperExe.main(WrapperExe.java:181)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:566)
+  org.rzo.yajsw.boot.WrapperExeBooter.main(WrapperExeBooter.java:43)
+ INFO|wrapper|yajsw|20-03-05 10:27:36|error initializing script scripts/trayMessage.gv
+INFO|wrapper|yajsw|20-03-05 10:27:36|started process with pid 4852
+INFO|wrapper|yajsw|20-03-05 10:27:36|restart process due to default exit code rule
+INFO|wrapper|yajsw|20-03-05 10:27:36|restart internal RUNNING
+INFO|wrapper|yajsw|20-03-05 10:27:36|stopping process with pid/timeout 4852 45000
+INFO|wrapper|yajsw|20-03-05 10:27:37|process exit code: 1
+INFO|wrapper|yajsw|20-03-05 10:27:42|working dir C:\Pricer\PricerFlashSchedulerService\service\bat\..
+[null - INFO] 20-03-05 10:27:42 Error in createScript scripts/trayMessage.gv 
+Exception in org.rzo.yajsw.log.MyLogger: Could not determine the last modified timestamp of "file:///C:/Pricer/PricerFlashSchedulerService/service/bat/scripts/trayMessage.gv" because it does not exist. 
+  org.apache.commons.vfs2.provider.DefaultFileContent.getLastModifiedTime(DefaultFileContent.java:165)
+  org.rzo.yajsw.script.GroovyScript.getScriptInstance(GroovyScript.java:103)
+  org.rzo.yajsw.script.GroovyScript.<init>(GroovyScript.java:77)
+  org.rzo.yajsw.script.ScriptFactory.createScript(ScriptFactory.java:45)
+  org.rzo.yajsw.wrapper.AbstractWrappedProcess.getTriggerScript(AbstractWrappedProcess.java:1800)
+  org.rzo.yajsw.wrapper.AbstractWrappedProcess.getTriggerActions(AbstractWrappedProcess.java:1687)
+  org.rzo.yajsw.wrapper.AbstractWrappedProcess.startInternal(AbstractWrappedProcess.java:1010)
+  org.rzo.yajsw.wrapper.AbstractWrappedProcess.restartInternal(AbstractWrappedProcess.java:2497)
+  org.rzo.yajsw.wrapper.WrappedJavaProcess$2.fire(WrappedJavaProcess.java:552)
+  org.rzo.yajsw.controller.AbstractController.handleListeners(AbstractController.java:107)
+  org.rzo.yajsw.controller.AbstractController.setState(AbstractController.java:145)
+  org.rzo.yajsw.controller.jvm.JVMController$4$1.run(JVMController.java:695)
+  java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+  java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+  java.base/java.lang.Thread.run(Thread.java:834)
+ INFO|wrapper|yajsw|20-03-05 10:27:42|error initializing script scripts/trayMessage.gv
+INFO|wrapper|yajsw|20-03-05 10:27:42|started process with pid 26348
+INFO|wrapper|yajsw|20-03-05 10:27:42|restart process due to default exit code rule
+INFO|wrapper|yajsw|20-03-05 10:27:42|restart internal RUNNING
+INFO|wrapper|yajsw|20-03-05 10:27:42|stopping process with pid/timeout 26348 45000
+INFO|wrapper|yajsw|20-03-05 10:27:43|process exit code: 1
+INFO|wrapper|yajsw|20-03-05 10:27:48|working dir C:\Pricer\PricerFlashSchedulerService\service\bat\..
+[null - INFO] 20-03-05 10:27:48 Error in createScript scripts/trayMessage.gv 
+Exception in org.rzo.yajsw.log.MyLogger: Could not determine the last modified timestamp of "file:///C:/Pricer/PricerFlashSchedulerService/service/bat/scripts/trayMessage.gv" because it does not exist. 
+  org.apache.commons.vfs2.provider.DefaultFileContent.getLastModifiedTime(DefaultFileContent.java:165)
+  org.rzo.yajsw.script.GroovyScript.getScriptInstance(GroovyScript.java:103)
+  org.rzo.yajsw.script.GroovyScript.<init>(GroovyScript.java:77)
+  org.rzo.yajsw.script.ScriptFactory.createScript(ScriptFactory.java:45)
+  org.rzo.yajsw.wrapper.AbstractWrappedProcess.getTriggerScript(AbstractWrappedProcess.java:1800)
+  org.rzo.yajsw.wrapper.AbstractWrappedProcess.getTriggerActions(AbstractWrappedProcess.java:1687)
+  org.rzo.yajsw.wrapper.AbstractWrappedProcess.startInternal(AbstractWrappedProcess.java:1010)
+  org.rzo.yajsw.wrapper.AbstractWrappedProcess.restartInternal(AbstractWrappedProcess.java:2497)
+  org.rzo.yajsw.wrapper.WrappedJavaProcess$2.fire(WrappedJavaProcess.java:552)
+  org.rzo.yajsw.controller.AbstractController.handleListeners(AbstractController.java:107)
+  org.rzo.yajsw.controller.AbstractController.setState(AbstractController.java:145)
+  org.rzo.yajsw.controller.jvm.JVMController$4$1.run(JVMController.java:695)
+  java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+  java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+  java.base/java.lang.Thread.run(Thread.java:834)
+ INFO|wrapper|yajsw|20-03-05 10:27:48|error initializing script scripts/trayMessage.gv
+INFO|wrapper|yajsw|20-03-05 10:27:48|started process with pid 14240
+INFO|wrapper|yajsw|20-03-05 10:27:48|restart process due to default exit code rule
+INFO|wrapper|yajsw|20-03-05 10:27:48|restart internal RUNNING
+INFO|wrapper|yajsw|20-03-05 10:27:48|stopping process with pid/timeout 14240 45000
+INFO|wrapper|yajsw|20-03-05 10:27:49|process exit code: 1
+INFO|wrapper|yajsw|20-03-05 10:27:54|working dir C:\Pricer\PricerFlashSchedulerService\service\bat\..
+[null - INFO] 20-03-05 10:27:54 Error in createScript scripts/trayMessage.gv 
+Exception in org.rzo.yajsw.log.MyLogger: Could not determine the last modified timestamp of "file:///C:/Pricer/PricerFlashSchedulerService/service/bat/scripts/trayMessage.gv" because it does not exist. 
+  org.apache.commons.vfs2.provider.DefaultFileContent.getLastModifiedTime(DefaultFileContent.java:165)
+  org.rzo.yajsw.script.GroovyScript.getScriptInstance(GroovyScript.java:103)
+  org.rzo.yajsw.script.GroovyScript.<init>(GroovyScript.java:77)
+  org.rzo.yajsw.script.ScriptFactory.createScript(ScriptFactory.java:45)
+  org.rzo.yajsw.wrapper.AbstractWrappedProcess.getTriggerScript(AbstractWrappedProcess.java:1800)
+  org.rzo.yajsw.wrapper.AbstractWrappedProcess.getTriggerActions(AbstractWrappedProcess.java:1687)
+  org.rzo.yajsw.wrapper.AbstractWrappedProcess.startInternal(AbstractWrappedProcess.java:1010)
+  org.rzo.yajsw.wrapper.AbstractWrappedProcess.restartInternal(AbstractWrappedProcess.java:2497)
+  org.rzo.yajsw.wrapper.WrappedJavaProcess$2.fire(WrappedJavaProcess.java:552)
+  org.rzo.yajsw.controller.AbstractController.handleListeners(AbstractController.java:107)
+  org.rzo.yajsw.controller.AbstractController.setState(AbstractController.java:145)
+  org.rzo.yajsw.controller.jvm.JVMController$4$1.run(JVMController.java:695)
+  java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+  java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+  java.base/java.lang.Thread.run(Thread.java:834)
+ INFO|wrapper|yajsw|20-03-05 10:27:54|error initializing script scripts/trayMessage.gv
+INFO|wrapper|yajsw|20-03-05 10:27:54|started process with pid 25784
+INFO|wrapper|yajsw|20-03-05 10:27:54|restart process due to default exit code rule
+INFO|wrapper|yajsw|20-03-05 10:27:54|restart internal RUNNING
+INFO|wrapper|yajsw|20-03-05 10:27:54|stopping process with pid/timeout 25784 45000
+INFO|wrapper|yajsw|20-03-05 10:27:55|process exit code: 1
+INFO|wrapper|yajsw|20-03-05 10:28:00|working dir C:\Pricer\PricerFlashSchedulerService\service\bat\..
+[null - INFO] 20-03-05 10:28:00 Error in createScript scripts/trayMessage.gv 
+Exception in org.rzo.yajsw.log.MyLogger: Could not determine the last modified timestamp of "file:///C:/Pricer/PricerFlashSchedulerService/service/bat/scripts/trayMessage.gv" because it does not exist. 
+  org.apache.commons.vfs2.provider.DefaultFileContent.getLastModifiedTime(DefaultFileContent.java:165)
+  org.rzo.yajsw.script.GroovyScript.getScriptInstance(GroovyScript.java:103)
+  org.rzo.yajsw.script.GroovyScript.<init>(GroovyScript.java:77)
+  org.rzo.yajsw.script.ScriptFactory.createScript(ScriptFactory.java:45)
+  org.rzo.yajsw.wrapper.AbstractWrappedProcess.getTriggerScript(AbstractWrappedProcess.java:1800)
+  org.rzo.yajsw.wrapper.AbstractWrappedProcess.getTriggerActions(AbstractWrappedProcess.java:1687)
+  org.rzo.yajsw.wrapper.AbstractWrappedProcess.startInternal(AbstractWrappedProcess.java:1010)
+  org.rzo.yajsw.wrapper.AbstractWrappedProcess.restartInternal(AbstractWrappedProcess.java:2497)
+  org.rzo.yajsw.wrapper.WrappedJavaProcess$2.fire(WrappedJavaProcess.java:552)
+  org.rzo.yajsw.controller.AbstractController.handleListeners(AbstractController.java:107)
+  org.rzo.yajsw.controller.AbstractController.setState(AbstractController.java:145)
+  org.rzo.yajsw.controller.jvm.JVMController$4$1.run(JVMController.java:695)
+  java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+  java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+  java.base/java.lang.Thread.run(Thread.java:834)
+ INFO|wrapper|yajsw|20-03-05 10:28:00|error initializing script scripts/trayMessage.gv
+INFO|wrapper|yajsw|20-03-05 10:28:00|started process with pid 11656
+INFO|wrapper|yajsw|20-03-05 10:28:00|restart process due to default exit code rule
+INFO|wrapper|yajsw|20-03-05 10:28:00|restart internal RUNNING
+INFO|wrapper|yajsw|20-03-05 10:28:00|stopping process with pid/timeout 11656 45000
+INFO|wrapper|yajsw|20-03-05 10:28:01|process exit code: 1
+INFO|wrapper|yajsw|20-03-05 10:28:06|working dir C:\Pricer\PricerFlashSchedulerService\service\bat\..
+[null - INFO] 20-03-05 10:28:06 Error in createScript scripts/trayMessage.gv 
+Exception in org.rzo.yajsw.log.MyLogger: Could not determine the last modified timestamp of "file:///C:/Pricer/PricerFlashSchedulerService/service/bat/scripts/trayMessage.gv" because it does not exist. 
+  org.apache.commons.vfs2.provider.DefaultFileContent.getLastModifiedTime(DefaultFileContent.java:165)
+  org.rzo.yajsw.script.GroovyScript.getScriptInstance(GroovyScript.java:103)
+  org.rzo.yajsw.script.GroovyScript.<init>(GroovyScript.java:77)
+  org.rzo.yajsw.script.ScriptFactory.createScript(ScriptFactory.java:45)
+  org.rzo.yajsw.wrapper.AbstractWrappedProcess.getTriggerScript(AbstractWrappedProcess.java:1800)
+  org.rzo.yajsw.wrapper.AbstractWrappedProcess.getTriggerActions(AbstractWrappedProcess.java:1687)
+  org.rzo.yajsw.wrapper.AbstractWrappedProcess.startInternal(AbstractWrappedProcess.java:1010)
+  org.rzo.yajsw.wrapper.AbstractWrappedProcess.restartInternal(AbstractWrappedProcess.java:2497)
+  org.rzo.yajsw.wrapper.WrappedJavaProcess$2.fire(WrappedJavaProcess.java:552)
+  org.rzo.yajsw.controller.AbstractController.handleListeners(AbstractController.java:107)
+  org.rzo.yajsw.controller.AbstractController.setState(AbstractController.java:145)
+  org.rzo.yajsw.controller.jvm.JVMController$4$1.run(JVMController.java:695)
+  java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+  java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+  java.base/java.lang.Thread.run(Thread.java:834)
+ INFO|wrapper|yajsw|20-03-05 10:28:06|error initializing script scripts/trayMessage.gv
+INFO|wrapper|yajsw|20-03-05 10:28:06|started process with pid 8848
+INFO|wrapper|yajsw|20-03-05 10:28:06|too many restarts 
+INFO|wrapper|yajsw|20-03-05 10:28:06|process not in state RUNNING -> Delaying stop
+INFO|wrapper|yajsw|20-03-05 10:28:06|Shutting down Wrapper
+WARNING|wrapper|yajsw|20-03-05 10:47:21|YAJSW: yajsw-stable-11.06
+WARNING|wrapper|yajsw|20-03-05 10:47:21|OS   : Windows 10/10.0/amd64
+WARNING|wrapper|yajsw|20-03-05 10:47:21|JVM  : Oracle Corporation/1.8.0_241/C:\Pricer\PricerFlashSchedulerService\service\Java8/64
+INFO|wrapper|yajsw|20-03-05 10:47:22|working dir C:\Pricer\PricerFlashSchedulerService\service\..
+INFO|wrapper|yajsw|20-03-05 10:47:23|could not start process 2
+INFO|wrapper|yajsw|20-03-05 10:47:23|The system cannot find the file specified.
+INFO|wrapper|yajsw|20-03-05 10:47:23|null/null/null
+SEVERE|wrapper|yajsw|20-03-05 10:47:23|failed to spawn wrapped process
+INFO|wrapper|yajsw|20-03-05 10:47:23|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:47:23|restart process due to default exit code rule
+INFO|wrapper|yajsw|20-03-05 10:47:23|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:47:23|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:47:23|restart internal STARTING
+INFO|wrapper|yajsw|20-03-05 10:47:23|stopping process with pid/timeout -1 45000
+INFO|wrapper|yajsw|20-03-05 10:47:23|cannot kill process with pid -1
+INFO|wrapper|yajsw|20-03-05 10:47:24|process exit code: -3
+INFO|wrapper|yajsw|20-03-05 10:47:29|working dir C:\Pricer\PricerFlashSchedulerService\service\..
+INFO|wrapper|yajsw|20-03-05 10:47:29|could not start process 2
+INFO|wrapper|yajsw|20-03-05 10:47:29|The system cannot find the file specified.
+INFO|wrapper|yajsw|20-03-05 10:47:29|null/null/null
+SEVERE|wrapper|yajsw|20-03-05 10:47:29|failed to spawn wrapped process
+INFO|wrapper|yajsw|20-03-05 10:47:29|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:47:29|restart process due to default exit code rule
+INFO|wrapper|yajsw|20-03-05 10:47:29|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:47:29|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:47:29|restart internal RESTART_START
+INFO|wrapper|yajsw|20-03-05 10:47:29|stopping process with pid/timeout -1 45000
+INFO|wrapper|yajsw|20-03-05 10:47:29|cannot kill process with pid -1
+INFO|wrapper|yajsw|20-03-05 10:47:30|process exit code: -3
+INFO|wrapper|yajsw|20-03-05 10:47:35|working dir C:\Pricer\PricerFlashSchedulerService\service\..
+INFO|wrapper|yajsw|20-03-05 10:47:35|could not start process 2
+INFO|wrapper|yajsw|20-03-05 10:47:35|The system cannot find the file specified.
+INFO|wrapper|yajsw|20-03-05 10:47:35|null/null/null
+SEVERE|wrapper|yajsw|20-03-05 10:47:35|failed to spawn wrapped process
+INFO|wrapper|yajsw|20-03-05 10:47:35|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:47:35|restart process due to default exit code rule
+INFO|wrapper|yajsw|20-03-05 10:47:35|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:47:35|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:47:35|restart internal RESTART_START
+INFO|wrapper|yajsw|20-03-05 10:47:35|stopping process with pid/timeout -1 45000
+INFO|wrapper|yajsw|20-03-05 10:47:35|cannot kill process with pid -1
+INFO|wrapper|yajsw|20-03-05 10:47:36|process exit code: -3
+INFO|wrapper|yajsw|20-03-05 10:47:41|working dir C:\Pricer\PricerFlashSchedulerService\service\..
+INFO|wrapper|yajsw|20-03-05 10:47:41|could not start process 2
+INFO|wrapper|yajsw|20-03-05 10:47:41|The system cannot find the file specified.
+INFO|wrapper|yajsw|20-03-05 10:47:41|null/null/null
+SEVERE|wrapper|yajsw|20-03-05 10:47:41|failed to spawn wrapped process
+INFO|wrapper|yajsw|20-03-05 10:47:41|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:47:41|restart process due to default exit code rule
+INFO|wrapper|yajsw|20-03-05 10:47:41|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:47:41|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:47:41|restart internal RESTART_START
+INFO|wrapper|yajsw|20-03-05 10:47:41|stopping process with pid/timeout -1 45000
+INFO|wrapper|yajsw|20-03-05 10:47:41|cannot kill process with pid -1
+INFO|wrapper|yajsw|20-03-05 10:47:42|process exit code: -3
+INFO|wrapper|yajsw|20-03-05 10:47:47|working dir C:\Pricer\PricerFlashSchedulerService\service\..
+INFO|wrapper|yajsw|20-03-05 10:47:47|could not start process 2
+INFO|wrapper|yajsw|20-03-05 10:47:47|The system cannot find the file specified.
+INFO|wrapper|yajsw|20-03-05 10:47:47|null/null/null
+SEVERE|wrapper|yajsw|20-03-05 10:47:47|failed to spawn wrapped process
+INFO|wrapper|yajsw|20-03-05 10:47:47|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:47:47|restart process due to default exit code rule
+INFO|wrapper|yajsw|20-03-05 10:47:47|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:47:47|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:47:47|restart internal RESTART_START
+INFO|wrapper|yajsw|20-03-05 10:47:47|stopping process with pid/timeout -1 45000
+INFO|wrapper|yajsw|20-03-05 10:47:47|cannot kill process with pid -1
+INFO|wrapper|yajsw|20-03-05 10:47:48|process exit code: -3
+WARNING|wrapper|yajsw|20-03-05 10:49:19|YAJSW: yajsw-stable-11.06
+WARNING|wrapper|yajsw|20-03-05 10:49:19|OS   : Windows 10/10.0/amd64
+WARNING|wrapper|yajsw|20-03-05 10:49:19|JVM  : Oracle Corporation/1.8.0_241/C:\Pricer\PricerFlashSchedulerService\service\Java8/64
+INFO|wrapper|yajsw|20-03-05 10:49:20|working dir C:\Pricer\PricerFlashSchedulerService\service\..
+INFO|wrapper|yajsw|20-03-05 10:49:20|could not start process 2
+INFO|wrapper|yajsw|20-03-05 10:49:20|The system cannot find the file specified.
+INFO|wrapper|yajsw|20-03-05 10:49:20|null/null/null
+SEVERE|wrapper|yajsw|20-03-05 10:49:20|failed to spawn wrapped process
+INFO|wrapper|yajsw|20-03-05 10:49:20|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:49:20|restart process due to default exit code rule
+INFO|wrapper|yajsw|20-03-05 10:49:20|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:49:20|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:49:20|restart internal STARTING
+INFO|wrapper|yajsw|20-03-05 10:49:20|stopping process with pid/timeout -1 45000
+INFO|wrapper|yajsw|20-03-05 10:49:20|cannot kill process with pid -1
+INFO|wrapper|yajsw|20-03-05 10:49:21|process exit code: -3
+INFO|wrapper|yajsw|20-03-05 10:49:26|working dir C:\Pricer\PricerFlashSchedulerService\service\..
+INFO|wrapper|yajsw|20-03-05 10:49:26|could not start process 2
+INFO|wrapper|yajsw|20-03-05 10:49:26|The system cannot find the file specified.
+INFO|wrapper|yajsw|20-03-05 10:49:26|null/null/null
+SEVERE|wrapper|yajsw|20-03-05 10:49:26|failed to spawn wrapped process
+INFO|wrapper|yajsw|20-03-05 10:49:26|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:49:26|restart process due to default exit code rule
+INFO|wrapper|yajsw|20-03-05 10:49:26|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:49:26|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:49:26|restart internal RESTART_START
+INFO|wrapper|yajsw|20-03-05 10:49:26|stopping process with pid/timeout -1 45000
+INFO|wrapper|yajsw|20-03-05 10:49:26|cannot kill process with pid -1
+INFO|wrapper|yajsw|20-03-05 10:49:27|process exit code: -3
+INFO|wrapper|yajsw|20-03-05 10:49:32|working dir C:\Pricer\PricerFlashSchedulerService\service\..
+INFO|wrapper|yajsw|20-03-05 10:49:32|could not start process 2
+INFO|wrapper|yajsw|20-03-05 10:49:32|The system cannot find the file specified.
+INFO|wrapper|yajsw|20-03-05 10:49:32|null/null/null
+SEVERE|wrapper|yajsw|20-03-05 10:49:32|failed to spawn wrapped process
+INFO|wrapper|yajsw|20-03-05 10:49:32|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:49:32|restart process due to default exit code rule
+INFO|wrapper|yajsw|20-03-05 10:49:32|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:49:32|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:49:32|restart internal RESTART_START
+INFO|wrapper|yajsw|20-03-05 10:49:32|stopping process with pid/timeout -1 45000
+INFO|wrapper|yajsw|20-03-05 10:49:32|cannot kill process with pid -1
+INFO|wrapper|yajsw|20-03-05 10:49:33|process exit code: -3
+INFO|wrapper|yajsw|20-03-05 10:49:38|working dir C:\Pricer\PricerFlashSchedulerService\service\..
+INFO|wrapper|yajsw|20-03-05 10:49:38|could not start process 2
+INFO|wrapper|yajsw|20-03-05 10:49:38|The system cannot find the file specified.
+INFO|wrapper|yajsw|20-03-05 10:49:38|null/null/null
+SEVERE|wrapper|yajsw|20-03-05 10:49:38|failed to spawn wrapped process
+INFO|wrapper|yajsw|20-03-05 10:49:38|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:49:38|restart process due to default exit code rule
+INFO|wrapper|yajsw|20-03-05 10:49:38|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:49:39|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:49:39|restart internal RESTART_START
+INFO|wrapper|yajsw|20-03-05 10:49:39|stopping process with pid/timeout -1 45000
+INFO|wrapper|yajsw|20-03-05 10:49:39|cannot kill process with pid -1
+INFO|wrapper|yajsw|20-03-05 10:49:39|process exit code: -3
+INFO|wrapper|yajsw|20-03-05 10:49:44|working dir C:\Pricer\PricerFlashSchedulerService\service\..
+INFO|wrapper|yajsw|20-03-05 10:49:44|could not start process 2
+INFO|wrapper|yajsw|20-03-05 10:49:44|The system cannot find the file specified.
+INFO|wrapper|yajsw|20-03-05 10:49:44|null/null/null
+SEVERE|wrapper|yajsw|20-03-05 10:49:44|failed to spawn wrapped process
+INFO|wrapper|yajsw|20-03-05 10:49:44|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:49:44|restart process due to default exit code rule
+INFO|wrapper|yajsw|20-03-05 10:49:44|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:49:45|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:49:45|restart internal RESTART_START
+INFO|wrapper|yajsw|20-03-05 10:49:45|stopping process with pid/timeout -1 45000
+INFO|wrapper|yajsw|20-03-05 10:49:45|cannot kill process with pid -1
+INFO|wrapper|yajsw|20-03-05 10:49:45|process exit code: -3
+INFO|wrapper|yajsw|20-03-05 10:49:50|working dir C:\Pricer\PricerFlashSchedulerService\service\..
+INFO|wrapper|yajsw|20-03-05 10:49:50|could not start process 2
+INFO|wrapper|yajsw|20-03-05 10:49:50|The system cannot find the file specified.
+INFO|wrapper|yajsw|20-03-05 10:49:50|null/null/null
+SEVERE|wrapper|yajsw|20-03-05 10:49:50|failed to spawn wrapped process
+INFO|wrapper|yajsw|20-03-05 10:49:50|too many restarts 
+INFO|wrapper|yajsw|20-03-05 10:49:50|process not in state RUNNING -> Delaying stop
+INFO|wrapper|yajsw|20-03-05 10:49:50|Shutting down Wrapper
+INFO|wrapper|yajsw|20-03-05 10:49:50|Error in GetExitCodeProcess OS Error #6
+WARNING|wrapper|yajsw|20-03-05 10:53:30|YAJSW: yajsw-stable-11.06
+WARNING|wrapper|yajsw|20-03-05 10:53:30|OS   : Windows 10/10.0/amd64
+WARNING|wrapper|yajsw|20-03-05 10:53:30|JVM  : Oracle Corporation/1.8.0_241/C:\Pricer\PricerFlashSchedulerService\service\Java8/64
+INFO|wrapper|yajsw|20-03-05 10:53:31|working dir C:\Pricer\PricerFlashSchedulerService\service\..
+INFO|wrapper|yajsw|20-03-05 10:53:31|could not start process 2
+INFO|wrapper|yajsw|20-03-05 10:53:31|The system cannot find the file specified.
+INFO|wrapper|yajsw|20-03-05 10:53:31|null/null/null
+SEVERE|wrapper|yajsw|20-03-05 10:53:31|failed to spawn wrapped process
+INFO|wrapper|yajsw|20-03-05 10:53:31|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:53:31|restart process due to default exit code rule
+INFO|wrapper|yajsw|20-03-05 10:53:31|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:53:32|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:53:32|restart internal STARTING
+INFO|wrapper|yajsw|20-03-05 10:53:32|stopping process with pid/timeout -1 45000
+INFO|wrapper|yajsw|20-03-05 10:53:32|cannot kill process with pid -1
+INFO|wrapper|yajsw|20-03-05 10:53:32|process exit code: -3
+INFO|wrapper|yajsw|20-03-05 10:53:37|working dir C:\Pricer\PricerFlashSchedulerService\service\..
+INFO|wrapper|yajsw|20-03-05 10:53:37|could not start process 2
+INFO|wrapper|yajsw|20-03-05 10:53:37|The system cannot find the file specified.
+INFO|wrapper|yajsw|20-03-05 10:53:37|null/null/null
+SEVERE|wrapper|yajsw|20-03-05 10:53:37|failed to spawn wrapped process
+INFO|wrapper|yajsw|20-03-05 10:53:37|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:53:37|restart process due to default exit code rule
+INFO|wrapper|yajsw|20-03-05 10:53:37|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:53:38|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:53:38|restart internal RESTART_START
+INFO|wrapper|yajsw|20-03-05 10:53:38|stopping process with pid/timeout -1 45000
+INFO|wrapper|yajsw|20-03-05 10:53:38|cannot kill process with pid -1
+INFO|wrapper|yajsw|20-03-05 10:53:38|process exit code: -3
+INFO|wrapper|yajsw|20-03-05 10:53:43|working dir C:\Pricer\PricerFlashSchedulerService\service\..
+INFO|wrapper|yajsw|20-03-05 10:53:43|could not start process 2
+INFO|wrapper|yajsw|20-03-05 10:53:43|The system cannot find the file specified.
+INFO|wrapper|yajsw|20-03-05 10:53:43|null/null/null
+SEVERE|wrapper|yajsw|20-03-05 10:53:43|failed to spawn wrapped process
+INFO|wrapper|yajsw|20-03-05 10:53:43|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:53:43|restart process due to default exit code rule
+INFO|wrapper|yajsw|20-03-05 10:53:43|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:53:44|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:53:44|restart internal RESTART_START
+INFO|wrapper|yajsw|20-03-05 10:53:44|stopping process with pid/timeout -1 45000
+INFO|wrapper|yajsw|20-03-05 10:53:44|cannot kill process with pid -1
+INFO|wrapper|yajsw|20-03-05 10:53:44|process exit code: -3
+INFO|wrapper|yajsw|20-03-05 10:53:49|working dir C:\Pricer\PricerFlashSchedulerService\service\..
+INFO|wrapper|yajsw|20-03-05 10:53:56|could not start process 2
+INFO|wrapper|yajsw|20-03-05 10:53:56|The system cannot find the file specified.
+INFO|wrapper|yajsw|20-03-05 10:53:56|null/null/null
+SEVERE|wrapper|yajsw|20-03-05 10:53:56|failed to spawn wrapped process
+INFO|wrapper|yajsw|20-03-05 10:53:56|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:53:56|restart process due to default exit code rule
+INFO|wrapper|yajsw|20-03-05 10:53:56|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:53:56|Shutting down Wrapper
+INFO|wrapper|yajsw|20-03-05 10:53:56|process not in state RUNNING -> Delaying stop
+INFO|wrapper|yajsw|20-03-05 10:53:56|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:53:56|restart internal RESTART_START
+INFO|wrapper|yajsw|20-03-05 10:53:56|stopping process with pid/timeout -1 45000
+INFO|wrapper|yajsw|20-03-05 10:53:56|cannot kill process with pid -1
+INFO|wrapper|yajsw|20-03-05 10:53:57|process exit code: -3
+WARNING|wrapper|yajsw|20-03-05 10:55:23|YAJSW: yajsw-stable-11.06
+WARNING|wrapper|yajsw|20-03-05 10:55:23|OS   : Windows 10/10.0/amd64
+WARNING|wrapper|yajsw|20-03-05 10:55:23|JVM  : Oracle Corporation/1.8.0_241/C:\Pricer\PricerFlashSchedulerService\service\Java8/64
+INFO|wrapper|yajsw|20-03-05 10:55:24|working dir C:\Pricer\PricerFlashSchedulerService\service\..
+INFO|wrapper|yajsw|20-03-05 10:55:24|could not start process 2
+INFO|wrapper|yajsw|20-03-05 10:55:24|The system cannot find the file specified.
+INFO|wrapper|yajsw|20-03-05 10:55:24|null/null/null
+SEVERE|wrapper|yajsw|20-03-05 10:55:24|failed to spawn wrapped process
+INFO|wrapper|yajsw|20-03-05 10:55:24|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:55:24|restart process due to default exit code rule
+INFO|wrapper|yajsw|20-03-05 10:55:24|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:55:24|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:55:24|restart internal STARTING
+INFO|wrapper|yajsw|20-03-05 10:55:24|stopping process with pid/timeout -1 45000
+INFO|wrapper|yajsw|20-03-05 10:55:24|cannot kill process with pid -1
+INFO|wrapper|yajsw|20-03-05 10:55:25|process exit code: -3
+INFO|wrapper|yajsw|20-03-05 10:55:30|working dir C:\Pricer\PricerFlashSchedulerService\service\..
+INFO|wrapper|yajsw|20-03-05 10:55:30|could not start process 2
+INFO|wrapper|yajsw|20-03-05 10:55:30|The system cannot find the file specified.
+INFO|wrapper|yajsw|20-03-05 10:55:30|null/null/null
+SEVERE|wrapper|yajsw|20-03-05 10:55:30|failed to spawn wrapped process
+INFO|wrapper|yajsw|20-03-05 10:55:30|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:55:30|restart process due to default exit code rule
+INFO|wrapper|yajsw|20-03-05 10:55:30|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:55:30|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 10:55:30|restart internal RESTART_START
+INFO|wrapper|yajsw|20-03-05 10:55:30|stopping process with pid/timeout -1 45000
+INFO|wrapper|yajsw|20-03-05 10:55:30|cannot kill process with pid -1
+INFO|wrapper|yajsw|20-03-05 10:55:31|process exit code: -3
+WARNING|wrapper|yajsw|20-03-05 11:41:37|YAJSW: yajsw-stable-11.06
+WARNING|wrapper|yajsw|20-03-05 11:41:37|OS   : Windows 10/10.0/amd64
+WARNING|wrapper|yajsw|20-03-05 11:41:37|JVM  : Oracle Corporation/1.8.0_241/C:\Pricer\PricerFlashSchedulerService\service\Java8/64
+INFO|wrapper|yajsw|20-03-05 11:41:39|working dir C:\Pricer\PricerFlashSchedulerService\service\..
+INFO|wrapper|yajsw|20-03-05 11:41:39|could not start process 2
+INFO|wrapper|yajsw|20-03-05 11:41:39|The system cannot find the file specified.
+INFO|wrapper|yajsw|20-03-05 11:41:39|null/null/null
+SEVERE|wrapper|yajsw|20-03-05 11:41:39|failed to spawn wrapped process
+INFO|wrapper|yajsw|20-03-05 11:41:39|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 11:41:39|restart process due to default exit code rule
+INFO|wrapper|yajsw|20-03-05 11:41:39|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 11:41:39|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 11:41:39|restart internal STARTING
+INFO|wrapper|yajsw|20-03-05 11:41:39|stopping process with pid/timeout -1 45000
+INFO|wrapper|yajsw|20-03-05 11:41:39|cannot kill process with pid -1
+INFO|wrapper|yajsw|20-03-05 11:41:40|process exit code: -3
+INFO|wrapper|yajsw|20-03-05 11:41:45|working dir C:\Pricer\PricerFlashSchedulerService\service\..
+INFO|wrapper|yajsw|20-03-05 11:41:45|could not start process 2
+INFO|wrapper|yajsw|20-03-05 11:41:45|The system cannot find the file specified.
+INFO|wrapper|yajsw|20-03-05 11:41:45|null/null/null
+SEVERE|wrapper|yajsw|20-03-05 11:41:45|failed to spawn wrapped process
+INFO|wrapper|yajsw|20-03-05 11:41:45|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 11:41:45|restart process due to default exit code rule
+INFO|wrapper|yajsw|20-03-05 11:41:45|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 11:41:45|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 11:41:45|restart internal RESTART_START
+INFO|wrapper|yajsw|20-03-05 11:41:45|stopping process with pid/timeout -1 45000
+INFO|wrapper|yajsw|20-03-05 11:41:45|cannot kill process with pid -1
+INFO|wrapper|yajsw|20-03-05 11:41:46|process exit code: -3
+WARNING|wrapper|yajsw|20-03-05 11:42:21|YAJSW: yajsw-stable-11.06
+WARNING|wrapper|yajsw|20-03-05 11:42:21|OS   : Windows 10/10.0/amd64
+WARNING|wrapper|yajsw|20-03-05 11:42:21|JVM  : Oracle Corporation/1.8.0_241/C:\Pricer\PricerFlashSchedulerService\service\Java8/64
+INFO|wrapper|yajsw|20-03-05 11:42:22|working dir C:\Pricer\PricerFlashSchedulerService\service\..
+INFO|wrapper|yajsw|20-03-05 11:42:22|could not start process 2
+INFO|wrapper|yajsw|20-03-05 11:42:22|The system cannot find the file specified.
+INFO|wrapper|yajsw|20-03-05 11:42:22|null/null/null
+SEVERE|wrapper|yajsw|20-03-05 11:42:22|failed to spawn wrapped process
+INFO|wrapper|yajsw|20-03-05 11:42:22|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 11:42:22|restart process due to default exit code rule
+INFO|wrapper|yajsw|20-03-05 11:42:22|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 11:42:22|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 11:42:22|restart internal STARTING
+INFO|wrapper|yajsw|20-03-05 11:42:22|stopping process with pid/timeout -1 45000
+INFO|wrapper|yajsw|20-03-05 11:42:22|cannot kill process with pid -1
+INFO|wrapper|yajsw|20-03-05 11:42:23|process exit code: -3
+INFO|wrapper|yajsw|20-03-05 11:42:28|working dir C:\Pricer\PricerFlashSchedulerService\service\..
+INFO|wrapper|yajsw|20-03-05 11:42:28|could not start process 2
+INFO|wrapper|yajsw|20-03-05 11:42:28|The system cannot find the file specified.
+INFO|wrapper|yajsw|20-03-05 11:42:28|null/null/null
+SEVERE|wrapper|yajsw|20-03-05 11:42:28|failed to spawn wrapped process
+INFO|wrapper|yajsw|20-03-05 11:42:28|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 11:42:28|restart process due to default exit code rule
+INFO|wrapper|yajsw|20-03-05 11:42:28|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 11:42:28|Error in GetExitCodeProcess OS Error #6
+INFO|wrapper|yajsw|20-03-05 11:42:28|restart internal RESTART_START
+INFO|wrapper|yajsw|20-03-05 11:42:28|stopping process with pid/timeout -1 45000
+INFO|wrapper|yajsw|20-03-05 11:42:28|cannot kill process with pid -1
+INFO|wrapper|yajsw|20-03-05 11:42:29|process exit code: -3
+WARNING|wrapper|yajsw|20-03-05 11:43:36|YAJSW: yajsw-stable-11.06
+WARNING|wrapper|yajsw|20-03-05 11:43:36|OS   : Windows 10/10.0/amd64
+WARNING|wrapper|yajsw|20-03-05 11:43:36|JVM  : Oracle Corporation/1.8.0_241/C:\Pricer\PricerFlashSchedulerService\service\Java8/64
+INFO|wrapper|yajsw|20-03-05 11:43:37|using java: C:\Program Files\Java\jre7/bin/java.exe
+INFO|wrapper|yajsw|20-03-05 11:43:37|working dir C:\Pricer\PricerFlashSchedulerService\service\..
+INFO|wrapper|yajsw|20-03-05 11:43:37|started process with pid 27772
+INFO|27772/0|yajsw|20-03-05 11:43:38|[INFO] StandardFileSystemManager - Using "C:\Users\MOHAME~1.PRI\AppData\Local\Temp\vfs_cache" as temporary files store.
+INFO|27772/0|yajsw|20-03-05 11:43:38|2020-03-05 11:43:38.107:INFO::Thread-1: Logging initialized @439ms
+INFO|27772/0|yajsw|20-03-05 11:43:38|2020-03-05 11:43:38.170:WARN:oejsh.ContextHandler:Thread-1: o.e.j.w.WebAppContext@2354e3d4{/,file:/C:/Pricer/PricerFlashSchedulerService/src/main/webapp/,null} contextPath ends with /
+INFO|27772/0|yajsw|20-03-05 11:43:38|2020-03-05 11:43:38.170:INFO:oejs.Server:Thread-1: jetty-9.2.11.v20150529
+INFO|27772/0|yajsw|20-03-05 11:43:38|log4j:WARN No appenders could be found for logger (Start).
+INFO|27772/0|yajsw|20-03-05 11:43:38|log4j:WARN Please initialize the log4j system properly.
+INFO|27772/0|yajsw|20-03-05 11:43:38|here is the request : SELECT COUNT(*) as total FROM pricerlabel, eclink WHERE LINPLIDREF=PLID AND PLTYPEIDREF IN (1551, 1552, 1553, 1554)
+INFO|27772/0|yajsw|20-03-05 11:43:38|nbre of forbidden pltypes = 0
+INFO|27772/0|yajsw|20-03-05 11:43:38|from main class isApplicationMustBeLocked = 0
+INFO|27772/0|yajsw|20-03-05 11:43:38|statement closed...
+INFO|27772/0|yajsw|20-03-05 11:43:38|connection closed...
+INFO|27772/0|yajsw|20-03-05 11:43:38|2020-03-05 11:43:38.856:WARN:oeja.AnnotationConfiguration:Thread-1: ServletContainerInitializers: detected. Class hierarchy: empty
+INFO|27772/0|yajsw|20-03-05 11:43:39|2020-03-05 11:43:39.089:INFO:oejsh.ContextHandler:Thread-1: Started o.e.j.w.WebAppContext@2354e3d4{/FlashScheduler,file:/C:/Pricer/PricerFlashSchedulerService/src/main/webapp/,AVAILABLE}
+INFO|27772/0|yajsw|20-03-05 11:43:39|2020-03-05 11:43:39.101:INFO:oejs.ServerConnector:Thread-1: Started ServerConnector@6b022740{HTTP/1.1}{0.0.0.0:3334}
+INFO|27772/0|yajsw|20-03-05 11:43:39|2020-03-05 11:43:39.101:INFO:oejs.Server:Thread-1: Started @1433ms
+INFO|27772/0|yajsw|20-03-05 11:44:19|connection database opened successfully
+INFO|27772/0|yajsw|20-03-05 11:44:19|statement closed...
+INFO|27772/0|yajsw|20-03-05 11:44:19|connection closed...
+INFO|27772/0|yajsw|20-03-05 11:44:19|connection database opened successfully
+INFO|27772/0|yajsw|20-03-05 11:44:19|statement closed...
+INFO|27772/0|yajsw|20-03-05 11:44:19|statement closed...
+INFO|27772/0|yajsw|20-03-05 11:44:19|connection closed...
+INFO|27772/0|yajsw|20-03-05 11:44:20|connection database opened successfully
+INFO|27772/0|yajsw|20-03-05 11:44:20|statement closed...
+INFO|27772/0|yajsw|20-03-05 11:44:20|connection closed...
+INFO|27772/0|yajsw|20-03-05 11:44:20|---------- Start Controller  GetScenarioDetails ----------
+INFO|27772/0|yajsw|20-03-05 11:44:20|connection database opened successfully
+INFO|27772/0|yajsw|20-03-05 11:44:20|request = select * from Scenario where Scenario.ID = null
+INFO|27772/0|yajsw|20-03-05 11:44:20|statement closed...
+INFO|27772/0|yajsw|20-03-05 11:44:20|connection closed...
+INFO|27772/0|yajsw|20-03-05 11:44:50|connection database opened successfully
+INFO|27772/0|yajsw|20-03-05 11:44:50|statement closed...
+INFO|27772/0|yajsw|20-03-05 11:44:50|connection closed...
+INFO|wrapper|yajsw|20-03-05 11:44:59|Shutting down Wrapper
+INFO|wrapper|yajsw|20-03-05 11:44:59|stopping process with pid/timeout 27772 45000
+INFO|27772/0|yajsw|20-03-05 11:44:59|wrapper manager received stop command
+INFO|wrapper|yajsw|20-03-05 11:45:00|shutdown wrapper due to exit code rule
+INFO|wrapper|yajsw|20-03-05 11:45:01|process exit code: 0
+WARNING|wrapper|yajsw|20-03-05 11:46:26|YAJSW: yajsw-stable-11.06
+WARNING|wrapper|yajsw|20-03-05 11:46:26|OS   : Windows 10/10.0/amd64
+WARNING|wrapper|yajsw|20-03-05 11:46:26|JVM  : Oracle Corporation/1.8.0_241/C:\Pricer\PricerFlashSchedulerService\service\Java8/64
+INFO|wrapper|yajsw|20-03-05 11:46:27|working dir C:\Pricer\PricerFlashSchedulerService\service\..
+INFO|wrapper|yajsw|20-03-05 11:46:28|started process with pid 15600
+INFO|15600/0|yajsw|20-03-05 11:46:28|[INFO] StandardFileSystemManager - Using "C:\Users\MOHAME~1.PRI\AppData\Local\Temp\vfs_cache" as temporary files store.
+INFO|15600/0|yajsw|20-03-05 11:46:28|2020-03-05 11:46:28.481:INFO::Thread-1: Logging initialized @364ms
+INFO|15600/0|yajsw|20-03-05 11:46:28|2020-03-05 11:46:28.528:WARN:oejsh.ContextHandler:Thread-1: o.e.j.w.WebAppContext@3c52738a{/,file:/C:/Pricer/PricerFlashSchedulerService/src/main/webapp/,null} contextPath ends with /
+INFO|15600/0|yajsw|20-03-05 11:46:28|2020-03-05 11:46:28.528:INFO:oejs.Server:Thread-1: jetty-9.2.11.v20150529
+INFO|15600/0|yajsw|20-03-05 11:46:28|log4j:WARN No appenders could be found for logger (Start).
+INFO|15600/0|yajsw|20-03-05 11:46:28|log4j:WARN Please initialize the log4j system properly.
+INFO|15600/0|yajsw|20-03-05 11:46:29|here is the request : SELECT COUNT(*) as total FROM pricerlabel, eclink WHERE LINPLIDREF=PLID AND PLTYPEIDREF IN (1551, 1552, 1553, 1554)
+INFO|15600/0|yajsw|20-03-05 11:46:29|2020-03-05 11:46:29.151:WARN:oeja.AnnotationConfiguration:Thread-1: ServletContainerInitializers: detected. Class hierarchy: empty
+INFO|15600/0|yajsw|20-03-05 11:46:29|nbre of forbidden pltypes = 0
+INFO|15600/0|yajsw|20-03-05 11:46:29|from main class isApplicationMustBeLocked = 0
+INFO|15600/0|yajsw|20-03-05 11:46:29|statement closed...
+INFO|15600/0|yajsw|20-03-05 11:46:29|connection closed...
+INFO|15600/0|yajsw|20-03-05 11:46:29|2020-03-05 11:46:29.331:INFO:oejsh.ContextHandler:Thread-1: Started o.e.j.w.WebAppContext@3c52738a{/FlashScheduler,file:/C:/Pricer/PricerFlashSchedulerService/src/main/webapp/,AVAILABLE}
+INFO|15600/0|yajsw|20-03-05 11:46:29|2020-03-05 11:46:29.371:INFO:oejs.ServerConnector:Thread-1: Started ServerConnector@52e6273e{HTTP/1.1}{0.0.0.0:3334}
+INFO|15600/0|yajsw|20-03-05 11:46:29|2020-03-05 11:46:29.371:INFO:oejs.Server:Thread-1: Started @1261ms
+INFO|15600/0|yajsw|20-03-05 11:46:46|connection database opened successfully
+INFO|15600/0|yajsw|20-03-05 11:46:46|statement closed...
+INFO|15600/0|yajsw|20-03-05 11:46:46|connection closed...
+INFO|15600/0|yajsw|20-03-05 11:46:46|connection database opened successfully
+INFO|15600/0|yajsw|20-03-05 11:46:46|statement closed...
+INFO|15600/0|yajsw|20-03-05 11:46:46|statement closed...
+INFO|15600/0|yajsw|20-03-05 11:46:46|connection closed...
+INFO|15600/0|yajsw|20-03-05 11:46:46|connection database opened successfully
+INFO|15600/0|yajsw|20-03-05 11:46:46|statement closed...
+INFO|15600/0|yajsw|20-03-05 11:46:46|connection closed...
+INFO|15600/0|yajsw|20-03-05 11:46:46|---------- Start Controller  GetScenarioDetails ----------
+INFO|15600/0|yajsw|20-03-05 11:46:46|connection database opened successfully
+INFO|15600/0|yajsw|20-03-05 11:46:46|request = select * from Scenario where Scenario.ID = null
+INFO|15600/0|yajsw|20-03-05 11:46:46|statement closed...
+INFO|15600/0|yajsw|20-03-05 11:46:46|connection closed...
+INFO|15600/0|yajsw|20-03-05 11:47:08|---------- Start Controller  GetScenarioDetails ----------
+INFO|15600/0|yajsw|20-03-05 11:47:08|---------- Start Controller DisableScenario ----------
+INFO|15600/0|yajsw|20-03-05 11:47:08|database = C:\Pricer/PricerFlashSchedulerService/Database/FlashControl.db
+INFO|15600/0|yajsw|20-03-05 11:47:08|connection database opened successfully
+INFO|15600/0|yajsw|20-03-05 11:47:08|ID = 1
+INFO|15600/0|yajsw|20-03-05 11:47:08|connection database opened successfully
+INFO|15600/0|yajsw|20-03-05 11:47:08|request = select * from Scenario where Scenario.ID = 1
+INFO|15600/0|yajsw|20-03-05 11:47:08|statement closed...
+INFO|15600/0|yajsw|20-03-05 11:47:08|connection closed...
+INFO|15600/0|yajsw|20-03-05 11:47:08|statement closed...
+INFO|15600/0|yajsw|20-03-05 11:47:08|connection closed...
+INFO|15600/0|yajsw|20-03-05 11:47:08|connection database opened successfully
+INFO|15600/0|yajsw|20-03-05 11:47:09|connection database opened successfully
+INFO|15600/0|yajsw|20-03-05 11:47:09|statement closed...
+INFO|15600/0|yajsw|20-03-05 11:47:09|connection closed...
+INFO|15600/0|yajsw|20-03-05 11:47:09|connection database opened successfully
+INFO|15600/0|yajsw|20-03-05 11:47:09|statement closed...
+INFO|15600/0|yajsw|20-03-05 11:47:09|statement closed...
+INFO|15600/0|yajsw|20-03-05 11:47:09|connection closed...
+INFO|15600/0|yajsw|20-03-05 11:47:09|connection database opened successfully
+INFO|15600/0|yajsw|20-03-05 11:47:09|statement closed...
+FINEST|15600/0|yajsw|20-03-05 11:47:09|connection closed...
+FINEST|15600/0|yajsw|20-03-05 11:47:09|---------- Start Controller  GetScenarioDetails ----------
+FINEST|15600/0|yajsw|20-03-05 11:47:09|connection database opened successfully
+FINEST|15600/0|yajsw|20-03-05 11:47:09|request = select * from Scenario where Scenario.ID = 1
+FINEST|15600/0|yajsw|20-03-05 11:47:09|statement closed...
+FINEST|15600/0|yajsw|20-03-05 11:47:09|connection closed...
+FINEST|15600/0|yajsw|20-03-05 11:47:14|---------- Start Controller UpdateScenarioDetails ----------
+FINEST|15600/0|yajsw|20-03-05 11:47:14|database = C:\Pricer/PricerFlashSchedulerService/Database/FlashControl.db
+FINEST|15600/0|yajsw|20-03-05 11:47:14|connection database opened successfully
+FINEST|15600/0|yajsw|20-03-05 11:47:14|triggerID = 1
+FINEST|15600/0|yajsw|20-03-05 11:47:14|cronCodeBegin = 35 11 * * *
+FINEST|15600/0|yajsw|20-03-05 11:47:14|cronCodeEnd = 36 11 * * *
+FINEST|15600/0|yajsw|20-03-05 11:47:14|statement closed...
+FINEST|15600/0|yajsw|20-03-05 11:47:14|connection closed...
+FINEST|15600/0|yajsw|20-03-05 11:47:14|connection database opened successfully
+FINEST|15600/0|yajsw|20-03-05 11:47:14|scenarioName = out of Stock
+FINEST|15600/0|yajsw|20-03-05 11:47:14|connection database opened successfully
+FINEST|15600/0|yajsw|20-03-05 11:47:14|statement closed...
+FINEST|15600/0|yajsw|20-03-05 11:47:14|statement closed...
+FINEST|15600/0|yajsw|20-03-05 11:47:14|connection closed...
+FINEST|15600/0|yajsw|20-03-05 11:47:14|connection database opened successfully
+FINEST|15600/0|yajsw|20-03-05 11:47:14|statement closed...
+FINEST|15600/0|yajsw|20-03-05 11:47:14|connection closed...
+FINEST|15600/0|yajsw|20-03-05 11:47:20|---------- Start Controller  GetScenarioDetails ----------
+FINEST|15600/0|yajsw|20-03-05 11:47:20|---------- Start Controller DisableScenario ----------
+FINEST|15600/0|yajsw|20-03-05 11:47:20|database = C:\Pricer/PricerFlashSchedulerService/Database/FlashControl.db
+FINEST|15600/0|yajsw|20-03-05 11:47:20|connection database opened successfully
+FINEST|15600/0|yajsw|20-03-05 11:47:20|request = select * from Scenario where Scenario.ID = 2
+FINEST|15600/0|yajsw|20-03-05 11:47:20|statement closed...
+FINEST|15600/0|yajsw|20-03-05 11:47:20|connection closed...
+FINEST|15600/0|yajsw|20-03-05 11:47:20|connection database opened successfully
+FINEST|15600/0|yajsw|20-03-05 11:47:20|ID = 2
+FINEST|15600/0|yajsw|20-03-05 11:47:20|statement closed...
+FINEST|15600/0|yajsw|20-03-05 11:47:20|connection closed...
+FINEST|15600/0|yajsw|20-03-05 11:47:20|connection database opened successfully
+FINEST|15600/0|yajsw|20-03-05 11:47:21|connection database opened successfully
+FINEST|15600/0|yajsw|20-03-05 11:47:21|statement closed...
+FINEST|15600/0|yajsw|20-03-05 11:47:21|connection closed...
+FINEST|15600/0|yajsw|20-03-05 11:47:21|connection database opened successfully
+FINEST|15600/0|yajsw|20-03-05 11:47:21|statement closed...
+FINEST|15600/0|yajsw|20-03-05 11:47:21|statement closed...
+FINEST|15600/0|yajsw|20-03-05 11:47:21|connection closed...
+FINEST|15600/0|yajsw|20-03-05 11:47:21|connection database opened successfully
+FINEST|15600/0|yajsw|20-03-05 11:47:21|statement closed...
+FINEST|15600/0|yajsw|20-03-05 11:47:21|connection closed...
+FINEST|15600/0|yajsw|20-03-05 11:47:21|---------- Start Controller  GetScenarioDetails ----------
+FINEST|15600/0|yajsw|20-03-05 11:47:21|connection database opened successfully
+FINEST|15600/0|yajsw|20-03-05 11:47:21|request = select * from Scenario where Scenario.ID = 1
+FINEST|15600/0|yajsw|20-03-05 11:47:21|statement closed...
+FINEST|15600/0|yajsw|20-03-05 11:47:21|connection closed...
+FINEST|15600/0|yajsw|20-03-05 11:47:51|connection database opened successfully
+FINEST|15600/0|yajsw|20-03-05 11:47:51|statement closed...
+FINEST|15600/0|yajsw|20-03-05 11:47:51|connection closed...
+INFO|wrapper|yajsw|20-03-05 11:47:54|Shutting down Wrapper
+INFO|wrapper|yajsw|20-03-05 11:47:54|stopping process with pid/timeout 15600 45000
+FINEST|15600/0|yajsw|20-03-05 11:47:54|wrapper manager received stop command
+INFO|wrapper|yajsw|20-03-05 11:47:54|shutdown wrapper due to exit code rule
+INFO|wrapper|yajsw|20-03-05 11:47:55|process exit code: 0
+WARNING|wrapper|Service yajsw|20-03-05 11:49:17|YAJSW: yajsw-stable-11.06
+WARNING|wrapper|Service yajsw|20-03-05 11:49:17|OS   : Windows 10/10.0/amd64
+WARNING|wrapper|Service yajsw|20-03-05 11:49:17|JVM  : Oracle Corporation/1.8.0_241/C:\Pricer\PricerFlashSchedulerService\service\Java8/64
+INFO|wrapper|Service yajsw|20-03-05 11:49:18|working dir C:\Pricer\PricerFlashSchedulerService
+INFO|wrapper|Service yajsw|20-03-05 11:49:19|started process with pid 14684
+INFO|14684/0|Service yajsw|20-03-05 11:49:19|[INFO] StandardFileSystemManager - Using "C:\Windows\TEMP\vfs_cache" as temporary files store.
+INFO|14684/0|Service yajsw|20-03-05 11:49:19|2020-03-05 11:49:19.538:INFO::Thread-1: Logging initialized @353ms
+INFO|14684/0|Service yajsw|20-03-05 11:49:19|2020-03-05 11:49:19.573:WARN:oejsh.ContextHandler:Thread-1: o.e.j.w.WebAppContext@34e0d526{/,file:/C:/Pricer/PricerFlashSchedulerService/src/main/webapp/,null} contextPath ends with /
+INFO|14684/0|Service yajsw|20-03-05 11:49:19|2020-03-05 11:49:19.573:INFO:oejs.Server:Thread-1: jetty-9.2.11.v20150529
+INFO|14684/0|Service yajsw|20-03-05 11:49:19|log4j:WARN No appenders could be found for logger (Start).
+INFO|14684/0|Service yajsw|20-03-05 11:49:19|log4j:WARN Please initialize the log4j system properly.
+INFO|14684/0|Service yajsw|20-03-05 11:49:20|here is the request : SELECT COUNT(*) as total FROM pricerlabel, eclink WHERE LINPLIDREF=PLID AND PLTYPEIDREF IN (1551, 1552, 1553, 1554)
+INFO|14684/0|Service yajsw|20-03-05 11:49:20|nbre of forbidden pltypes = 0
+INFO|14684/0|Service yajsw|20-03-05 11:49:20|from main class isApplicationMustBeLocked = 0
+INFO|14684/0|Service yajsw|20-03-05 11:49:20|statement closed...
+INFO|14684/0|Service yajsw|20-03-05 11:49:20|connection closed...
+INFO|14684/0|Service yajsw|20-03-05 11:49:20|2020-03-05 11:49:20.186:WARN:oeja.AnnotationConfiguration:Thread-1: ServletContainerInitializers: detected. Class hierarchy: empty
+INFO|14684/0|Service yajsw|20-03-05 11:49:20|2020-03-05 11:49:20.395:INFO:oejsh.ContextHandler:Thread-1: Started o.e.j.w.WebAppContext@34e0d526{/FlashScheduler,file:/C:/Pricer/PricerFlashSchedulerService/src/main/webapp/,AVAILABLE}
+INFO|14684/0|Service yajsw|20-03-05 11:49:20|2020-03-05 11:49:20.435:INFO:oejs.ServerConnector:Thread-1: Started ServerConnector@62b8d14e{HTTP/1.1}{0.0.0.0:3334}
+INFO|14684/0|Service yajsw|20-03-05 11:49:20|2020-03-05 11:49:20.435:INFO:oejs.Server:Thread-1: Started @1256ms
+INFO|14684/0|Service yajsw|20-03-05 11:49:21|connection database opened successfully
+INFO|14684/0|Service yajsw|20-03-05 11:49:21|statement closed...
+INFO|14684/0|Service yajsw|20-03-05 11:49:21|connection closed...
+INFO|14684/0|Service yajsw|20-03-05 11:49:28|connection database opened successfully
+INFO|14684/0|Service yajsw|20-03-05 11:49:28|statement closed...
+INFO|14684/0|Service yajsw|20-03-05 11:49:28|connection closed...
+INFO|14684/0|Service yajsw|20-03-05 11:49:28|connection database opened successfully
+INFO|14684/0|Service yajsw|20-03-05 11:49:28|statement closed...
+INFO|14684/0|Service yajsw|20-03-05 11:49:28|statement closed...
+INFO|14684/0|Service yajsw|20-03-05 11:49:28|connection closed...
+INFO|14684/0|Service yajsw|20-03-05 11:49:29|connection database opened successfully
+INFO|14684/0|Service yajsw|20-03-05 11:49:29|statement closed...
+INFO|14684/0|Service yajsw|20-03-05 11:49:29|connection closed...
+INFO|14684/0|Service yajsw|20-03-05 11:49:29|---------- Start Controller  GetScenarioDetails ----------
+INFO|14684/0|Service yajsw|20-03-05 11:49:29|connection database opened successfully
+INFO|14684/0|Service yajsw|20-03-05 11:49:29|request = select * from Scenario where Scenario.ID = 1
+INFO|14684/0|Service yajsw|20-03-05 11:49:29|statement closed...
+INFO|14684/0|Service yajsw|20-03-05 11:49:29|connection closed...
+INFO|14684/0|Service yajsw|20-03-05 11:49:32|---------- Start Controller  GetScenarioDetails ----------
+INFO|14684/0|Service yajsw|20-03-05 11:49:32|connection database opened successfully
+INFO|14684/0|Service yajsw|20-03-05 11:49:32|request = select * from Scenario where Scenario.ID = 2
+INFO|14684/0|Service yajsw|20-03-05 11:49:32|statement closed...
+INFO|14684/0|Service yajsw|20-03-05 11:49:32|connection closed...
+INFO|14684/0|Service yajsw|20-03-05 11:49:33|---------- Start Controller  GetScenarioDetails ----------
+INFO|14684/0|Service yajsw|20-03-05 11:49:33|connection database opened successfully
+INFO|14684/0|Service yajsw|20-03-05 11:49:33|request = select * from Scenario where Scenario.ID = 1
+INFO|14684/0|Service yajsw|20-03-05 11:49:33|statement closed...
+INFO|14684/0|Service yajsw|20-03-05 11:49:33|connection closed...
+INFO|14684/0|Service yajsw|20-03-05 11:49:58|connection database opened successfully
+INFO|14684/0|Service yajsw|20-03-05 11:49:58|statement closed...
+INFO|14684/0|Service yajsw|20-03-05 11:49:58|connection closed...
+INFO|14684/0|Service yajsw|20-03-05 11:49:58|connection database opened successfully
+INFO|14684/0|Service yajsw|20-03-05 11:49:58|statement closed...
+INFO|14684/0|Service yajsw|20-03-05 11:49:58|statement closed...
+INFO|14684/0|Service yajsw|20-03-05 11:49:58|connection closed...
+INFO|14684/0|Service yajsw|20-03-05 11:49:58|connection database opened successfully
+FINEST|14684/0|Service yajsw|20-03-05 11:49:58|statement closed...
+FINEST|14684/0|Service yajsw|20-03-05 11:49:58|connection closed...
+FINEST|14684/0|Service yajsw|20-03-05 11:49:58|---------- Start Controller  GetScenarioDetails ----------
+FINEST|14684/0|Service yajsw|20-03-05 11:49:58|connection database opened successfully
+FINEST|14684/0|Service yajsw|20-03-05 11:49:58|request = select * from Scenario where Scenario.ID = 1
+FINEST|14684/0|Service yajsw|20-03-05 11:49:58|statement closed...
+FINEST|14684/0|Service yajsw|20-03-05 11:49:58|connection closed...
+FINEST|14684/0|Service yajsw|20-03-05 11:50:13|---------- Start Controller  GetHistory ----------
+FINEST|14684/0|Service yajsw|20-03-05 11:50:13|connection database opened successfully
+FINEST|14684/0|Service yajsw|20-03-05 11:50:13|statement closed...
+FINEST|14684/0|Service yajsw|20-03-05 11:50:13|connection closed...
+INFO|wrapper|Service yajsw|20-03-05 11:51:52|Win service stop - timeout: 30000
+INFO|wrapper|Service yajsw|20-03-05 11:51:52|Win service wrapper.control -> stopping application
+INFO|wrapper|Service yajsw|20-03-05 11:51:52|stopping process with pid/timeout 14684 45000
+FINEST|14684/0|Service yajsw|20-03-05 11:51:52|wrapper manager received stop command
+INFO|wrapper|Service yajsw|20-03-05 11:51:52|process not in state RUNNING -> Delaying stop
+INFO|wrapper|Service yajsw|20-03-05 11:51:53|process exit code: 0
+INFO|wrapper|Service yajsw|20-03-05 11:51:53|Win service stop - after shutdown
+INFO|wrapper|Service yajsw|20-03-05 11:51:53|shutdown wrapper due to exit code rule
+INFO|wrapper|Service yajsw|20-03-05 11:51:53|Win service stop - before notify
+INFO|wrapper|Service yajsw|20-03-05 11:51:53|Win service terminated
+WARNING|wrapper|Service yajsw|20-03-05 11:51:54|YAJSW: yajsw-stable-11.06
+WARNING|wrapper|Service yajsw|20-03-05 11:51:54|OS   : Windows 10/10.0/amd64
+WARNING|wrapper|Service yajsw|20-03-05 11:51:54|JVM  : Oracle Corporation/1.8.0_241/C:\Pricer\PricerFlashSchedulerService\service\Java8/64
+INFO|wrapper|Service yajsw|20-03-05 11:51:55|working dir C:\Pricer\PricerFlashSchedulerService
+INFO|wrapper|Service yajsw|20-03-05 11:51:55|started process with pid 29116
+INFO|29116/0|Service yajsw|20-03-05 11:51:55|[INFO] StandardFileSystemManager - Using "C:\Windows\TEMP\vfs_cache" as temporary files store.
+INFO|29116/0|Service yajsw|20-03-05 11:51:55|2020-03-05 11:51:55.850:INFO::Thread-1: Logging initialized @360ms
+INFO|29116/0|Service yajsw|20-03-05 11:51:55|2020-03-05 11:51:55.882:WARN:oejsh.ContextHandler:Thread-1: o.e.j.w.WebAppContext@3fd9d272{/,file:/C:/Pricer/PricerFlashSchedulerService/src/main/webapp/,null} contextPath ends with /
+INFO|29116/0|Service yajsw|20-03-05 11:51:55|2020-03-05 11:51:55.882:INFO:oejs.Server:Thread-1: jetty-9.2.11.v20150529
+INFO|29116/0|Service yajsw|20-03-05 11:51:56|log4j:WARN No appenders could be found for logger (Start).
+INFO|29116/0|Service yajsw|20-03-05 11:51:56|log4j:WARN Please initialize the log4j system properly.
+INFO|29116/0|Service yajsw|20-03-05 11:51:56|here is the request : SELECT COUNT(*) as total FROM pricerlabel, eclink WHERE LINPLIDREF=PLID AND PLTYPEIDREF IN (1551, 1552, 1553, 1554)
+INFO|29116/0|Service yajsw|20-03-05 11:51:56|nbre of forbidden pltypes = 0
+INFO|29116/0|Service yajsw|20-03-05 11:51:56|from main class isApplicationMustBeLocked = 0
+INFO|29116/0|Service yajsw|20-03-05 11:51:56|statement closed...
+INFO|29116/0|Service yajsw|20-03-05 11:51:56|connection closed...
+INFO|29116/0|Service yajsw|20-03-05 11:51:56|2020-03-05 11:51:56.496:WARN:oeja.AnnotationConfiguration:Thread-1: ServletContainerInitializers: detected. Class hierarchy: empty
+INFO|29116/0|Service yajsw|20-03-05 11:51:56|2020-03-05 11:51:56.687:INFO:oejsh.ContextHandler:Thread-1: Started o.e.j.w.WebAppContext@3fd9d272{/FlashScheduler,file:/C:/Pricer/PricerFlashSchedulerService/src/main/webapp/,AVAILABLE}
+INFO|29116/0|Service yajsw|20-03-05 11:51:56|2020-03-05 11:51:56.727:INFO:oejs.ServerConnector:Thread-1: Started ServerConnector@48e47a51{HTTP/1.1}{0.0.0.0:3334}
+INFO|29116/0|Service yajsw|20-03-05 11:51:56|2020-03-05 11:51:56.727:INFO:oejs.Server:Thread-1: Started @1238ms
+INFO|29116/0|Service yajsw|20-03-05 11:52:05|connection database opened successfully
+INFO|29116/0|Service yajsw|20-03-05 11:52:05|statement closed...
+INFO|29116/0|Service yajsw|20-03-05 11:52:05|connection closed...
+INFO|29116/0|Service yajsw|20-03-05 11:52:05|connection database opened successfully
+INFO|29116/0|Service yajsw|20-03-05 11:52:05|statement closed...
+INFO|29116/0|Service yajsw|20-03-05 11:52:05|statement closed...
+INFO|29116/0|Service yajsw|20-03-05 11:52:05|connection closed...
+INFO|29116/0|Service yajsw|20-03-05 11:52:05|connection database opened successfully
+INFO|29116/0|Service yajsw|20-03-05 11:52:05|statement closed...
+INFO|29116/0|Service yajsw|20-03-05 11:52:05|connection closed...
+INFO|29116/0|Service yajsw|20-03-05 11:52:05|---------- Start Controller  GetScenarioDetails ----------
+INFO|29116/0|Service yajsw|20-03-05 11:52:05|connection database opened successfully
+INFO|29116/0|Service yajsw|20-03-05 11:52:05|request = select * from Scenario where Scenario.ID = 1
+INFO|29116/0|Service yajsw|20-03-05 11:52:05|statement closed...
+INFO|29116/0|Service yajsw|20-03-05 11:52:05|connection closed...
+INFO|29116/0|Service yajsw|20-03-05 11:52:35|connection database opened successfully
+INFO|29116/0|Service yajsw|20-03-05 11:52:35|statement closed...
+INFO|29116/0|Service yajsw|20-03-05 11:52:35|connection closed...
+INFO|wrapper|Service yajsw|20-03-05 11:53:04|Win service stop - timeout: 30000
+INFO|wrapper|Service yajsw|20-03-05 11:53:04|Win service wrapper.control -> stopping application
+INFO|wrapper|Service yajsw|20-03-05 11:53:04|stopping process with pid/timeout 29116 45000
+INFO|29116/0|Service yajsw|20-03-05 11:53:04|wrapper manager received stop command
+INFO|wrapper|Service yajsw|20-03-05 11:53:05|process not in state RUNNING -> Delaying stop
+INFO|wrapper|Service yajsw|20-03-05 11:53:05|process exit code: 0
+INFO|wrapper|Service yajsw|20-03-05 11:53:05|Win service stop - after shutdown
+INFO|wrapper|Service yajsw|20-03-05 11:53:05|shutdown wrapper due to exit code rule
+INFO|wrapper|Service yajsw|20-03-05 11:53:05|Win service stop - before notify
+INFO|wrapper|Service yajsw|20-03-05 11:53:05|Win service terminated
+WARNING|wrapper|Service yajsw|20-03-05 11:53:27|YAJSW: yajsw-stable-11.06
+WARNING|wrapper|Service yajsw|20-03-05 11:53:27|OS   : Windows 10/10.0/amd64
+WARNING|wrapper|Service yajsw|20-03-05 11:53:27|JVM  : Oracle Corporation/1.8.0_241/C:\Pricer\PricerFlashSchedulerService\service\Java8/64
+INFO|wrapper|Service yajsw|20-03-05 11:53:28|working dir C:\Pricer\PricerFlashSchedulerService
+INFO|wrapper|Service yajsw|20-03-05 11:53:29|started process with pid 25116
+INFO|25116/0|Service yajsw|20-03-05 11:53:29|[INFO] StandardFileSystemManager - Using "C:\Windows\TEMP\vfs_cache" as temporary files store.
+INFO|25116/0|Service yajsw|20-03-05 11:53:29|2020-03-05 11:53:29.506:INFO::Thread-1: Logging initialized @364ms
+INFO|25116/0|Service yajsw|20-03-05 11:53:29|2020-03-05 11:53:29.552:WARN:oejsh.ContextHandler:Thread-1: o.e.j.w.WebAppContext@58a5f07{/,file:/C:/Pricer/PricerFlashSchedulerService/src/main/webapp/,null} contextPath ends with /
+INFO|25116/0|Service yajsw|20-03-05 11:53:29|2020-03-05 11:53:29.552:INFO:oejs.Server:Thread-1: jetty-9.2.11.v20150529
+INFO|25116/0|Service yajsw|20-03-05 11:53:29|log4j:WARN No appenders could be found for logger (Start).
+INFO|25116/0|Service yajsw|20-03-05 11:53:29|log4j:WARN Please initialize the log4j system properly.
+INFO|25116/0|Service yajsw|20-03-05 11:53:30|here is the request : SELECT COUNT(*) as total FROM pricerlabel, eclink WHERE LINPLIDREF=PLID AND PLTYPEIDREF IN (1551, 1552, 1553, 1554)
+INFO|25116/0|Service yajsw|20-03-05 11:53:30|nbre of forbidden pltypes = 0
+INFO|25116/0|Service yajsw|20-03-05 11:53:30|from main class isApplicationMustBeLocked = 0
+INFO|25116/0|Service yajsw|20-03-05 11:53:30|statement closed...
+INFO|25116/0|Service yajsw|20-03-05 11:53:30|connection closed...
+INFO|25116/0|Service yajsw|20-03-05 11:53:30|2020-03-05 11:53:30.178:WARN:oeja.AnnotationConfiguration:Thread-1: ServletContainerInitializers: detected. Class hierarchy: empty
+INFO|25116/0|Service yajsw|20-03-05 11:53:30|2020-03-05 11:53:30.380:INFO:oejsh.ContextHandler:Thread-1: Started o.e.j.w.WebAppContext@58a5f07{/FlashScheduler,file:/C:/Pricer/PricerFlashSchedulerService/src/main/webapp/,AVAILABLE}
+INFO|25116/0|Service yajsw|20-03-05 11:53:30|2020-03-05 11:53:30.415:INFO:oejs.ServerConnector:Thread-1: Started ServerConnector@173265c5{HTTP/1.1}{0.0.0.0:3334}
+INFO|25116/0|Service yajsw|20-03-05 11:53:30|2020-03-05 11:53:30.415:INFO:oejs.Server:Thread-1: Started @1275ms
+INFO|25116/0|Service yajsw|20-03-05 11:53:30|connection database opened successfully
+INFO|25116/0|Service yajsw|20-03-05 11:53:30|statement closed...
+INFO|25116/0|Service yajsw|20-03-05 11:53:30|connection closed...
+INFO|25116/0|Service yajsw|20-03-05 11:53:30|connection database opened successfully
+INFO|25116/0|Service yajsw|20-03-05 11:53:30|statement closed...
+INFO|25116/0|Service yajsw|20-03-05 11:53:30|statement closed...
+INFO|25116/0|Service yajsw|20-03-05 11:53:30|connection closed...
+INFO|25116/0|Service yajsw|20-03-05 11:53:31|connection database opened successfully
+INFO|25116/0|Service yajsw|20-03-05 11:53:31|statement closed...
+INFO|25116/0|Service yajsw|20-03-05 11:53:31|connection closed...
+INFO|25116/0|Service yajsw|20-03-05 11:53:31|---------- Start Controller  GetScenarioDetails ----------
+INFO|25116/0|Service yajsw|20-03-05 11:53:31|connection database opened successfully
+INFO|25116/0|Service yajsw|20-03-05 11:53:31|request = select * from Scenario where Scenario.ID = 1
+INFO|25116/0|Service yajsw|20-03-05 11:53:31|statement closed...
+INFO|25116/0|Service yajsw|20-03-05 11:53:31|connection closed...
+INFO|25116/0|Service yajsw|20-03-05 11:54:01|connection database opened successfully
+INFO|25116/0|Service yajsw|20-03-05 11:54:01|statement closed...
+INFO|25116/0|Service yajsw|20-03-05 11:54:01|connection closed...
+INFO|wrapper|Service yajsw|20-03-05 11:54:27|Win service stop - timeout: 30000
+INFO|wrapper|Service yajsw|20-03-05 11:54:27|Win service wrapper.control -> stopping application
+INFO|wrapper|Service yajsw|20-03-05 11:54:27|stopping process with pid/timeout 25116 45000
+INFO|25116/0|Service yajsw|20-03-05 11:54:27|wrapper manager received stop command
+INFO|wrapper|Service yajsw|20-03-05 11:54:27|process not in state RUNNING -> Delaying stop
+INFO|wrapper|Service yajsw|20-03-05 11:54:28|process exit code: 0
+INFO|wrapper|Service yajsw|20-03-05 11:54:28|Win service stop - after shutdown
+INFO|wrapper|Service yajsw|20-03-05 11:54:28|shutdown wrapper due to exit code rule
+INFO|wrapper|Service yajsw|20-03-05 11:54:28|Win service stop - before notify
+INFO|wrapper|Service yajsw|20-03-05 11:54:28|Win service terminated
+WARNING|wrapper|Service yajsw|20-03-05 11:55:54|YAJSW: yajsw-stable-11.06
+WARNING|wrapper|Service yajsw|20-03-05 11:55:54|OS   : Windows 10/10.0/amd64
+WARNING|wrapper|Service yajsw|20-03-05 11:55:54|JVM  : Oracle Corporation/1.8.0_241/C:\Pricer\PricerFlashSchedulerService\service\Java8/64
+INFO|wrapper|Service yajsw|20-03-05 11:55:55|working dir C:\Pricer\PricerFlashSchedulerService
+INFO|wrapper|Service yajsw|20-03-05 11:55:56|started process with pid 20300
+INFO|20300/0|Service yajsw|20-03-05 11:55:56|[INFO] StandardFileSystemManager - Using "C:\Windows\TEMP\vfs_cache" as temporary files store.
+INFO|20300/0|Service yajsw|20-03-05 11:55:56|2020-03-05 11:55:56.469:INFO::Thread-1: Logging initialized @349ms
+INFO|20300/0|Service yajsw|20-03-05 11:55:56|2020-03-05 11:55:56.513:WARN:oejsh.ContextHandler:Thread-1: o.e.j.w.WebAppContext@cd10237{/,file:/C:/Pricer/PricerFlashSchedulerService/src/main/webapp/,null} contextPath ends with /
+INFO|20300/0|Service yajsw|20-03-05 11:55:56|2020-03-05 11:55:56.528:INFO:oejs.Server:Thread-1: jetty-9.2.11.v20150529
+INFO|20300/0|Service yajsw|20-03-05 11:55:56|log4j:WARN No appenders could be found for logger (Start).
+INFO|20300/0|Service yajsw|20-03-05 11:55:56|log4j:WARN Please initialize the log4j system properly.
+INFO|20300/0|Service yajsw|20-03-05 11:55:57|here is the request : SELECT COUNT(*) as total FROM pricerlabel, eclink WHERE LINPLIDREF=PLID AND PLTYPEIDREF IN (1551, 1552, 1553, 1554)
+INFO|20300/0|Service yajsw|20-03-05 11:55:57|nbre of forbidden pltypes = 0
+INFO|20300/0|Service yajsw|20-03-05 11:55:57|from main class isApplicationMustBeLocked = 0
+INFO|20300/0|Service yajsw|20-03-05 11:55:57|statement closed...
+INFO|20300/0|Service yajsw|20-03-05 11:55:57|connection closed...
+INFO|20300/0|Service yajsw|20-03-05 11:55:57|2020-03-05 11:55:57.271:WARN:oeja.AnnotationConfiguration:Thread-1: ServletContainerInitializers: detected. Class hierarchy: empty
+INFO|20300/0|Service yajsw|20-03-05 11:55:57|2020-03-05 11:55:57.516:INFO:oejsh.ContextHandler:Thread-1: Started o.e.j.w.WebAppContext@cd10237{/FlashScheduler,file:/C:/Pricer/PricerFlashSchedulerService/src/main/webapp/,AVAILABLE}
+INFO|20300/0|Service yajsw|20-03-05 11:55:57|2020-03-05 11:55:57.579:INFO:oejs.ServerConnector:Thread-1: Started ServerConnector@1703f964{HTTP/1.1}{0.0.0.0:3334}
+INFO|20300/0|Service yajsw|20-03-05 11:55:57|2020-03-05 11:55:57.579:INFO:oejs.Server:Thread-1: Started @1456ms
+INFO|20300/0|Service yajsw|20-03-05 11:56:07|connection database opened successfully
+INFO|20300/0|Service yajsw|20-03-05 11:56:07|statement closed...
+INFO|20300/0|Service yajsw|20-03-05 11:56:07|connection closed...
+INFO|20300/0|Service yajsw|20-03-05 11:56:07|connection database opened successfully
+INFO|20300/0|Service yajsw|20-03-05 11:56:07|statement closed...
+INFO|20300/0|Service yajsw|20-03-05 11:56:07|statement closed...
+INFO|20300/0|Service yajsw|20-03-05 11:56:07|connection closed...
+INFO|20300/0|Service yajsw|20-03-05 11:56:07|connection database opened successfully
+INFO|20300/0|Service yajsw|20-03-05 11:56:07|statement closed...
+INFO|20300/0|Service yajsw|20-03-05 11:56:07|connection closed...
+INFO|20300/0|Service yajsw|20-03-05 11:56:07|---------- Start Controller  GetScenarioDetails ----------
+INFO|20300/0|Service yajsw|20-03-05 11:56:07|connection database opened successfully
+INFO|20300/0|Service yajsw|20-03-05 11:56:07|request = select * from Scenario where Scenario.ID = 1
+INFO|20300/0|Service yajsw|20-03-05 11:56:07|statement closed...
+INFO|20300/0|Service yajsw|20-03-05 11:56:07|connection closed...
+INFO|20300/0|Service yajsw|20-03-05 11:56:37|connection database opened successfully
+INFO|20300/0|Service yajsw|20-03-05 11:56:37|statement closed...
+INFO|20300/0|Service yajsw|20-03-05 11:56:37|connection closed...
+INFO|20300/0|Service yajsw|20-03-05 11:57:07|connection database opened successfully
+INFO|20300/0|Service yajsw|20-03-05 11:57:07|statement closed...
+INFO|20300/0|Service yajsw|20-03-05 11:57:07|connection closed...
+INFO|20300/0|Service yajsw|20-03-05 11:57:37|connection database opened successfully
+INFO|20300/0|Service yajsw|20-03-05 11:57:37|statement closed...
+INFO|20300/0|Service yajsw|20-03-05 11:57:37|connection closed...
+INFO|20300/0|Service yajsw|20-03-05 11:58:07|connection database opened successfully
+INFO|20300/0|Service yajsw|20-03-05 11:58:07|statement closed...
+INFO|20300/0|Service yajsw|20-03-05 11:58:07|connection closed...
+INFO|20300/0|Service yajsw|20-03-05 11:58:37|connection database opened successfully
+INFO|20300/0|Service yajsw|20-03-05 11:58:37|statement closed...
+INFO|20300/0|Service yajsw|20-03-05 11:58:37|connection closed...
+INFO|20300/0|Service yajsw|20-03-05 11:59:07|connection database opened successfully
+INFO|20300/0|Service yajsw|20-03-05 11:59:07|statement closed...
+INFO|20300/0|Service yajsw|20-03-05 11:59:07|connection closed...
+INFO|20300/0|Service yajsw|20-03-05 11:59:37|connection database opened successfully
+INFO|20300/0|Service yajsw|20-03-05 11:59:37|statement closed...
+INFO|20300/0|Service yajsw|20-03-05 11:59:37|connection closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:00:07|connection database opened successfully
+FINEST|20300/0|Service yajsw|20-03-05 12:00:07|statement closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:00:07|connection closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:00:11|---------- Start Controller  Initialisation ----------
+FINEST|20300/0|Service yajsw|20-03-05 12:00:11|connection database opened successfully
+FINEST|20300/0|Service yajsw|20-03-05 12:00:11|statement closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:00:11|connection closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:00:11|connection database opened successfully
+FINEST|20300/0|Service yajsw|20-03-05 12:00:11|statement closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:00:11|statement closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:00:11|connection closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:00:11|!!!!!!!!!! check = 0
+FINEST|20300/0|Service yajsw|20-03-05 12:00:25|---------- Start Controller UpdateNow ----------
+FINEST|20300/0|Service yajsw|20-03-05 12:00:25|database = C:\Pricer/PricerFlashSchedulerService/Database/FlashControl.db
+FINEST|20300/0|Service yajsw|20-03-05 12:00:25|connection database opened successfully
+FINEST|20300/0|Service yajsw|20-03-05 12:00:25|minute to add =30
+FINEST|20300/0|Service yajsw|20-03-05 12:00:25|triggerID = 1
+FINEST|20300/0|Service yajsw|20-03-05 12:00:25|cronCodeBegin = 1 12 * * *
+FINEST|20300/0|Service yajsw|20-03-05 12:00:25|cronCodeEnd = 31 12 * * *
+FINEST|20300/0|Service yajsw|20-03-05 12:00:25|request1 = update Scenario set LastCronBeginEnabled=CronBeginEnabled, LastCronEndEnabled=CronEndEnabled, LastCronValueBegin=CronValueBegin, LastCronValueEnd=CronValueEnd where ID = ?
+FINEST|20300/0|Service yajsw|20-03-05 12:00:25|request2 = update Scenario set CronValueBegin = ?, CronValueEnd = ?, CronBeginEnabled='1', CronEndEnabled='1', isFlashNow='1' where ID = ?
+FINEST|20300/0|Service yajsw|20-03-05 12:00:25|update ok for statement1  : 
+FINEST|20300/0|Service yajsw|20-03-05 12:00:25|update ok for statement2  : 
+FINEST|20300/0|Service yajsw|20-03-05 12:00:25|statement1 closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:00:25|statement2 closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:00:25|connection closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:00:25|connection database opened successfully
+FINEST|20300/0|Service yajsw|20-03-05 12:01:00|Start.runScheduler() : connection to mysql 
+FINEST|20300/0|Service yajsw|20-03-05 12:01:00|Start.runScheduler() : connection to mysql **OK 
+FINEST|20300/0|Service yajsw|20-03-05 12:01:00|Start.runScheduler() : getting item list
+FINEST|20300/0|Service yajsw|20-03-05 12:01:00|Start.runScheduler() : list item size  = 1
+FINEST|20300/0|Service yajsw|20-03-05 12:01:00|statement closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:01:00|connection closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:01:25|---------- Start Controller  Initialisation ----------
+FINEST|20300/0|Service yajsw|20-03-05 12:01:25|connection database opened successfully
+FINEST|20300/0|Service yajsw|20-03-05 12:01:25|statement closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:01:25|connection closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:01:25|connection database opened successfully
+FINEST|20300/0|Service yajsw|20-03-05 12:01:25|statement closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:01:25|statement closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:01:25|connection closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:01:25|!!!!!!!!!! check = 0
+FINEST|20300/0|Service yajsw|20-03-05 12:06:36|connection database opened successfully
+FINEST|20300/0|Service yajsw|20-03-05 12:06:36|statement closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:06:36|connection closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:06:36|connection database opened successfully
+FINEST|20300/0|Service yajsw|20-03-05 12:06:36|statement closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:06:36|statement closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:06:36|connection closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:06:36|connection database opened successfully
+FINEST|20300/0|Service yajsw|20-03-05 12:06:36|statement closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:06:36|connection closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:06:36|---------- Start Controller  GetScenarioDetails ----------
+FINEST|20300/0|Service yajsw|20-03-05 12:06:36|connection database opened successfully
+FINEST|20300/0|Service yajsw|20-03-05 12:06:36|request = select * from Scenario where Scenario.ID = 1
+FINEST|20300/0|Service yajsw|20-03-05 12:06:36|statement closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:06:36|connection closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:06:57|---------- Start Controller UpdateScenarioDetails ----------
+FINEST|20300/0|Service yajsw|20-03-05 12:06:57|database = C:\Pricer/PricerFlashSchedulerService/Database/FlashControl.db
+FINEST|20300/0|Service yajsw|20-03-05 12:06:57|connection database opened successfully
+FINEST|20300/0|Service yajsw|20-03-05 12:06:57|triggerID = 1
+FINEST|20300/0|Service yajsw|20-03-05 12:06:57|cronCodeBegin = 1 12 * * *
+FINEST|20300/0|Service yajsw|20-03-05 12:06:57|cronCodeEnd = 31 13 * * *
+FINEST|20300/0|Service yajsw|20-03-05 12:06:57|statement closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:06:57|connection closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:06:57|connection database opened successfully
+FINEST|20300/0|Service yajsw|20-03-05 12:06:57|scenarioName = out of Stock
+FINEST|20300/0|Service yajsw|20-03-05 12:06:57|connection database opened successfully
+FINEST|20300/0|Service yajsw|20-03-05 12:06:57|statement closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:06:57|statement closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:06:57|connection closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:06:57|connection database opened successfully
+FINEST|20300/0|Service yajsw|20-03-05 12:06:57|statement closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:06:57|connection closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:07:06|connection database opened successfully
+FINEST|20300/0|Service yajsw|20-03-05 12:07:06|statement closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:07:06|connection closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:07:36|connection database opened successfully
+FINEST|20300/0|Service yajsw|20-03-05 12:07:36|statement closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:07:36|connection closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:08:06|connection database opened successfully
+FINEST|20300/0|Service yajsw|20-03-05 12:08:06|statement closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:08:06|connection closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:08:36|connection database opened successfully
+FINEST|20300/0|Service yajsw|20-03-05 12:08:36|statement closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:08:36|connection closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:09:06|connection database opened successfully
+FINEST|20300/0|Service yajsw|20-03-05 12:09:06|statement closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:09:06|connection closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:09:36|connection database opened successfully
+FINEST|20300/0|Service yajsw|20-03-05 12:09:36|statement closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:09:36|connection closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:10:06|connection database opened successfully
+FINEST|20300/0|Service yajsw|20-03-05 12:10:06|statement closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:10:06|connection closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:10:36|connection database opened successfully
+FINEST|20300/0|Service yajsw|20-03-05 12:10:36|statement closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:10:36|connection closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:11:06|connection database opened successfully
+FINEST|20300/0|Service yajsw|20-03-05 12:11:06|statement closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:11:06|connection closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:11:36|connection database opened successfully
+FINEST|20300/0|Service yajsw|20-03-05 12:11:36|statement closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:11:36|connection closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:12:06|connection database opened successfully
+FINEST|20300/0|Service yajsw|20-03-05 12:12:06|statement closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:12:06|connection closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:12:36|connection database opened successfully
+FINEST|20300/0|Service yajsw|20-03-05 12:12:36|statement closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:12:36|connection closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:13:06|connection database opened successfully
+FINEST|20300/0|Service yajsw|20-03-05 12:13:06|statement closed...
+FINEST|20300/0|Service yajsw|20-03-05 12:13:06|connection closed...
+INFO|wrapper|Service yajsw|20-03-05 12:13:14|Win service stop - timeout: 30000
+INFO|wrapper|Service yajsw|20-03-05 12:13:14|Win service wrapper.control -> stopping application
+INFO|wrapper|Service yajsw|20-03-05 12:13:14|stopping process with pid/timeout 20300 45000
+FINEST|20300/0|Service yajsw|20-03-05 12:13:14|wrapper manager received stop command
+INFO|wrapper|Service yajsw|20-03-05 12:13:14|process not in state RUNNING -> Delaying stop
+INFO|wrapper|Service yajsw|20-03-05 12:13:15|process exit code: 0
+INFO|wrapper|Service yajsw|20-03-05 12:13:15|Win service stop - after shutdown
+INFO|wrapper|Service yajsw|20-03-05 12:13:15|shutdown wrapper due to exit code rule
+INFO|wrapper|Service yajsw|20-03-05 12:13:15|Win service stop - before notify
+INFO|wrapper|Service yajsw|20-03-05 12:13:15|Win service terminated

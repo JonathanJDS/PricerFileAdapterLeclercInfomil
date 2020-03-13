@@ -93,33 +93,29 @@ public class ThreadCheckPriceFiles extends Thread {
 
 		System.out.println("Processing data file");
 		logger.info("Processing data file : " + FtemporaryFile.getPathFilename() + "\\" + FtemporaryFile.getFileName());
-
 		boolean bdatafile_Update_opened = false;
-
+		boolean bdatafile_Delete_opened=false;
 		Date d = new Date();
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd_Hmmss");
 		String dateOfFile = sdf.format(d);
 		String dataFileName_Update;
+		String dataFileName_Delete;
 		String messageFileName_Update;
 		String resultFileName_Update;
-
-		String dataFileName_Delete;
 		String messageFileName_Delete;
 		String resultFileName_Delete;
-
 		String contentMessageFile_Update;
 		String contentMessageFile_Delete;
-
 		PrintStream datafile_Update = null;
 		PrintStream messagefile_Update = null;
+		PrintStream datafile_Delete		=	null;
+		PrintStream messagefile_Delete	=	null;
 		Product product = null;
 		Product productToDelete = null;
 		List<Product> lstProducts = new ArrayList<Product>();
 		List<Product> lstProductsToDelete = new ArrayList<Product>();
-		String lineToCheck;
-		List<String> lstLineFromLstFile;
 		StringBuffer completeLine2 = null;
-
+		String Newligne=System.getProperty("line.separator"); /* just adding cr/lf at the end of each line */
 
 		dataFileName_Update 	=	pricerDataFilesFolder		+ "\\" 	+	"data_price_"	+	dateOfFile + ".i1";
 		messageFileName_Update 	=	pricerMessageFilesFolder	+ "\\" 	+	"data_price_"	+	dateOfFile + ".m1";
@@ -136,7 +132,7 @@ public class ThreadCheckPriceFiles extends Thread {
 
 
 		if (!FtemporaryFile.FileExist()) {
-			logger.debug("temporary file is not present");
+			logger.warn("temporary file " + FtemporaryFile.getPathFilename()  + " is not present");
 			return;
 		}
 
@@ -153,6 +149,7 @@ public class ThreadCheckPriceFiles extends Thread {
 		try {
 			jaxbContext = JAXBContext.newInstance(generated.MDA.class);
 		} catch (JAXBException e) {
+			logger.fatal("internal error unable to create instance of XSD to generated.MDA.class !!!");
 			e.printStackTrace();
 		}
 
@@ -164,7 +161,7 @@ public class ThreadCheckPriceFiles extends Thread {
 			//e.printStackTrace();
 			System.out.println("message=" + e.getMessage());
 			System.out.println("cause=" + e.getCause());
-
+			logger.fatal("internal error unable to create unmarshaller  of object !!!");
 		}
 
 
@@ -173,7 +170,18 @@ public class ThreadCheckPriceFiles extends Thread {
 			mda = (MDA) jaxbUnmarshaller.unmarshal(new File(FtemporaryFile.getPathFilename()));
 		} catch (JAXBException e) {
 			// TODO Auto-generated catch block
+			logger.fatal("internal error unable to unmarshall xml file  to object !!!, check you file format : " + FtemporaryFile.getPathFilename());
 			e.printStackTrace();
+			logger.fatal("deleting File " + FtemporaryFile.getPathFilename());
+
+			if (FtemporaryFile.deleteFile()) {
+				logger.fatal("File Deleted " + FtemporaryFile.getPathFilename());
+			}
+			else {
+				logger.fatal("Unable to delete File " + FtemporaryFile.getPathFilename() + " Please check that the file is not locked on ");
+
+				}
+			return;
 		}
 
 
@@ -590,8 +598,8 @@ public class ThreadCheckPriceFiles extends Thread {
 		}
 
 
+				logger.info("nbre of products found  = " + lstProducts.size());
 
-				System.out.println("nbre of products = " + lstProducts.size());
 				for (Product produit : lstProducts) {
 
 					try {
@@ -604,7 +612,10 @@ public class ThreadCheckPriceFiles extends Thread {
 								datafile_Update = new PrintStream(new BufferedOutputStream(new FileOutputStream(dataFileName_Update, true)), true);
 							} catch (FileNotFoundException e) {
 								// TODO Auto-generated catch block
+								logger.fatal("unable to create file : " + dataFileName_Update );
 								e.printStackTrace();
+								return;
+
 							}
 
 							bdatafile_Update_opened = true;
@@ -682,6 +693,8 @@ if (produit.getMDA_ARTS_MART_DTECH_PIEC_upie()		!=null && !produit.getMDA_ARTS_M
 completeLine2.append(",");
 
 					} catch (NullPointerException ex) {
+						logger.warn("anomalie product is empty or not forfamted correctly  : rejected " + "==>" + produit.toString());
+						logger.log(Level.getLevel("REJECTED"),"anomalie product is empty or not formated correctly  : rejected " + "==>" + produit.toString());
 						System.out.println("Produit is null");
 					}
 
@@ -718,6 +731,55 @@ completeLine2.append(",");
 					}
 
 				}
+
+
+
+
+		if (lstProductsToDelete.size()>0){
+			try {
+				if (bdatafile_Delete_opened==false){
+
+					datafile_Delete=new PrintStream(new BufferedOutputStream(new FileOutputStream(dataFileName_Delete,true)),true);
+
+				}
+				bdatafile_Delete_opened=true;
+
+			}
+			catch (FileNotFoundException e) {
+
+				logger.fatal("unable to print into : " + dataFileName_Delete);
+			}
+
+
+
+			StringBuilder completeLineDelete = new StringBuilder();
+
+			for (Product productToDeletePFI : lstProductsToDelete) {
+
+					completeLineDelete.append("0001 ").append(productToDeletePFI.getMDA_ARTS_MART_art()).append(",").append(Newligne);
+
+			}
+
+			datafile_Delete.println(completeLineDelete.toString());
+			datafile_Delete.flush();
+
+
+
+			if (bdatafile_Delete_opened){
+				datafile_Delete.close();
+				try {
+					messagefile_Delete=new PrintStream(new BufferedOutputStream(new FileOutputStream(messageFileName_Delete)),true);
+					messagefile_Delete.print(contentMessageFile_Delete);
+					messagefile_Delete.flush();
+					messagefile_Delete.close();
+				} catch (FileNotFoundException e) {
+					e.printStackTrace();
+				}
+
+			}
+
+
+		}
 
 
 
