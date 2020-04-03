@@ -245,6 +245,46 @@ public class ThreadCheckPriceFiles extends Thread {
 							System.out.println(" PRXU is not empty  ");
 
 							StringBuilder prxuValue = new StringBuilder();
+
+							// getting only the fist PRXU iteration value
+
+							MDA.ARTS.MART.PXQT.PRXU prxu = lstPRXU.get(0);
+							if (prxu !=null) {
+
+								if (prxu.getPUTTC() != null) {
+									product.setMDA_ARTS_MART_PXQT_PRXU_puttc(String.valueOf(prxu.getPUTTC()));
+								}
+
+								if (prxu.getSEUIL() != null) {
+									product.setMDA_ARTS_MART_PXQT_PRXU_seuil(String.valueOf(prxu.getSEUIL()));
+								}
+
+								if (prxu.getQTEU() != null) {
+									product.setMDA_ARTS_MART_PXQT_PRXU_type("QTEU");
+
+								}
+								if (prxu.getQTES() != null) {
+									product.setMDA_ARTS_MART_PXQT_PRXU_type("QTES");
+
+									//System.out.println("QTES = saisie du nombre d'unité  quantité = 1 par défaut");
+
+								}
+								if (prxu.getQTEQ() != null) {
+									product.setMDA_ARTS_MART_PXQT_PRXU_type("QTEQ");
+									product.setMDA_ARTS_MART_PXQT_PRXU_QTEQ_pesee(prxu.getQTEQ().getPESEE());
+									product.setMDA_ARTS_MART_PXQT_PRXU_QTEQ_unite(prxu.getQTEQ().getUNITE());
+									//System.out.println("QTEQ = Article vendu au poids ");
+								}
+
+								if (prxu.getQTEC() != null) {
+									product.setMDA_ARTS_MART_PXQT_PRXU_type("QTEC");
+									product.setMDA_ARTS_MART_PXQT_PRXU_QTEC_unite(prxu.getQTEC().getUNITE());
+									//System.out.println("QTEC = quantité dans le code");
+									//System.out.println("unité = " + prxs.getQTEC().getUNITE());
+
+								}
+							}
+							/*
 							for (MDA.ARTS.MART.PXQT.PRXU prxu : lstPRXU) {
 
 								prxuValue.append(prxu.getPUTTC()).append(",").append(prxu.getSEUIL()).append(",");
@@ -279,7 +319,9 @@ public class ThreadCheckPriceFiles extends Thread {
 								prxuValue.append("#");
 
 							}
-							product.setMDA_ARTS_MART_PXQT_PRXU_type(prxuValue.toString());
+
+							*/
+						///	product.setMDA_ARTS_MART_PXQT_PRXU_type(prxuValue.toString());
 
 						}
 
@@ -634,6 +676,15 @@ if (produit.getMDA_ARTS_MART_TAX_TAXE_val()			!=null && !produit.getMDA_ARTS_MAR
 if (produit.getMDA_ARTS_MART_PXQT_pxz()				!=null && !produit.getMDA_ARTS_MART_PXQT_pxz().equalsIgnoreCase("null") 				&& lstPFIs.get("MDA_ARTS_MART_PXQT_pxz") !=null)				completeLine2.append(" ").append(lstPFIs.get("MDA_ARTS_MART_PXQT_pxz"))					.append(" 0 |").append(produit.getMDA_ARTS_MART_PXQT_pxz())				.append("|");
 if (produit.getMDA_ARTS_MART_PXQT_PRXU_type()		!=null && !produit.getMDA_ARTS_MART_PXQT_PRXU_type().equalsIgnoreCase("null") 			&& lstPFIs.get("MDA_ARTS_MART_PXQT_PRXU_type") !=null)			completeLine2.append(" ").append(lstPFIs.get("MDA_ARTS_MART_PXQT_PRXU_type"))			.append(" 0 |").append(produit.getMDA_ARTS_MART_PXQT_PRXU_type())		.append("|");
 if (produit.getMDA_ARTS_MART_PXQT_PRXS_type()		!=null && !produit.getMDA_ARTS_MART_PXQT_PRXS_type().equalsIgnoreCase("null") 			&& lstPFIs.get("MDA_ARTS_MART_PXQT_PRXS_type") !=null)			completeLine2.append(" ").append(lstPFIs.get("MDA_ARTS_MART_PXQT_PRXS_type"))			.append(" 0 |").append(produit.getMDA_ARTS_MART_PXQT_PRXS_type())		.append("|");
+
+
+if (produit.getMDA_ARTS_MART_PXQT_PRXU_puttc()		!=null && !produit.getMDA_ARTS_MART_PXQT_PRXU_puttc().equalsIgnoreCase("null") 		&& lstPFIs.get("MDA_ARTS_MART_PXQT_PRXU_puttc") !=null)			completeLine2.append(" ").append(lstPFIs.get("MDA_ARTS_MART_PXQT_PRXU_puttc"))			.append(" 0 |").append(produit.getMDA_ARTS_MART_PXQT_PRXU_puttc())		.append("|");
+if (produit.getMDA_ARTS_MART_PXQT_PRXU_seuil()		!=null && !produit.getMDA_ARTS_MART_PXQT_PRXU_seuil().equalsIgnoreCase("null") 		&& lstPFIs.get("MDA_ARTS_MART_PXQT_PRXU_seuil") !=null)			completeLine2.append(" ").append(lstPFIs.get("MDA_ARTS_MART_PXQT_PRXU_seuil"))			.append(" 0 |").append(produit.getMDA_ARTS_MART_PXQT_PRXU_seuil())		.append("|");
+if (produit.getMDA_ARTS_MART_PXQT_PRXU_QTEQ_pesee()	!=null && !produit.getMDA_ARTS_MART_PXQT_PRXU_QTEQ_pesee().equalsIgnoreCase("null") 	&& lstPFIs.get("MDA_ARTS_MART_PXQT_PRXU_QTEQ_pesee") !=null)	completeLine2.append(" ").append(lstPFIs.get("MDA_ARTS_MART_PXQT_PRXU_QTEQ_pesee"))		.append(" 0 |").append(produit.getMDA_ARTS_MART_PXQT_PRXU_QTEQ_pesee())	.append("|");
+if (produit.getMDA_ARTS_MART_PXQT_PRXU_QTEQ_unite()	!=null && !produit.getMDA_ARTS_MART_PXQT_PRXU_QTEQ_unite().equalsIgnoreCase("null") 	&& lstPFIs.get("MDA_ARTS_MART_PXQT_PRXU_QTEQ_unite") !=null)	completeLine2.append(" ").append(lstPFIs.get("MDA_ARTS_MART_PXQT_PRXU_QTEQ_unite"))		.append(" 0 |").append(produit.getMDA_ARTS_MART_PXQT_PRXU_QTEQ_unite())	.append("|");
+if (produit.getMDA_ARTS_MART_PXQT_PRXU_QTEC_unite()	!=null && !produit.getMDA_ARTS_MART_PXQT_PRXU_QTEC_unite().equalsIgnoreCase("null")	&& lstPFIs.get("MDA_ARTS_MART_PXQT_PRXU_QTEC_unite") !=null)	completeLine2.append(" ").append(lstPFIs.get("MDA_ARTS_MART_PXQT_PRXU_QTEC_unite"))		.append(" 0 |").append(produit.getMDA_ARTS_MART_PXQT_PRXU_QTEC_unite())	.append("|");
+
+
 if (produit.getMDA_ARTS_MART_PXQT_PRXS_QTEQ_pesee()	!=null && !produit.getMDA_ARTS_MART_PXQT_PRXS_QTEQ_pesee().equalsIgnoreCase("null") 	&& lstPFIs.get("MDA_ARTS_MART_PXQT_PRXS_QTEQ_pesee") !=null)	completeLine2.append(" ").append(lstPFIs.get("MDA_ARTS_MART_PXQT_PRXS_QTEQ_pesee"))		.append(" 0 |").append(produit.getMDA_ARTS_MART_PXQT_PRXS_QTEQ_pesee())	.append("|");
 if (produit.getMDA_ARTS_MART_PXQT_PRXS_QTEQ_unite()	!=null && !produit.getMDA_ARTS_MART_PXQT_PRXS_QTEQ_unite().equalsIgnoreCase("null") 	&& lstPFIs.get("MDA_ARTS_MART_PXQT_PRXS_QTEQ_unite") !=null)	completeLine2.append(" ").append(lstPFIs.get("MDA_ARTS_MART_PXQT_PRXS_QTEQ_unite"))		.append(" 0 |").append(produit.getMDA_ARTS_MART_PXQT_PRXS_QTEQ_unite())	.append("|");
 if (produit.getMDA_ARTS_MART_PXQT_PRXS_QTEC_unite()	!=null && !produit.getMDA_ARTS_MART_PXQT_PRXS_QTEC_unite().equalsIgnoreCase("null")	&& lstPFIs.get("MDA_ARTS_MART_PXQT_PRXS_QTEC_unite") !=null)	completeLine2.append(" ").append(lstPFIs.get("MDA_ARTS_MART_PXQT_PRXS_QTEC_unite"))		.append(" 0 |").append(produit.getMDA_ARTS_MART_PXQT_PRXS_QTEC_unite())	.append("|");

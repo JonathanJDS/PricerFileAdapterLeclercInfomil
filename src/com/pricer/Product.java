@@ -19,9 +19,15 @@ public class Product {
 	// PXQT Prix et Quantité de l'article
 	// PRXU element list
 	private String MDA_ARTS_MART_PXQT_pxz;			// prix quantité (prix à zero oui/non)
-	//private String MDA_ARTS_MART_PXQT_PRXU_puttc;	// prix unitaire de l'article
-	//private String MDA_ARTS_MART_PXQT_PRXU_seuil;	// quantité
+	private String MDA_ARTS_MART_PXQT_PRXU_puttc;	// prix unitaire de l'article
+	private String MDA_ARTS_MART_PXQT_PRXU_seuil;	// quantité
 	private String MDA_ARTS_MART_PXQT_PRXU_type;	// one of them ==> QTEU = à l'unité; QTES = Quantité; QTEQ = vendu au poids; QTEC = quantité dans le code.
+
+	private String MDA_ARTS_MART_PXQT_PRXU_QTEQ_pesee;
+	private String MDA_ARTS_MART_PXQT_PRXU_QTEQ_unite;
+	private String MDA_ARTS_MART_PXQT_PRXU_QTEC_unite;
+
+
 
 	// PRXS element list, prix saisi en caisse
 	private String MDA_ARTS_MART_PXQT_PRXS_type;	// one of them ==> QTEU = à l'unité; QTES = Quantité; QTEQ = vendu au poids; QTEC = quantité dans le code.
@@ -196,6 +202,47 @@ public class Product {
 		this.MDA_ARTS_MART_PXQT_pxz = MDA_ARTS_MART_PXQT_pxz;
 	}
 
+
+	public String getMDA_ARTS_MART_PXQT_PRXU_puttc() {
+		return MDA_ARTS_MART_PXQT_PRXU_puttc;
+	}
+
+	public void setMDA_ARTS_MART_PXQT_PRXU_puttc(String MDA_ARTS_MART_PXQT_PRXU_puttc) {
+		this.MDA_ARTS_MART_PXQT_PRXU_puttc = MDA_ARTS_MART_PXQT_PRXU_puttc;
+	}
+
+	public String getMDA_ARTS_MART_PXQT_PRXU_seuil() {
+		return MDA_ARTS_MART_PXQT_PRXU_seuil;
+	}
+
+	public void setMDA_ARTS_MART_PXQT_PRXU_seuil(String MDA_ARTS_MART_PXQT_PRXU_seuil) {
+		this.MDA_ARTS_MART_PXQT_PRXU_seuil = MDA_ARTS_MART_PXQT_PRXU_seuil;
+	}
+
+	public String getMDA_ARTS_MART_PXQT_PRXU_QTEQ_pesee() {
+		return MDA_ARTS_MART_PXQT_PRXU_QTEQ_pesee;
+	}
+
+	public void setMDA_ARTS_MART_PXQT_PRXU_QTEQ_pesee(String MDA_ARTS_MART_PXQT_PRXU_QTEQ_pesee) {
+		this.MDA_ARTS_MART_PXQT_PRXU_QTEQ_pesee = MDA_ARTS_MART_PXQT_PRXU_QTEQ_pesee;
+	}
+
+	public String getMDA_ARTS_MART_PXQT_PRXU_QTEQ_unite() {
+		return MDA_ARTS_MART_PXQT_PRXU_QTEQ_unite;
+	}
+
+	public void setMDA_ARTS_MART_PXQT_PRXU_QTEQ_unite(String MDA_ARTS_MART_PXQT_PRXU_QTEQ_unite) {
+		this.MDA_ARTS_MART_PXQT_PRXU_QTEQ_unite = MDA_ARTS_MART_PXQT_PRXU_QTEQ_unite;
+	}
+
+
+	public String getMDA_ARTS_MART_PXQT_PRXU_QTEC_unite() {
+		return MDA_ARTS_MART_PXQT_PRXU_QTEC_unite;
+	}
+
+	public void setMDA_ARTS_MART_PXQT_PRXU_QTEC_unite(String MDA_ARTS_MART_PXQT_PRXU_QTEC_unite) {
+		this.MDA_ARTS_MART_PXQT_PRXU_QTEC_unite = MDA_ARTS_MART_PXQT_PRXU_QTEC_unite;
+	}
 
 	public String getMDA_ARTS_MART_PXQT_PRXU_type() {
 		return MDA_ARTS_MART_PXQT_PRXU_type;
