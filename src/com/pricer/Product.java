@@ -46,7 +46,11 @@ public class Product {
 
 
 	// STM Structure marchandise de l'article
-	private String MDA_ARTS_MART_STM;			// list de STM à concaténer avec # , exemple "CN1,CE1#CN2,CE2#......."
+	private String MDA_ARTS_MART_STM_r;			// rayon
+	private String MDA_ARTS_MART_STM_f;			// famille
+	private String MDA_ARTS_MART_STM_sf;		// sous famille
+
+
 
 	//DCOG ; Données opérationnelles de gestion
 	private String MDA_ARTS_MART_DCOG_cia;			//	code interne
@@ -302,12 +306,28 @@ public class Product {
 		this.MDA_ARTS_MART_cha = MDA_ARTS_MART_cha;
 	}
 
-	public String getMDA_ARTS_MART_STM() {
-		return MDA_ARTS_MART_STM;
+	public String getMDA_ARTS_MART_STM_r() {
+		return MDA_ARTS_MART_STM_r;
 	}
 
-	public void setMDA_ARTS_MART_STM(String MDA_ARTS_MART_STM) {
-		this.MDA_ARTS_MART_STM = MDA_ARTS_MART_STM;
+	public void setMDA_ARTS_MART_STM_r(String MDA_ARTS_MART_STM_r) {
+		this.MDA_ARTS_MART_STM_r = MDA_ARTS_MART_STM_r;
+	}
+
+	public String getMDA_ARTS_MART_STM_f() {
+		return MDA_ARTS_MART_STM_f;
+	}
+
+	public void setMDA_ARTS_MART_STM_f(String MDA_ARTS_MART_STM_f) {
+		this.MDA_ARTS_MART_STM_f = MDA_ARTS_MART_STM_f;
+	}
+
+	public String getMDA_ARTS_MART_STM_sf() {
+		return MDA_ARTS_MART_STM_sf;
+	}
+
+	public void setMDA_ARTS_MART_STM_sf(String MDA_ARTS_MART_STM_sf) {
+		this.MDA_ARTS_MART_STM_sf = MDA_ARTS_MART_STM_sf;
 	}
 
 	public String getMDA_ARTS_MART_DCOG_cia() {

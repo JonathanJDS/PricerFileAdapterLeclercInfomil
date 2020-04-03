@@ -1,9 +1,0 @@
-03-13-2020 12:09:41,630|INFO|Start|Starting adapter leclerc Infomil xml format V1.0 By MDZ on 2020-03 
-03-13-2020 12:09:41,634|INFO|Start|Next execution date for Checking old files in Archives Folder : Sat Mar 14 00:00:00 CET 2020
-03-13-2020 12:09:41,637|INFO|ThreadCheckPriceFiles|Starting Thread ThreadCheckPriceFiles
-03-13-2020 12:10:47,666|INFO|ThreadCheckPriceFiles|Processing data file : C:\Pricer\FTP\Temporary\ficWLST006.xml\ficWLST006.xml
-03-13-2020 12:10:49,865|INFO|ThreadCheckPriceFiles|nbre of products found  = 27
-03-13-2020 12:10:49,880|INFO|ThreadCheckPriceFiles|datafile (c:\pricer\PFIFiles\DataFiles\data_price_20200313_121047.i1) is written......
-03-13-2020 12:10:49,882|INFO|FileUtility|deleting file : ficWLST006.xml
-03-13-2020 12:10:49,884|INFO|FileUtility|File deletion result : true
-03-13-2020 12:10:49,884|INFO|ThreadCheckPriceFiles|file deleted : C:\Pricer\FTP\Temporary\ficWLST006.xml

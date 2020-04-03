@@ -404,13 +404,20 @@ public class ThreadCheckPriceFiles extends Thread {
 
 
 						if (lstSTM.size() > 0) {
-							StringBuilder stmValues = new StringBuilder();
-							for (MDA.ARTS.MART.STM stm : lstSTM) {
-								stmValues.append(stm.getCN()).append(",").append(stm.getCE()).append("#");
-								System.out.println("CN = " + stm.getCN() + " ; " + "CE = " + stm.getCE());
-							}
-							product.setMDA_ARTS_MART_STM(stmValues.toString());
+							MDA.ARTS.MART.STM stm_r = lstSTM.get(0);
+							product.setMDA_ARTS_MART_STM_r(stm_r.getCE().toString());
 						}
+
+						if (lstSTM.size() >= 1) {
+							MDA.ARTS.MART.STM stm_f = lstSTM.get(1);
+							product.setMDA_ARTS_MART_STM_f(stm_f.getCE().toString());
+						}
+						if (lstSTM.size() >= 2) {
+							MDA.ARTS.MART.STM stm_sf = lstSTM.get(2);
+							product.setMDA_ARTS_MART_STM_sf(stm_sf.getCE().toString());
+						}
+
+
 						// fin de la balise STM
 
 						// debut de la balise DCOG "données complémentaires de Gestion
@@ -460,6 +467,24 @@ public class ThreadCheckPriceFiles extends Thread {
 							}
 
 
+							if (dcog.getCONT() != null) {
+								MDA.ARTS.MART.DCOG.CONT cont = dcog.getCONT();
+								product.setMDA_ARTS_MART_DCOG_CONT_contv(String.valueOf(cont.getCONTV()));
+								product.setMDA_ARTS_MART_DCOG_CONT_libu(cont.getLIBU());
+								product.setMDA_ARTS_MART_DCOG_CONT_contt(cont.getCONTT());
+
+
+
+
+								System.out.println("contv = " + product.getMDA_ARTS_MART_DCOG_CONT_contv());
+								System.out.println("libu = " + product.getMDA_ARTS_MART_DCOG_CONT_libu());
+								System.out.println("contt = " +product.getMDA_ARTS_MART_DCOG_CONT_contt());
+
+
+							}
+
+
+
 						}
 						// fin de balise DCOG
 
@@ -471,7 +496,7 @@ public class ThreadCheckPriceFiles extends Thread {
 							// debut de la balise TAS, informations supplémentaires facultatives pour fournir des infos au EEG
 							if (dcot.getTAS() != null) {
 								product.setMDA_ARTS_MART_DCOT_TAS_tas(dcot.getTAS());
-								System.out.println("TAS = " + dcot.getTAS());
+								//System.out.println("TAS = " + dcot.getTAS());
 							}
 							// fin de la balise TAS
 
@@ -629,7 +654,7 @@ public class ThreadCheckPriceFiles extends Thread {
 					// delete product debut de la balise SART pour la suppression
 					if (objectARTS instanceof MDA.ARTS.SART) {
 						MDA.ARTS.SART sart = (MDA.ARTS.SART) objectARTS;
-						System.out.println("product to delete ART = " + sart.getART());
+						//System.out.println("product to delete ART = " + sart.getART());
 						Product ProductToDelete = new Product();
 						productToDelete.setMDA_ARTS_SART_art(sart.getART());
 						lstProductsToDelete.add(productToDelete);
@@ -690,7 +715,11 @@ if (produit.getMDA_ARTS_MART_PXQT_PRXS_QTEQ_unite()	!=null && !produit.getMDA_AR
 if (produit.getMDA_ARTS_MART_PXQT_PRXS_QTEC_unite()	!=null && !produit.getMDA_ARTS_MART_PXQT_PRXS_QTEC_unite().equalsIgnoreCase("null")	&& lstPFIs.get("MDA_ARTS_MART_PXQT_PRXS_QTEC_unite") !=null)	completeLine2.append(" ").append(lstPFIs.get("MDA_ARTS_MART_PXQT_PRXS_QTEC_unite"))		.append(" 0 |").append(produit.getMDA_ARTS_MART_PXQT_PRXS_QTEC_unite())	.append("|");
 if (produit.getMDA_ARTS_MART_PXQT_PRXC_type()		!=null && !produit.getMDA_ARTS_MART_PXQT_PRXC_type().equalsIgnoreCase("null") 			&& lstPFIs.get("MDA_ARTS_MART_PXQT_PRXC_type") !=null)			completeLine2.append(" ").append(lstPFIs.get("MDA_ARTS_MART_PXQT_PRXC_type"))			.append(" 0 |").append(produit.getMDA_ARTS_MART_PXQT_PRXC_type())		.append("|");
 if (produit.getMDA_ARTS_MART_cha()					!=null && !produit.getMDA_ARTS_MART_cha().equalsIgnoreCase("null") 					&& lstPFIs.get("MDA_ARTS_MART_cha") !=null)						completeLine2.append(" ").append(lstPFIs.get("MDA_ARTS_MART_cha"))						.append(" 0 |").append(produit.getMDA_ARTS_MART_cha())					.append("|");
-if (produit.getMDA_ARTS_MART_STM()					!=null && !produit.getMDA_ARTS_MART_STM().equalsIgnoreCase("null") 					&& lstPFIs.get("MDA_ARTS_MART_STM") !=null)						completeLine2.append(" ").append(lstPFIs.get("MDA_ARTS_MART_STM"))						.append(" 0 |").append(produit.getMDA_ARTS_MART_STM())					.append("|");
+
+if (produit.getMDA_ARTS_MART_STM_r()				!=null && !produit.getMDA_ARTS_MART_STM_r().equalsIgnoreCase("null") 					&& lstPFIs.get("MDA_ARTS_MART_STM_r") !=null)					completeLine2.append(" ").append(lstPFIs.get("MDA_ARTS_MART_STM_r"))					.append(" 0 |").append(produit.getMDA_ARTS_MART_STM_r())				.append("|");
+if (produit.getMDA_ARTS_MART_STM_f()				!=null && !produit.getMDA_ARTS_MART_STM_f().equalsIgnoreCase("null") 					&& lstPFIs.get("MDA_ARTS_MART_STM_f") !=null)					completeLine2.append(" ").append(lstPFIs.get("MDA_ARTS_MART_STM_f"))					.append(" 0 |").append(produit.getMDA_ARTS_MART_STM_f())				.append("|");
+if (produit.getMDA_ARTS_MART_STM_sf()				!=null && !produit.getMDA_ARTS_MART_STM_sf().equalsIgnoreCase("null") 					&& lstPFIs.get("MDA_ARTS_MART_STM_sf") !=null)					completeLine2.append(" ").append(lstPFIs.get("MDA_ARTS_MART_STM_sf"))					.append(" 0 |").append(produit.getMDA_ARTS_MART_STM_sf())				.append("|");
+
 if (produit.getMDA_ARTS_MART_DCOG_cia()				!=null && !produit.getMDA_ARTS_MART_DCOG_cia().equalsIgnoreCase("null") 				&& lstPFIs.get("MDA_ARTS_MART_DCOG_cia") !=null)				completeLine2.append(" ").append(lstPFIs.get("MDA_ARTS_MART_DCOG_cia"))					.append(" 0 |").append(produit.getMDA_ARTS_MART_DCOG_cia())				.append("|");
 if (produit.getMDA_ARTS_MART_DCOG_nac()				!=null && !produit.getMDA_ARTS_MART_DCOG_nac().equalsIgnoreCase("null") 				&& lstPFIs.get("MDA_ARTS_MART_DCOG_nac") !=null)				completeLine2.append(" ").append(lstPFIs.get("MDA_ARTS_MART_DCOG_nac"))					.append(" 0 |").append(produit.getMDA_ARTS_MART_DCOG_nac())				.append("|");
 if (produit.getMDA_ARTS_MART_DCOG_clec()			!=null && !produit.getMDA_ARTS_MART_DCOG_clec().equalsIgnoreCase("null") 				&& lstPFIs.get("MDA_ARTS_MART_DCOG_clec") !=null)				completeLine2.append(" ").append(lstPFIs.get("MDA_ARTS_MART_DCOG_clec"))				.append(" 0 |").append(produit.getMDA_ARTS_MART_DCOG_clec())			.append("|");
@@ -746,7 +775,7 @@ completeLine2.append(",");
 					} catch (NullPointerException ex) {
 						logger.warn("anomalie product is empty or not forfamted correctly  : rejected " + "==>" + produit.toString());
 						logger.log(Level.getLevel("REJECTED"),"anomalie product is empty or not formated correctly  : rejected " + "==>" + produit.toString());
-						System.out.println("Produit is null");
+					//	System.out.println("Produit is null");
 					}
 
 

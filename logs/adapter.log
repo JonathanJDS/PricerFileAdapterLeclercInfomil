@@ -16,3 +16,39 @@
 04-02-2020 15:25:20,313|INFO|FileUtility|deleting file : ficWLST006.xml
 04-02-2020 15:25:20,314|INFO|FileUtility|File deletion result : true
 04-02-2020 15:25:20,314|INFO|ThreadCheckPriceFiles|file deleted : C:\Pricer\FTP\Temporary\ficWLST006.xml
+04-03-2020 10:23:07,604|INFO|Start|Starting adapter leclerc Infomil xml format V1.0 By MDZ on 2020-03 
+04-03-2020 10:23:07,607|INFO|Start|Next execution date for Checking old files in Archives Folder : Sat Apr 04 00:00:00 CEST 2020
+04-03-2020 10:23:07,624|INFO|ThreadCheckPriceFiles|Starting Thread ThreadCheckPriceFiles
+04-03-2020 10:23:41,644|INFO|ThreadCheckPriceFiles|Processing data file : C:\Pricer\FTP\Temporary\ficWLST006.xml\ficWLST006.xml
+04-03-2020 10:23:43,943|INFO|ThreadCheckPriceFiles|nbre of products found  = 27
+04-03-2020 10:23:43,945|INFO|ThreadCheckPriceFiles|datafile (c:\pricer\PFIFiles\DataFiles\data_price_20200403_102341.i1) is written......
+04-03-2020 10:23:43,946|INFO|FileUtility|deleting file : ficWLST006.xml
+04-03-2020 10:23:43,947|INFO|FileUtility|File deletion result : true
+04-03-2020 10:23:43,947|INFO|ThreadCheckPriceFiles|file deleted : C:\Pricer\FTP\Temporary\ficWLST006.xml
+04-03-2020 10:40:08,242|INFO|Start|Starting adapter leclerc Infomil xml format V1.0 By MDZ on 2020-03 
+04-03-2020 10:40:08,245|INFO|Start|Next execution date for Checking old files in Archives Folder : Sat Apr 04 00:00:00 CEST 2020
+04-03-2020 10:40:08,261|INFO|ThreadCheckPriceFiles|Starting Thread ThreadCheckPriceFiles
+04-03-2020 10:40:42,274|INFO|ThreadCheckPriceFiles|Processing data file : C:\Pricer\FTP\Temporary\ficWLST006.xml\ficWLST006.xml
+04-03-2020 10:40:44,466|INFO|ThreadCheckPriceFiles|nbre of products found  = 27
+04-03-2020 10:40:44,482|INFO|ThreadCheckPriceFiles|datafile (c:\pricer\PFIFiles\DataFiles\data_price_20200403_104042.i1) is written......
+04-03-2020 10:40:44,485|INFO|FileUtility|deleting file : ficWLST006.xml
+04-03-2020 10:40:44,487|INFO|FileUtility|File deletion result : true
+04-03-2020 10:40:44,487|INFO|ThreadCheckPriceFiles|file deleted : C:\Pricer\FTP\Temporary\ficWLST006.xml
+04-03-2020 10:44:44,462|INFO|Start|Starting adapter leclerc Infomil xml format V1.0 By MDZ on 2020-03 
+04-03-2020 10:44:44,464|INFO|Start|Next execution date for Checking old files in Archives Folder : Sat Apr 04 00:00:00 CEST 2020
+04-03-2020 10:44:44,479|INFO|ThreadCheckPriceFiles|Starting Thread ThreadCheckPriceFiles
+04-03-2020 10:45:18,508|INFO|ThreadCheckPriceFiles|Processing data file : C:\Pricer\FTP\Temporary\ficWLST006.xml\ficWLST006.xml
+04-03-2020 10:45:20,701|INFO|ThreadCheckPriceFiles|nbre of products found  = 27
+04-03-2020 10:45:20,715|INFO|ThreadCheckPriceFiles|datafile (c:\pricer\PFIFiles\DataFiles\data_price_20200403_104518.i1) is written......
+04-03-2020 10:45:20,717|INFO|FileUtility|deleting file : ficWLST006.xml
+04-03-2020 10:45:20,717|INFO|FileUtility|File deletion result : true
+04-03-2020 10:45:20,718|INFO|ThreadCheckPriceFiles|file deleted : C:\Pricer\FTP\Temporary\ficWLST006.xml
+04-03-2020 10:55:17,755|INFO|Start|Starting adapter leclerc Infomil xml format V1.0 By MDZ on 2020-03 
+04-03-2020 10:55:17,757|INFO|Start|Next execution date for Checking old files in Archives Folder : Sat Apr 04 00:00:00 CEST 2020
+04-03-2020 10:55:17,773|INFO|ThreadCheckPriceFiles|Starting Thread ThreadCheckPriceFiles
+04-03-2020 10:55:51,792|INFO|ThreadCheckPriceFiles|Processing data file : C:\Pricer\FTP\Temporary\ficWLST006.xml\ficWLST006.xml
+04-03-2020 10:55:53,989|INFO|ThreadCheckPriceFiles|nbre of products found  = 27
+04-03-2020 10:55:53,992|INFO|ThreadCheckPriceFiles|datafile (c:\pricer\PFIFiles\DataFiles\data_price_20200403_105551.i1) is written......
+04-03-2020 10:55:53,993|INFO|FileUtility|deleting file : ficWLST006.xml
+04-03-2020 10:55:53,994|INFO|FileUtility|File deletion result : true
+04-03-2020 10:55:53,994|INFO|ThreadCheckPriceFiles|file deleted : C:\Pricer\FTP\Temporary\ficWLST006.xml
