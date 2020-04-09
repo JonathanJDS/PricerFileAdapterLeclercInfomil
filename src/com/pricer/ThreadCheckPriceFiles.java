@@ -60,26 +60,61 @@ public class ThreadCheckPriceFiles extends Thread {
 			@Override
 			public void run() {
 
-				FileUtility FdataFile = new FileUtility(sourceFolder + "\\" +  priceFileName);
-				FileUtility FTemporaryFile = new FileUtility(temporaryFolder + "\\" + priceFileName);
+				
 
-				// check first if something is present in temporary Folder, if not process source Folder
-				if (FTemporaryFile.FileExist()) {
-					logger.warn ("File is present in temporary Folder !! priority for that !!!!");
-					ProcessFile(FTemporaryFile);
+
+				ArrayList<String> allDatafiles=listFilesFromDirectory(sourceFolder + "\\", priceFileName);
+				ArrayList<String> alltempfiles=listFilesFromDirectory(temporaryFolder + "\\", priceFileName);
+
+
+				System.out.println("searching file with filter Name = " + priceFileName);
+				FileUtility FdataFile = null;
+				FileUtility FTemporaryFile = null;
+
+				if (allDatafiles.size()>0) {
+					//taking only the first file of several, the second on will become the first one at next iteration 
+				FdataFile = new FileUtility(sourceFolder + "\\" + allDatafiles.get(0));
+					System.out.println("current File Name = " + FdataFile.getPathFilename());
 				}
 
-				else {
 
-					// process only one file in temporary (one by one ) .
-					if (FdataFile.FileExist() && !FTemporaryFile.FileExist()) {
-						utility.ZipFile(sourceFolder, FdataFile.getFileName(), priceArchiveFolder, FdataFile.getFileName());
-						utility.MoveFile(sourceFolder + "\\" + FdataFile.getFileName(), temporaryFolder + "\\" + FdataFile.getFileName());
+				if (alltempfiles.size()>0) {
+					FTemporaryFile = new FileUtility(temporaryFolder + "\\" + alltempfiles.get(0));
+					System.out.println("current Temporary File Name = " + FTemporaryFile.getPathFilename());
+				}
 
-					ProcessFile(FTemporaryFile);
 
+
+				
+				// check first if something is present in temporary Folder, if not process source Folder
+
+				if (FTemporaryFile!=null) {
+					if (FTemporaryFile.FileExist()) {
+						logger.warn("File is present in temporary Folder !! priority for that !!!!");
+						logger.info("processing Temporary File : " + FTemporaryFile.getPathFilename());
+						ProcessFile(FTemporaryFile);
 					}
 				}
+
+					// process only one file in temporary (one by one ) .
+					if (FdataFile!=null) {
+
+						if (FdataFile.FileExist()) {
+							utility.ZipFile(sourceFolder, FdataFile.getFileName(), priceArchiveFolder, FdataFile.getFileName());
+							utility.MoveFile(sourceFolder + "\\" + FdataFile.getFileName(), temporaryFolder + "\\" + FdataFile.getFileName());
+
+							if (FTemporaryFile!=null) {
+								if (FTemporaryFile.FileExist() && !FTemporaryFile.fileIsGrowing()) {
+									logger.info("processing Temporary File : " + FTemporaryFile.getPathFilename());
+									ProcessFile(FTemporaryFile);
+								}
+							}
+
+						}
+
+					//	ProcessFile(FTemporaryFile);
+
+					}
 
 			}
 
@@ -226,11 +261,59 @@ public class ThreadCheckPriceFiles extends Thread {
 							MDA.ARTS.MART.TAX tax = mart.getTAX();
 							product.setMDA_ARTS_MART_TAX_tva(tax.getTVA());
 							if (tax.getDEEE() != null) {
+
+
 								MDA.ARTS.MART.TAX.DEEE deee = tax.getDEEE();
-								product.setMDA_ARTS_MART_TAX_DEEE_d3em(String.valueOf(deee.getD3EM()));
+
+								if (deee.getD3EM()!=null) {
+									product.setMDA_ARTS_MART_TAX_DEEE_d3em(String.valueOf(deee.getD3EM()));
+								}
+
+								if (deee.getD3ET()!=null) {
 								product.setMDA_ARTS_MART_TAX_DEEE_d3et(deee.getD3ET());
+								}
+
+
+								if (deee.getD3EM() == null) {
+									product.setMDA_ARTS_MART_TAX_DEEE_d3em("0");
+									}
+
+								if (deee.getD3ET() == null) {
+									product.setMDA_ARTS_MART_TAX_DEEE_d3et("0");
+								}
+
 							}
 
+
+							if (tax.getTAXE() != null) {
+
+								List <MDA.ARTS.MART.TAX.TAXE> lstTaxe = tax.getTAXE();
+								if (lstTaxe.size()>0) {
+									MDA.ARTS.MART.TAX.TAXE taxe = lstTaxe.get(0);
+									if (taxe!=null) {
+
+										if (taxe.getCT() != null) {
+											product.setMDA_ARTS_MART_TAX_TAXE_ct(taxe.getCT());
+										}
+										if (taxe.getCT() == null) {
+											product.setMDA_ARTS_MART_TAX_TAXE_ct("0");
+										}
+
+										if (taxe.getVAL() != null) {
+											product.setMDA_ARTS_MART_TAX_TAXE_val(String.valueOf(taxe.getVAL()));
+										}
+										if (taxe.getVAL() == null) {
+											product.setMDA_ARTS_MART_TAX_TAXE_val("0");
+										}
+
+									}
+
+
+								}
+
+
+
+							}
 
 						}
 
@@ -254,7 +337,9 @@ public class ThreadCheckPriceFiles extends Thread {
 								if (prxu.getPUTTC() != null) {
 									product.setMDA_ARTS_MART_PXQT_PRXU_puttc(String.valueOf(prxu.getPUTTC()));
 								}
-
+								if (prxu.getPUTTC() == null) {
+									product.setMDA_ARTS_MART_PXQT_PRXU_puttc("0");
+								}
 								if (prxu.getSEUIL() != null) {
 									product.setMDA_ARTS_MART_PXQT_PRXU_seuil(String.valueOf(prxu.getSEUIL()));
 								}
@@ -459,11 +544,17 @@ public class ThreadCheckPriceFiles extends Thread {
 
 							if (dcog.getIUM() != null) {
 								MDA.ARTS.MART.DCOG.IUM ium = dcog.getIUM();
-								product.setMDA_ARTS_MART_DCOG_IUM_libu(ium.getLIBU());
-								product.setMDA_ARTS_MART_DCOG_IUM_pum(String.valueOf(ium.getPUM()));
-								//System.out.println("Prix à l'unité de mesure PUM = " + ium.getPUM());
-								//System.out.println("Libéllé unité LIBU = " + ium.getLIBU());
 
+								if (ium.getLIBU() != null) {
+									product.setMDA_ARTS_MART_DCOG_IUM_libu(ium.getLIBU());
+									product.setMDA_ARTS_MART_DCOG_IUM_pum(String.valueOf(ium.getPUM()));
+									//System.out.println("Prix à l'unité de mesure PUM = " + ium.getPUM());
+									//System.out.println("Libéllé unité LIBU = " + ium.getLIBU());
+								}
+								else {
+									product.setMDA_ARTS_MART_DCOG_IUM_libu("P");
+									product.setMDA_ARTS_MART_DCOG_IUM_pum("0");
+								}
 							}
 
 
@@ -884,6 +975,70 @@ completeLine2.append(",");
 		}
 
 	}
+
+
+
+
+
+
+	static ArrayList<String> listFilesFromDirectory(String directoryPath,String filterName) {
+
+
+
+
+
+		try{
+
+			ArrayList<String> data=new ArrayList<String>();
+
+			File directory = new File(directoryPath);
+
+			if (!directory.exists()) {
+				System.out.println("Le fichier/r?pertoire '" + directoryPath + "' n'existe pas");
+			} else if (!directory.isDirectory()) {
+				System.out.println("Le chemin '" + directoryPath + "' correspond ? un fichier et non ? un r?pertoire");
+			} else{
+
+
+				System.out.println("directoryPath = " + directoryPath );
+				System.out.println("filterName = " + filterName.toUpperCase() );
+
+				ListDataManager ldm=new ListDataManager(directoryPath, filterName.toUpperCase());
+				ldm.sortFilesLeft();
+
+
+
+				for (int i=0;i<ldm.getFilesLeftSize();i++){
+
+					File subfile = ldm.getCurrentFile();
+
+
+
+
+					String fileName= subfile.getName();
+
+					data.add(fileName);
+					System.out.println("fichier dans le repertoire : " + fileName);
+
+					ldm.nextFile();
+
+
+				}
+			}
+
+
+			return data;
+
+		}
+		catch(java.lang.Exception err){
+			// vect.add(err.getMessage());
+
+			System.out.println(err.getMessage());
+			return null;
+		}
+	}
+
+
 
 	private static List<String> splitLine(String sLine, String sSeparator) {
 
