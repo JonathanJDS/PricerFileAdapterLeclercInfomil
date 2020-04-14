@@ -783,6 +783,36 @@ public class ThreadCheckPriceFiles extends Thread {
 						completeLine2.append("0001 ").append(produit.getMDA_ARTS_MART_art());
 
 
+
+
+// remplacement de null par le chiffre zero pour certaines balises .
+if (produit.getMDA_ARTS_MART_DCOG_IUM_pum()	 ==null || produit.getMDA_ARTS_MART_DCOG_IUM_pum().equalsIgnoreCase("null")) {
+	produit.setMDA_ARTS_MART_DCOG_IUM_pum("0");
+}
+
+if (produit.getMDA_ARTS_MART_PXQT_PRXU_puttc()	 ==null || produit.getMDA_ARTS_MART_PXQT_PRXU_puttc().equalsIgnoreCase("null")) {
+	produit.setMDA_ARTS_MART_PXQT_PRXU_puttc("0");
+}
+
+if (produit.getMDA_ARTS_MART_TAX_DEEE_d3em()	 ==null || produit.getMDA_ARTS_MART_TAX_DEEE_d3em().equalsIgnoreCase("null")) {
+	produit.setMDA_ARTS_MART_TAX_DEEE_d3em("0");
+}
+
+if (produit.getMDA_ARTS_MART_TAX_DEEE_d3em()	 ==null || produit.getMDA_ARTS_MART_TAX_DEEE_d3em().equalsIgnoreCase("null")) {
+	produit.setMDA_ARTS_MART_TAX_DEEE_d3em("0");
+	}
+
+if (produit.getMDA_ARTS_MART_TAX_TAXE_ct()	 ==null || produit.getMDA_ARTS_MART_TAX_TAXE_ct().equalsIgnoreCase("null")) {
+	produit.setMDA_ARTS_MART_TAX_TAXE_ct("0");
+ }
+
+if (produit.getMDA_ARTS_MART_DCOG_IUM_libu()	 ==null || produit.getMDA_ARTS_MART_DCOG_IUM_libu().equalsIgnoreCase("null")) {
+	produit.setMDA_ARTS_MART_DCOG_IUM_libu("P");
+}
+
+
+
+
 if (produit.getMDA_ARTS_MART_lib() 					!=null && !produit.getMDA_ARTS_MART_lib().equalsIgnoreCase("null") 					&& lstPFIs.get("MDA_ARTS_MART_lib") !=null)	 					completeLine2.append(" ").append(lstPFIs.get("MDA_ARTS_MART_lib"))						.append(" 0 |").append(produit.getMDA_ARTS_MART_lib())					.append("|");
 if (produit.getMDA_ARTS_MART_TAX_tva()				!=null && !produit.getMDA_ARTS_MART_TAX_tva().equalsIgnoreCase("null") 				&& lstPFIs.get("MDA_ARTS_MART_TAX_tva") !=null)					completeLine2.append(" ").append(lstPFIs.get("MDA_ARTS_MART_TAX_tva"))					.append(" 0 |").append(produit.getMDA_ARTS_MART_TAX_tva())				.append("|");
 if (produit.getMDA_ARTS_MART_TAX_DEEE_d3em()		!=null && !produit.getMDA_ARTS_MART_TAX_DEEE_d3em().equalsIgnoreCase("null") 			&& lstPFIs.get("MDA_ARTS_MART_TAX_DEEE_d3em") !=null) 			completeLine2.append(" ").append(lstPFIs.get("MDA_ARTS_MART_TAX_DEEE_d3em"))			.append(" 0 |").append(produit.getMDA_ARTS_MART_TAX_DEEE_d3em())		.append("|");

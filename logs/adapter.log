@@ -856,3 +856,14 @@
 04-09-2020 14:25:32,982|INFO|Start|Starting adapter leclerc Infomil xml format V1.0 By MDZ on 2020-03 
 04-09-2020 14:25:32,984|INFO|Start|Next execution date for Checking old files in Archives Folder : Fri Apr 10 00:00:00 CEST 2020
 04-09-2020 14:25:32,999|INFO|ThreadCheckPriceFiles|Starting Thread ThreadCheckPriceFiles
+04-14-2020 13:05:05,338|INFO|Start|Starting adapter leclerc Infomil xml format V1.0 By MDZ on 2020-03 
+04-14-2020 13:05:05,341|INFO|Start|Next execution date for Checking old files in Archives Folder : Wed Apr 15 00:00:00 CEST 2020
+04-14-2020 13:05:05,360|INFO|ThreadCheckPriceFiles|Starting Thread ThreadCheckPriceFiles
+04-14-2020 13:06:09,366|WARN|ThreadCheckPriceFiles$1|File is present in temporary Folder !! priority for that !!!!
+04-14-2020 13:06:09,367|INFO|ThreadCheckPriceFiles$1|processing Temporary File : C:\Pricer\FTP\Temporary\ficWLST006_2.xml
+04-14-2020 13:06:09,368|INFO|ThreadCheckPriceFiles|Processing data file : C:\Pricer\FTP\Temporary\ficWLST006_2.xml\ficWLST006_2.xml
+04-14-2020 13:06:11,606|INFO|ThreadCheckPriceFiles|nbre of products found  = 27
+04-14-2020 13:06:11,609|INFO|ThreadCheckPriceFiles|datafile (c:\pricer\PFIFiles\DataFiles\data_price_20200414_130609.i1) is written......
+04-14-2020 13:06:11,610|INFO|FileUtility|deleting file : ficWLST006_2.xml
+04-14-2020 13:06:11,611|INFO|FileUtility|File deletion result : true
+04-14-2020 13:06:11,611|INFO|ThreadCheckPriceFiles|file deleted : C:\Pricer\FTP\Temporary\ficWLST006_2.xml
