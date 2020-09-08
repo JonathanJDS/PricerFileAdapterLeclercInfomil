@@ -325,7 +325,7 @@ public class ThreadCheckPriceFiles extends Thread {
 						// check if PRXU is not null
 						List<MDA.ARTS.MART.PXQT.PRXU> lstPRXU = pxqt.getPRXU();
 						if (lstPRXU.size() > 0) {
-							System.out.println(" PRXU is not empty  ");
+						//	System.out.println(" PRXU is not empty  ");
 
 							StringBuilder prxuValue = new StringBuilder();
 
@@ -567,9 +567,9 @@ public class ThreadCheckPriceFiles extends Thread {
 
 
 
-								System.out.println("contv = " + product.getMDA_ARTS_MART_DCOG_CONT_contv());
-								System.out.println("libu = " + product.getMDA_ARTS_MART_DCOG_CONT_libu());
-								System.out.println("contt = " +product.getMDA_ARTS_MART_DCOG_CONT_contt());
+							//	System.out.println("contv = " + product.getMDA_ARTS_MART_DCOG_CONT_contv());
+						//		System.out.println("libu = " + product.getMDA_ARTS_MART_DCOG_CONT_libu());
+						//		System.out.println("contt = " +product.getMDA_ARTS_MART_DCOG_CONT_contt());
 
 
 							}
@@ -745,10 +745,11 @@ public class ThreadCheckPriceFiles extends Thread {
 					// delete product debut de la balise SART pour la suppression
 					if (objectARTS instanceof MDA.ARTS.SART) {
 						MDA.ARTS.SART sart = (MDA.ARTS.SART) objectARTS;
-						//System.out.println("product to delete ART = " + sart.getART());
-						Product ProductToDelete = new Product();
+						//System.out.println("product to delete ART = " + sart.getART() );
+						productToDelete = new Product();
 						productToDelete.setMDA_ARTS_SART_art(sart.getART());
 						lstProductsToDelete.add(productToDelete);
+						//System.out.println("product to delete ART = " + productToDelete.getMDA_ARTS_SART_art() );
 					}
 
 				}
@@ -957,7 +958,8 @@ completeLine2.append(",");
 
 			for (Product productToDeletePFI : lstProductsToDelete) {
 
-					completeLineDelete.append("0001 ").append(productToDeletePFI.getMDA_ARTS_MART_art()).append(",").append(Newligne);
+				System.out.println("Product to delete : " + productToDeletePFI.getMDA_ARTS_SART_art());
+				completeLineDelete.append("0001 ").append(productToDeletePFI.getMDA_ARTS_SART_art()).append(",").append(Newligne);
 
 			}
 
