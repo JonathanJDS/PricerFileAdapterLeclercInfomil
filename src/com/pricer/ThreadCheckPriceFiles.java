@@ -735,11 +735,11 @@ public class ThreadCheckPriceFiles extends Thread {
 
 						}
 						// fin de la balise DTECH
-
+						lstProducts.add(product);
 					}
 
 					// fin de la balise MART on ajoute le produit dans la liste.
-					lstProducts.add(product);
+
 
 
 					// delete product debut de la balise SART pour la suppression
@@ -779,6 +779,8 @@ public class ThreadCheckPriceFiles extends Thread {
 
 							bdatafile_Update_opened = true;
 						}
+
+						//System.out.println("product = " + produit.getMDA_ARTS_MART_art());
 
 						completeLine2 = new StringBuffer();
 						completeLine2.append("0001 ").append(produit.getMDA_ARTS_MART_art());
@@ -895,6 +897,8 @@ if (produit.getMDA_ARTS_MART_DTECH_PIEC_upie()		!=null && !produit.getMDA_ARTS_M
 completeLine2.append(",");
 
 					} catch (NullPointerException ex) {
+
+						//ex.printStackTrace();
 						logger.warn("anomalie product is empty or not forfamted correctly  : rejected " + "==>" + produit.toString());
 						logger.log(Level.getLevel("REJECTED"),"anomalie product is empty or not formated correctly  : rejected " + "==>" + produit.toString());
 					//	System.out.println("Produit is null");
