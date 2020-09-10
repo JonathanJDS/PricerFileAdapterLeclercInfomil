@@ -72,6 +72,8 @@
             <zipfileset excludes="META-INF/*.SF" src="${basedir}\lib\jaxb-impl.jar"/>
             <zipfileset excludes="META-INF/*.SF" src="${basedir}\lib\jaxb-jxc.jar"/>
             <zipfileset excludes="META-INF/*.SF" src="${basedir}\lib\jaxb-xjc.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${basedir}\lib\jsch-0.1.54.jar"/>
+
 
         </jar>
 

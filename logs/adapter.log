@@ -169,3 +169,26 @@
 09-08-2020 17:42:48,918|INFO|FileUtility|deleting file : ficWLST006_200818_2_04452.xml
 09-08-2020 17:42:48,919|INFO|FileUtility|File deletion result : true
 09-08-2020 17:42:48,919|INFO|ThreadCheckPriceFiles|file deleted : C:\Pricer\FTP\Temporary\ficWLST006_200818_2_04452.xml
+09-10-2020 16:04:08,364|INFO|Start|Starting adapter leclerc Infomil xml format V1.0 By MDZ on 2020-03 
+09-10-2020 16:04:08,367|INFO|Start|Next execution date for Checking old files in Archives Folder : Fri Sep 11 00:00:00 CEST 2020
+09-10-2020 16:04:08,387|INFO|ThreadCheckPriceFiles|Starting Thread ThreadCheckPriceFiles
+09-10-2020 16:04:08,399|INFO|ThreadGetFTPFiles|Starting Application PricerGetSFTPFile Version 1.0 by MDZ 2020/09
+09-10-2020 16:04:08,402|INFO|ThreadGetFTPFiles|host = Ftp.pricer.com
+09-10-2020 16:04:08,402|INFO|ThreadGetFTPFiles|port = 21
+09-10-2020 16:04:08,402|INFO|ThreadGetFTPFiles|username = su
+09-10-2020 16:04:08,402|INFO|ThreadGetFTPFiles|password = Plssetup78!
+09-10-2020 16:04:08,403|INFO|ThreadGetFTPFiles|filenamefilter = FICWLST006*.zip
+09-10-2020 16:04:08,403|INFO|ThreadGetFTPFiles|destinationpath = c:/pricer/ftp
+09-10-2020 16:04:08,403|INFO|ThreadGetFTPFiles|removefileaftercopy = true
+09-10-2020 16:04:08,403|INFO|ThreadGetFTPFiles|timer = 30 Sec
+09-10-2020 16:04:08,586|INFO|ThreadGetFTPFiles$1|session connected
+09-10-2020 16:04:38,591|INFO|ThreadGetFTPFiles$1|session connected
+09-10-2020 16:04:40,395|WARN|ThreadCheckPriceFiles$1|File is present in temporary Folder !! priority for that !!!!
+09-10-2020 16:04:40,396|INFO|ThreadCheckPriceFiles$1|processing Temporary File : C:\Pricer\FTP\Temporary\ficWLST006_200908_2_06666.xml
+09-10-2020 16:04:40,396|INFO|ThreadCheckPriceFiles|Processing data file : C:\Pricer\FTP\Temporary\ficWLST006_200908_2_06666.xml\ficWLST006_200908_2_06666.xml
+09-10-2020 16:04:42,722|INFO|ThreadCheckPriceFiles|nbre of products found  = 19
+09-10-2020 16:04:42,723|INFO|ThreadCheckPriceFiles|datafile (c:\pricer\PFIFiles\DataFiles\data_price_20200910_160440.i1) is written......
+09-10-2020 16:04:42,724|INFO|FileUtility|deleting file : ficWLST006_200908_2_06666.xml
+09-10-2020 16:04:42,724|INFO|FileUtility|File deletion result : true
+09-10-2020 16:04:42,724|INFO|ThreadCheckPriceFiles|file deleted : C:\Pricer\FTP\Temporary\ficWLST006_200908_2_06666.xml
+09-10-2020 16:05:08,591|INFO|ThreadGetFTPFiles$1|session connected

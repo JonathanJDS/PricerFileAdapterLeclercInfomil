@@ -76,7 +76,29 @@ public class Start {
 		getPriceFiles.start();
 
 
-		
+		if (ini.get("FTP","type").equalsIgnoreCase("sftp")) {
+			ThreadGetSFTPFiles getSFTPFiles = new ThreadGetSFTPFiles();
+			getSFTPFiles.setPriority(1);
+			getSFTPFiles.start();
+		}
+
+
+
+		if (ini.get("FTP","type").equalsIgnoreCase("ftp")) {
+			ThreadGetFTPFiles getFTPFiles = new ThreadGetFTPFiles();
+			getFTPFiles.setPriority(1);
+			getFTPFiles.start();
+		}
+
+
+
+
+
+
+
+
+
+
 	}
 	
  
