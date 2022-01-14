@@ -58,21 +58,9 @@ public class ThreadGetFTPFiles extends Thread {
 		 logger.info("removefileaftercopy = " + removefileaftercopy);
 		 logger.info("timer = " + tempo + " Sec");
 				
-		TimerTask task = new TimerTask()
-    
-    
-    
-    
-    
-    
-    {
+		TimerTask task = new TimerTask(){
 
-
-
-
-
-      public void run()
-      {
+			public void run(){
 
 
 
@@ -98,7 +86,8 @@ public class ThreadGetFTPFiles extends Thread {
 			for (FTPFile ftpFile  : files) {
 
 
-				System.out.println( "found file : " + ftpFile.getName());
+				//System.out.println( "found file : " + ftpFile.getName());
+				logger.info( "found file : " + ftpFile.getName());
 				fos = new FileOutputStream(destinationpath + "/" + ftpFile.getName());
 				ftpClient.retrieveFile(remotefolder + "/" + ftpFile.getName(), fos);
 

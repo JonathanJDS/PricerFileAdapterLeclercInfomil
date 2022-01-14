@@ -75,20 +75,23 @@ public class Start {
 		getPriceFiles.setPriority(1);
 		getPriceFiles.start();
 
+		ThreadCheckGestFiles getGestFiles = new ThreadCheckGestFiles();
+		getGestFiles.setPriority(1);
+		getGestFiles.start();
 
-		if (ini.get("FTP","type").equalsIgnoreCase("sftp")) {
-			ThreadGetSFTPFiles getSFTPFiles = new ThreadGetSFTPFiles();
-			getSFTPFiles.setPriority(1);
-			getSFTPFiles.start();
-		}
-
-
-
-		if (ini.get("FTP","type").equalsIgnoreCase("ftp")) {
-			ThreadGetFTPFiles getFTPFiles = new ThreadGetFTPFiles();
-			getFTPFiles.setPriority(1);
-			getFTPFiles.start();
-		}
+//		if (ini.get("FTP","type").equalsIgnoreCase("sftp")) {
+//			ThreadGetSFTPFiles getSFTPFiles = new ThreadGetSFTPFiles();
+//			getSFTPFiles.setPriority(1);
+//			getSFTPFiles.start();
+//		}
+//
+//
+//
+//		if (ini.get("FTP","type").equalsIgnoreCase("ftp")) {
+//			ThreadGetFTPFiles getFTPFiles = new ThreadGetFTPFiles(); 
+//			getFTPFiles.setPriority(1);
+//			getFTPFiles.start();
+//		}
 
 
 
