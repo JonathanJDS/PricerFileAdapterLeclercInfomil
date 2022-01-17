@@ -8,10 +8,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="jaxb-api" level="project" />
-    <orderEntry type="library" name="javax.activation-api-1.2.0" level="project" />
     <orderEntry type="library" name="commons-net-3.6" level="project" />
-    <orderEntry type="library" name="jsch-0.1.54" level="project" />
-    <orderEntry type="library" name="jsch-0.1.54 (2)" level="project" />
+    <orderEntry type="library" name="WS" level="project" />
   </component>
 </module>

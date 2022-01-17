@@ -203,3 +203,22 @@
 10-29-2021 16:34:53,460|WARN|ThreadCheckPriceFiles$1|File is present in temporary Folder !! priority for that !!!!
 10-29-2021 16:34:53,460|INFO|ThreadCheckPriceFiles$1|processing Temporary File : C:\Pricer\FTP\Temporary\FICWLST006_211026_2_00000.xml
 10-29-2021 16:34:53,460|INFO|ThreadCheckPriceFiles|Processing data file : C:\Pricer\FTP\Temporary\FICWLST006_211026_2_00000.xml\FICWLST006_211026_2_00000.xml
+01-17-2022 15:37:38,840|INFO|Start|Starting adapter leclerc Infomil xml format V1.0 By MDZ on 2020-03 
+01-17-2022 15:37:38,843|INFO|Start|Next execution date for Checking old files in Archives Folder : Tue Jan 18 00:00:00 CET 2022
+01-17-2022 15:37:38,855|INFO|ThreadCheckPriceFiles|Starting Thread ThreadCheckPriceFiles
+01-17-2022 15:37:38,865|INFO|ThreadCheckGestFiles|Starting Thread ThreadCheckGestFiles
+01-17-2022 15:37:45,861|WARN|ThreadCheckPriceFiles$1|File is present in temporary Folder !! priority for that !!!!
+01-17-2022 15:37:45,862|INFO|ThreadCheckPriceFiles$1|processing Temporary File : C:\Pricer\FTP\Temporary\ficWLST006.xml
+01-17-2022 15:37:45,862|INFO|ThreadCheckPriceFiles|Processing data file : C:\Pricer\FTP\Temporary\ficWLST006.xml\ficWLST006.xml
+01-17-2022 15:37:48,934|INFO|ThreadCheckPriceFiles|nbre of products found  = 14380
+01-17-2022 15:37:49,388|INFO|ThreadCheckPriceFiles|datafile (c:\pricer\PFIFiles\DataFiles\data_price_20220117_153745.i1) is written......
+01-17-2022 15:37:49,391|INFO|FileUtility|deleting file : ficWLST006.xml
+01-17-2022 15:37:49,396|INFO|FileUtility|File deletion result : true
+01-17-2022 15:37:49,397|INFO|ThreadCheckPriceFiles|file deleted : C:\Pricer\FTP\Temporary\ficWLST006.xml
+01-17-2022 15:42:53,869|INFO|ThreadCheckGestFiles$1|current File Name = C:\Pricer\FTP\INFO_EXT.csv
+01-17-2022 15:43:00,867|INFO|ThreadCheckGestFiles$1|current Temporary File Name = C:\Pricer\FTP\Temporary\INFO_EXT.csv
+01-17-2022 15:43:00,868|WARN|ThreadCheckGestFiles$1|File is present in temporary Folder !! priority for that !!!!
+01-17-2022 15:43:00,868|INFO|ThreadCheckGestFiles$1|processing Temporary File : C:\Pricer\FTP\Temporary\INFO_EXT.csv
+01-17-2022 15:43:02,881|INFO|ThreadCheckGestFiles|Purging gest file, getting linked items ... 
+01-17-2022 15:43:04,067|INFO|ThreadCheckGestFiles|Trying to delete file C:\Pricer\FTP\Temporary\INFO_EXT.csv
+01-17-2022 15:43:04,068|INFO|ThreadCheckGestFiles|File deleted ... 

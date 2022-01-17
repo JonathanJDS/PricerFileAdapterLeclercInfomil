@@ -1,0 +1,31 @@
+<component name="libraryTable">
+  <library name="WS">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/WS/gmbal-api-only-3.1.0-b001.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/WS/istack-commons-runtime-3.0.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/WS/javax.activation-api-1.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/WS/javax.annotation-api-1.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/WS/javax.jws-api-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/WS/javax.xml.soap-api-1.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/WS/jaxb-api-2.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/WS/jaxb-core-2.3.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/WS/jaxb-impl-2.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/WS/jaxb-jxc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/WS/jaxb-runtime-2.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/WS/jaxb-xjc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/WS/jaxws-api-2.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/WS/jaxws-rt-2.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/WS/policy-2.7.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/WS/pricerlib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/WS/resolver-20050927.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/WS/saaj-impl-1.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/WS/stax-ex-2.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/WS/stax2-api-3.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/WS/streambuffer-2.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/WS/trove.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/WS/woodstox-core-6.2.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

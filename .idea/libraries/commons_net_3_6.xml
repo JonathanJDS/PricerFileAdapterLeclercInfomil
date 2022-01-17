@@ -4,8 +4,10 @@
       <root url="jar://$PROJECT_DIR$/lib/commons-net-3.6.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/cron4j-2.2.5.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/ini4j-0.5.4.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/log4j-api-2.13.0.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/log4j-core-2.13.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4j-api-2.17.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4j-core-2.17.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mysql-connector-java-8.0.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jsch-0.1.54.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
